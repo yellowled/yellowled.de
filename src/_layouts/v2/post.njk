@@ -1,0 +1,28 @@
+---
+permalink: 'archiv/{{ id }}/{{ slug }}.html'
+---
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description or site.description }}">
+</head>
+<body>
+    <main>
+        <article>
+            <footer>
+                <p>Dieser Artikel ist archiviert. Er wurde am <time datetime="{{ date | dateParseable }}">{{ date | dateReadable }}</time> in <i>YellowLeds Weblog v2</i> veröffentlicht. Der Inhalt ist inzwischen wahrscheinlich veraltet. Kommentare und Trackbacks wurden entfernt.</p>
+
+                <a href="/archiv/">Zur Archivübersicht</a>
+            </footer>
+
+            <h1>{{ title }}</h1>
+
+            {{ content | safe }}
+        </article>
+    </main>
+</body>
+</html>
