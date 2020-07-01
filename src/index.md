@@ -1,5 +1,9 @@
 ---
-layout: default.njk
+title: Hallo!
+layout: page.njk
 ---
 
-# Hello from 11ty
+-   [Archiv](/archiv/)
+-   [Über mich](/ueber-mich/)
+-   [Datenschutz](/datenschutz/)
+-   [Impressum](/impressum/)
