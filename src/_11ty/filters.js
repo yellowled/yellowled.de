@@ -1,7 +1,7 @@
 const { DateTime } = require('luxon');
 
 module.exports = {
-    dateFormat: function (date, format = 'dd.MM.yyyy') {
+    dateFormat: function (date, format = 'dd.LL.yyyy') {
         return DateTime.fromJSDate(date).toFormat(String(format));
     },
 

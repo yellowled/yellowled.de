@@ -1,7 +1,7 @@
 ---
 title: Veröffentlichungen
 redirectFrom: fachartikel.html
-layout: page.njk
+layout: default.njk
 ---
 
 ## Drucksachen

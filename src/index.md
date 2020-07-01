@@ -1,6 +1,6 @@
 ---
 title: Hallo!
-layout: page.njk
+layout: default.njk
 ---
 
 -   [Archiv](/archiv/)

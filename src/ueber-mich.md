@@ -1,7 +1,7 @@
 ---
 title: Über mich
 redirectFrom: ueber-mich.html
-layout: page.njk
+layout: default.njk
 ---
 
 ## Matthias „YellowLed“ Mees

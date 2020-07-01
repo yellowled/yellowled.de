@@ -1,7 +1,7 @@
 ---
 title: Datenschutzerklärung
 redirectFrom: datenschutz.html
-layout: page.njk
+layout: default.njk
 ---
 
 <h2 id="m14">Einleitung</h2>

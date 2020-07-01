@@ -1,4 +1,5 @@
 const pluginRss = require('@11ty/eleventy-plugin-rss');
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
 const filters = require('./src/_11ty/filters');
 const shortcodes = require('./src/_11ty/shortcodes');
@@ -7,6 +8,7 @@ const transforms = require('./src/_11ty/transforms');
 module.exports = function (config) {
     // Plugins
     config.addPlugin(pluginRss);
+    config.addPlugin(syntaxHighlight);
 
     // Filters
     Object.keys(filters).forEach((filterName) => {
@@ -29,6 +31,7 @@ module.exports = function (config) {
 
     // Pass-through copy files
     config.addPassthroughCopy('src/favicons');
+    config.addPassthroughCopy({ 'src/archiv/uploads': 'v2/uploads' });
 
     // Deep-merge data
     config.setDataDeepMerge(true);

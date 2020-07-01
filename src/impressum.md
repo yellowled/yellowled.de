@@ -1,7 +1,7 @@
 ---
 title: Impressum
 redirectFrom: impressum.html
-layout: page.njk
+layout: default.njk
 ---
 
 ## Diensteanbieter
