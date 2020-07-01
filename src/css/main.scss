@@ -6,5 +6,8 @@
 @import 'lib/reset';
 @import 'lib/forms';
 
+// Vendor
+@import 'node_modules/prismjs/themes/prism';
+
 // Modules
 @import 'modules/global';
