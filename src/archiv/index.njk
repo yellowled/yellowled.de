@@ -1,0 +1,26 @@
+---
+title: Archiv
+layout: v2/archive.njk
+pagination:
+    data: collections.v2
+    size: 20
+    alias: v2
+    reverse: true
+---
+
+<p>Das Archiv enthält die Textinhalte aller Artikel der (eingestellten) Version 2 meines Blogs in umgekehrter Reihenfolge (Januar 2020 bis Februar 2011).</p>
+
+<p>Kommentare, Trackbacks und rein dekorative Grafiken wurden aus Platzgründen entfernt.</p>
+
+<ul class="archive">
+    {%- for entry in v2 %}
+    <li><a href="{{ entry.url }}">{{ entry.data.title }}</a></li>
+    {%- endfor %}
+</ul>
+
+<nav class="pagination" aria-label="Pagination">
+    <ul>
+        <li>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Neuere Einträge</a>{% else %}<span class="sr-only">Keine neueren Einträge</span>{% endif %}</li>
+        <li>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Ältere Einträge</a>{% else %}<span class="sr-only">Keine älteren Einträge</span>{% endif %}</li>
+    </ul>
+</nav>
