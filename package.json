@@ -1,7 +1,7 @@
 {
-    "name": "yl-11ty",
-    "version": "0.9.3",
-    "description": "An 11ty starter kit",
+    "name": "yellowled.de",
+    "version": "0.1.0",
+    "description": "My website",
     "scripts": {
         "start": "npm run dev",
         "build": "run-s clean eleventy:prod --print-label",
@@ -49,6 +49,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:yellowled/yl-11ty.git"
+        "url": "git@github.com:yellowled/yellowled.de.git"
     }
 }
