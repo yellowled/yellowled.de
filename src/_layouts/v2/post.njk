@@ -10,7 +10,8 @@ permalink: 'archiv/{{ id }}/{{ slug }}.html'
     <title>{{ title or meta.title }}</title>
     {% include "meta.njk" %}
     {% include "favicons.njk" %}
-    <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
+    {%- set css -%}{%- include "v2/style.css" -%}{%- endset -%}
+    <style>{{ css | cssmin | safe }}</style>
 </head>
 <body>
     <main>
