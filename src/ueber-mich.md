@@ -22,7 +22,3 @@ Direktmail an [mm@yellowled.de](mailto:mm@yellowled.de). Alternative Kontaktmög
 ### YellowLed?
 
 Früher™ war ich recht häufig im IRC unterwegs, nahezu ausschließlich im IRCNet, welches Benutzern maximal neun Zeichen lange Nicknames erlaubt. „YellowLed“ ist die Abkürzung eines Songtitels meiner Lieblingsband [Pearl Jam](http://www.pearljam.com): „Yellow Ledbetter“. Der Nick ist geblieben, er hat aber ausdrücklich nichts mit gelben Leuchtdioden zu tun!
-
-### Wieso v2?
-
-Anfang 2011 habe ich beschlossen, mein altes Blog einzustellen – alte Artikel sind <del>jedoch (als POSH-Version) nach wie vor</del><ins>inzwischen auch nicht mehr</ins> verfügbar.
