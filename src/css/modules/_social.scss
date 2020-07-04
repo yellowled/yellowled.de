@@ -1,0 +1,53 @@
+// SOCIAL MEDIA LINKS
+// --------------------------------------------------------------------
+.social {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        max-width: 9rem;
+        padding-left: 0;
+    }
+
+    li {
+        flex: 0 0 calc(100% / 3);
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.social__twitter {
+    color: #1da1f2;
+}
+
+.social__facebook {
+    color: #1877f2;
+}
+
+.social__instagram {
+    color: #e4405f;
+}
+
+.social__github {
+    color: #181717;
+}
+
+.social__pinboard {
+    color: #0000ff;
+}
+
+.social__lastfm {
+    color: #d51007;
+}
+
+.social__xing {
+    color: #006567;
+}
+
+.social__spotify {
+    color: #1ed760;
+}
+
+.social__amazon {
+    color: #ff9900;
+}
