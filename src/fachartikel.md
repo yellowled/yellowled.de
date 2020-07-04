@@ -45,3 +45,11 @@ layout: default.njk
 -   [Smarty: PHP-Templates für Designer](https://www.perun.net/2011/04/06/gastartikel-smarty-php-templates-fuer-designer/) bei Perun
 -   Serendipity – Die Alternative bei Webwork-Tools (nicht mehr online)
 -   [Wie man ein Serendipity-Blog in statische Seiten umwandelt](http://www.robertlender.info/blog/archives/3246-Wie-man-ein-Serendipity-Blog-in-statische-Seiten-umwandelt) bei Nur ein Blog
+
+<h2 id="ueber-mich">Über mich</h2>
+
+Ich beschreibe mich nur sehr ungern selbst. Wenn ich das – z.B. für Veröffentlichungen – dennoch muss, lautet der Text meistens:
+
+> Matthias Mees lebt und arbeitet in Eutin in Schleswig-Holstein als remote arbeitender Frontend-Entwickler im Team von [/gebrüderheitz](https://gebruederheitz.de). Außerdem engagiert er sich bei den [Webkrauts](http://webkrauts.de) und im Entwickler-Team des Blogsystems [Serendipity](https://s9y.org).
+
+Dazu gibt es eine [große Version meines Portraitfotos](/v2/uploads/matthias-mees-1024x768.jpg).
