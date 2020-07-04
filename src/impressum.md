@@ -1,6 +1,5 @@
 ---
 title: Impressum
-redirectFrom: impressum.html
 layout: default.njk
 ---
 

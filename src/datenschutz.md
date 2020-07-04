@@ -1,6 +1,5 @@
 ---
 title: Datenschutzerklärung
-redirectFrom: datenschutz.html
 layout: default.njk
 ---
 

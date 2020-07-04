@@ -1,6 +1,5 @@
 ---
 title: Über mich
-redirectFrom: ueber-mich.html
 layout: default.njk
 ---
 

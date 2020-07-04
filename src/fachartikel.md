@@ -1,6 +1,5 @@
 ---
 title: Veröffentlichungen
-redirectFrom: fachartikel.html
 layout: default.njk
 ---
 
