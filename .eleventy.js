@@ -30,6 +30,7 @@ module.exports = function (config) {
     config.addWatchTarget('./src/js');
 
     // Pass-through copy files
+    config.addPassthroughCopy('src/_redirects');
     config.addPassthroughCopy('src/favicons');
     config.addPassthroughCopy({ 'src/archiv/uploads': 'v2/uploads' });
 
