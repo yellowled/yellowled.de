@@ -1,6 +1,6 @@
 ---
 title: Datenschutzerklärung
-layout: default.njk
+layout: page.njk
 ---
 
 <h2 id="m14">Einleitung</h2>

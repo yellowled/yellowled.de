@@ -1,6 +1,6 @@
 ---
 title: Impressum
-layout: default.njk
+layout: page.njk
 ---
 
 ## Diensteanbieter
