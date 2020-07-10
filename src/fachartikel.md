@@ -1,6 +1,6 @@
 ---
 title: Veröffentlichungen
-layout: default.njk
+layout: page.njk
 ---
 
 ## Drucksachen
