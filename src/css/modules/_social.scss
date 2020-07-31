@@ -1,9 +1,25 @@
 // SOCIAL MEDIA LINKS
 // --------------------------------------------------------------------
 .social {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin: 1rem 0 0;
+    padding-left: 0;
+
+    > li {
+        flex: 1 1 auto;
+        margin-bottom: 1rem;
+    }
+
     [class^='icon-'] {
         height: 2rem;
         width: 2rem;
+
+        @media screen and (min-width: 48em) {
+            height: 3rem;
+            width: 3rem;
+        }
     }
 }
 
