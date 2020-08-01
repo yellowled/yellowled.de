@@ -1,5 +1,8 @@
+---
+permalink: 'archiv/{{ id }}/{{ slug }}.html'
+---
 <!DOCTYPE html>
-<html lang="{{ meta.lang }}" class="no-js">
+<html lang="{{ meta.lang }}">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,15 +10,19 @@
     <title>{{ title or meta.title }}</title>
     {% include "meta.njk" %}
     {% include "favicons.njk" %}
-    {%- set css -%}{%- include "v2/style.css" -%}{%- endset -%}
-    <style>{{ css | cssmin | safe }}</style>
+    <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
 </head>
-
 <body>
     <main>
-        <h1>{{ title }}</h1>
+        <article>
+            {% include 'v2.njk' %}
 
-        {{ content | safe }}
+            <h1>{{ title }}</h1>
+
+            {{ content | safe }}
+        </article>
     </main>
+
+    {% include "footer.njk" %}
 </body>
 </html>

@@ -1,4 +1,4 @@
 {
-    "layout": "v2/post.njk",
+    "layout": "archiv.njk",
     "tags": "v2"
 }
