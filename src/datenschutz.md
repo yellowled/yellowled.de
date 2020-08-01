@@ -214,30 +214,30 @@ Auch im Fall von Auskunftsanfragen und der Geltendmachung von Betroffenenrechten
 
 -   **Instagram:** Soziales Netzwerk
     -   Dienstanbieter: Instagram Inc., 1601 Willow Road, Menlo Park, CA, 94025, USA
-    -   Website: <a href="https://www.instagram.com" target="_blank" rel="noopener">https://www.instagram.com</a>
-    -   Datenschutzerklärung: <a href="https://instagram.com/about/legal/privacy" target="_blank" rel="noopener">https://instagram.com/about/legal/privacy</a>
+    -   <a href="https://www.instagram.com" target="_blank" rel="noopener">Website</a>
+    -   <a href="https://instagram.com/about/legal/privacy" target="_blank" rel="noopener">Datenschutzerklärung</a>
 -   **Facebook:** Soziales Netzwerk
     -   Dienstanbieter: Facebook Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland, Mutterunternehmen: Facebook, 1 Hacker Way, Menlo Park, CA 94025,USA
-    -   Website: <a href="https://www.facebook.com" target="_blank" rel="noopener">https://www.facebook.com</a>
-    -   Datenschutzerklärung: <a href="https://www.facebook.com/about/privacy" target="_blank" rel="noopener">https://www.facebook.com/about/privacy</a>
-    -   Privacy Shield (Gewährleistung Datenschutzniveau bei Verarbeitung von Daten in den USA): <a href="https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC&status=Active" target="_blank" rel="noopener">https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC&status=Active</a>
-    -   Widerspruchsmöglichkeit (Opt-Out): Einstellungen für Werbeanzeigen: <a href="https://www.facebook.com/settings?tab=ads" target="_blank" rel="noopener">https://www.facebook.com/settings?tab=ads</a>
+    -   <a href="https://www.facebook.com" target="_blank" rel="noopener">Website</a>
+    -   <a href="https://www.facebook.com/about/privacy" target="_blank" rel="noopener">Datenschutzerklärung</a>
+    -   <a href="https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC&status=Active" target="_blank" rel="noopener">Privacy Shield (Gewährleistung Datenschutzniveau bei Verarbeitung von Daten in den USA)</a>
+    -   <a href="https://www.facebook.com/settings?tab=ads" target="_blank" rel="noopener">Widerspruchsmöglichkeit (Opt-Out): Einstellungen für Werbeanzeigen</a>
     -   Zusätzliche Hinweise zum Datenschutz
-        -   Vereinbarung über gemeinsame Verarbeitung personenbezogener Daten auf Facebook-Seiten: <a href="https://www.facebook.com/legal/terms/page_controller_addendum" target="_blank" rel="noopener">https://www.facebook.com/legal/terms/page_controller_addendum</a>
-        -   Datenschutzhinweise für Facebook-Seiten: <a href="https://www.facebook.com/legal/terms/information_about_page_insights_data" target="_blank" rel="noopener">https://www.facebook.com/legal/terms/information_about_page_insights_data</a>
+        -   <a href="https://www.facebook.com/legal/terms/page_controller_addendum" target="_blank" rel="noopener">Vereinbarung über gemeinsame Verarbeitung personenbezogener Daten auf Facebook-Seiten</a>
+        -   <a href="https://www.facebook.com/legal/terms/information_about_page_insights_data" target="_blank" rel="noopener">Datenschutzhinweise für Facebook-Seiten</a>
 -   **Twitter:** Soziales Netzwerk
     -   Dienstanbieter: Twitter Inc., 1355 Market Street, Suite 900, San Francisco, CA 94103, USA
-    -   Datenschutzerklärung: <a href="https://twitter.com/de/privacy" target="_blank" rel="noopener">https://twitter.com/de/privacy</a>, (Einstellungen) <a href="https://twitter.com/personalization" target="_blank" rel="noopener">https://twitter.com/personalization</a>
-    -   Privacy Shield (Gewährleistung Datenschutzniveau bei Verarbeitung von Daten in den USA): <a href="https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO&status=Active" target="_blank" rel="noopener">https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO&status=Active</a>
+    -   <a href="https://twitter.com/de/privacy" target="_blank" rel="noopener">Datenschutzerklärung</a>, (<a href="https://twitter.com/personalization" target="_blank" rel="noopener">Einstellungen</a>)
+    -   <a href="https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO&status=Active" target="_blank" rel="noopener">Privacy Shield (Gewährleistung Datenschutzniveau bei Verarbeitung von Daten in den USA)</a>
 -   **YouTube:** Soziales Netzwerk
     -   Dienstanbieter: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland, Mutterunternehmen: Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
-    -   Datenschutzerklärung: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a>
-    -   Privacy Shield (Gewährleistung Datenschutzniveau bei Verarbeitung von Daten in den USA): <a href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active" target="_blank" rel="noopener">https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active</a>
-    -   Widerspruchsmöglichkeit (Opt-Out): <a href="https://adssettings.google.com/authenticated" target="_blank" rel="noopener">https://adssettings.google.com/authenticated</a>
+    -   <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Datenschutzerklärung</a>
+    -   <a href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active" target="_blank" rel="noopener">Privacy Shield (Gewährleistung Datenschutzniveau bei Verarbeitung von Daten in den USA)</a>
+    -   <a href="https://adssettings.google.com/authenticated" target="_blank" rel="noopener">Widerspruchsmöglichkeit (Opt-Out)</a>
 -   **Xing:** Soziales Netzwerk
     -   Dienstanbieter: XING AG, Dammtorstraße 29-32, 20354 Hamburg, Deutschland
-    -   Website: <a href="https://www.xing.de" target="_blank" rel="noopener">https://www.xing.de</a>
-    -   Datenschutzerklärung: <a href="https://privacy.xing.com/de/datenschutzerklaerung" target="_blank" rel="noopener">https://privacy.xing.com/de/datenschutzerklaerung</a>
+    -   <a href="https://www.xing.de" target="_blank" rel="noopener">Website</a>
+    -   <a href="https://privacy.xing.com/de/datenschutzerklaerung" target="_blank" rel="noopener">Datenschutzerklärung</a>
 
 <h2 id="m328">Plugins und eingebettete Funktionen sowie Inhalte</h2>
 
@@ -260,11 +260,11 @@ Sofern wir die Nutzer um deren Einwilligung in den Einsatz der Drittanbieter bit
 
 -   **YouTube-Videos:** Videoinhalte
     -   Dienstanbieter: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland,Mutterunternehmen: Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
-    -   Website: <a href="https://www.youtube.com" target="_blank" rel="noopener">https://www.youtube.com</a>
-    -   Datenschutzerklärung: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a>
-    -   Privacy Shield (Gewährleistung Datenschutzniveau bei Verarbeitung von Daten in den USA): <a href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active" target="_blank" rel="noopener">https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active</a>
-    -   Widerspruchsmöglichkeit (Opt-Out): Opt-Out-Plugin: <a href="https://tools.google.com/dlpage/gaoptout?hl=de" target="_blank" rel="noopener">https://tools.google.com/dlpage/gaoptout?hl=de</a>
-    -   Einstellungen für die Darstellung von Werbeeinblendungen: <a href="https://adssettings.google.com/authenticated" target="_blank" rel="noopener">https://adssettings.google.com/authenticated</a>
+    -   <a href="https://www.youtube.com" target="_blank" rel="noopener">Website</a>
+    -   <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Datenschutzerklärung</a>
+    -   <a href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active" target="_blank" rel="noopener">Privacy Shield (Gewährleistung Datenschutzniveau bei Verarbeitung von Daten in den USA)</a>
+    -   <a href="https://tools.google.com/dlpage/gaoptout?hl=de" target="_blank" rel="noopener">Widerspruchsmöglichkeit (Opt-Out): Opt-Out-Plugin</a>
+    -   <a href="https://adssettings.google.com/authenticated" target="_blank" rel="noopener">Einstellungen für die Darstellung von Werbeeinblendungen</a>
 
 <h2 id="m12">Löschung von Daten</h2>
 
