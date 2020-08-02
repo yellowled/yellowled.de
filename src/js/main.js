@@ -1,3 +1,3 @@
-import jsReady from './util/jsReady';
+import { jsReady } from './util/jsReady';
 
 jsReady();
