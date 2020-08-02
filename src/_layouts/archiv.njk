@@ -13,6 +13,8 @@ permalink: 'archiv/{{ id }}/{{ slug }}.html'
     <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
 </head>
 <body>
+    {% include "header.njk" %}
+
     <main>
         <article>
             {% include 'v2.njk' %}
