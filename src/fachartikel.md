@@ -46,7 +46,7 @@ layout: page.njk
 -   Serendipity – Die Alternative bei Webwork-Tools (nicht mehr online)
 -   [Wie man ein Serendipity-Blog in statische Seiten umwandelt](http://www.robertlender.info/blog/archives/3246-Wie-man-ein-Serendipity-Blog-in-statische-Seiten-umwandelt) bei Nur ein Blog
 
-<h2 id="ueber-mich">Über mich</h2>
+## Kurzinfo
 
 Ich beschreibe mich nur sehr ungern selbst. Wenn ich das – z.B. für Veröffentlichungen – dennoch muss, lautet der Text meistens:
 
