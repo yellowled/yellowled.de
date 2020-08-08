@@ -23,7 +23,7 @@ $button-padding: 0.1875rem 0.625rem !default;
     display: inline-block;
     line-height: normal;
     outline: 0;
-    padding: $padding;
+    padding: $button-padding;
     text-align: center;
     text-decoration: none;
     text-shadow: invert($fg-color) 0 1px 1px;
