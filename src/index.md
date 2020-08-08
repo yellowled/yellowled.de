@@ -7,4 +7,4 @@ layout: page.njk
 
 Ich lebe in Schleswig-Holstein und arbeite [als Frontend-Entwickler](https://gebruederheitz.de). Mehr über mich gibt es auf der [About](/about/)-Seite und über die diversen [sozialen Medien](/follow/), vor allem [auf Twitter](https://twitter.com/intent/user?screen_name=yellowled).
 
-Generell findet man das meiste auf dieser Seite über die [Sitemap](/sitemap/).
+Generell findet man das meiste auf dieser Seite über die [Sitemap](/sitemap/) oder die [Suche](/search/).

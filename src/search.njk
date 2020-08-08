@@ -1,0 +1,10 @@
+---
+title: Suche
+layout: page.njk
+---
+
+<form action="https://www.google.com/search" id="search" role="search">
+	<label for="search__term">Suchbegriff(e)</label>
+	<input type="search" name="q" id="search__term" value=" site:{{ meta.domain }}">
+	<button id="search__submit" type="submit">Suche</button>
+</form>

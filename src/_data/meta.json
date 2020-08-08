@@ -1,7 +1,8 @@
 {
+    "url": "https://yellowled.netlify.app",
     "title": "yellowled.de",
     "description": "Persönliche Website von Matthias Mees a.k.a. @yellowled",
-    "url": "https://yellowled.netlify.app",
     "lang": "de",
-    "locale": "de_DE"
+    "locale": "de_DE",
+    "domain": "yellowled.de"
 }
