@@ -1,19 +1,5 @@
 // SEARCH
 // --------------------------------------------------------------------
-[role='search'] {
-    position: relative;
-
-    > label {
-        @include visuallyhidden;
-    }
-
-    > button {
-        position: absolute;
-        right: 0.5rem;
-        top: 0.45em;
-    }
-}
-
 button,
 input {
     font-family: inherit;
@@ -95,6 +81,18 @@ button:not(:disabled),
     -webkit-appearance: none;
 }
 
-button {
-    @include unstyled-button(#495057);
+[role='search'] {
+    position: relative;
+
+    > label {
+        @include visuallyhidden;
+    }
+
+    > button {
+        @include unstyled-button(#495057);
+
+        position: absolute;
+        right: 0.5rem;
+        top: 0.45em;
+    }
 }
