@@ -16,7 +16,7 @@ pagination:
     {%- endfor %}
 </ul>
 
-<nav aria-label="Pagination">
+<nav class="pagination" aria-label="Pagination">
     <ul>
         {% if pagination.href.previous %}<li><a href="{{ pagination.href.previous }}">Neuere Einträge</a></li>{% endif %}
         {% if pagination.href.next %}<li><a href="{{ pagination.href.next }}">Ältere Einträge</a></li>{% endif %}

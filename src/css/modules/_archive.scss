@@ -12,3 +12,14 @@
         margin-bottom: 0;
     }
 }
+
+.pagination {
+    > ul {
+        display: flex;
+        justify-content: space-between;
+
+        > li {
+            flex: 0 1 auto;
+        }
+    }
+}
