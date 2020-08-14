@@ -9,12 +9,12 @@ Matthias Mees<br>
 Rehhorst 39<br>
 23701 Eutin
 
-## Kontaktmöglichkeiten
+### Kontaktmöglichkeiten
 
 -   **E-Mail-Adresse:** [mm@yellowled.de](mailto:mm@yellowled.de)
 -   **Telefon:** 017661735567
 
-## Journalistisch-redaktionelle Angebote
+### Journalistisch-redaktionelle Angebote
 
 **Inhaltlich verantwortlich:** Matthias Mees (Adresse wie oben)
 
