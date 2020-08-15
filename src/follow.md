@@ -1,6 +1,6 @@
 ---
 title: Social Media
-description: Ich in Social Media.
+description: Meine Accounts in sozialen Medien
 layout: page.njk
 tags: sitemapped
 sitemapTitle: Follow

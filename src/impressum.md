@@ -1,5 +1,6 @@
 ---
 title: Impressum
+description: Anbieterdaten inklusive Kontaktmöglichkeiten, Hinweise zu Haftung und Urheberrecht
 layout: page.njk
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Datenschutzerklärung
+description: Wissenswertes zu Art, Zweck und Umfang der Verarbeitung personenbezogener Daten, Cookies sowie Auskunfts- und Widerspruchsrecht
 layout: page.njk
 ---
 
@@ -54,8 +55,8 @@ Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwec
 
 ### Kategorien betroffener Personen
 
--   \*Kommunikationspartner
--   \*Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten)
+-   Kommunikationspartner
+-   Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten)
 
 ### Zwecke der Verarbeitung
 

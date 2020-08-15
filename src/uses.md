@@ -1,6 +1,6 @@
 ---
 title: Wie ich arbeite
-description: Liste der Hardware, mobile Devices, Software und Apps, die ich verwende.
+description: Liste der Hardware, mobile Devices, Software und Apps, die ich verwende
 layout: page.njk
 tags: sitemapped
 sitemapTitle: Uses

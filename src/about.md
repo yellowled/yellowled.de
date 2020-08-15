@@ -1,6 +1,6 @@
 ---
 title: Über mich
-description: Mehr oder weniger wissenswerte Dinge über mich.
+description: Mehr oder weniger wissenswerte Dinge über Matthias Mees
 layout: page.njk
 tags: sitemapped
 sitemapTitle: About

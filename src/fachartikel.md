@@ -1,6 +1,6 @@
 ---
 title: Veröffentlichungen
-description: Veröffentlichungen in Print und Web, Vorträge auf Konferenzen und Beiträge zu Podcasts.
+description: Veröffentlichungen in Print und Web, Vorträge auf Konferenzen und Beiträge zu Podcasts
 layout: page.njk
 tags: sitemapped
 sitemapTitle: Fachartikel

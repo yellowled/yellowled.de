@@ -1,6 +1,6 @@
 ---
 title: Kolophon
-description: Technische, gestalterische und inhaltliche Details zu dieser Webseite.
+description: Technische, gestalterische und inhaltliche Details zu dieser Webseite
 layout: page.njk
 tags: sitemapped
 sitemapTitle: Site
