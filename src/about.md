@@ -1,6 +1,9 @@
 ---
 title: Über mich
+description: Mehr oder weniger wissenswerte Dinge über mich.
 layout: page.njk
+tags: sitemapped
+sitemapTitle: About
 ---
 
 Mein Name ist Matthias Mees. Ich lebe in Schleswig-Holstein und arbeite remote als Frontend-Entwickler bei einer Webagentur mit Sitz in Mannheim und Freiburg. Ich bin Mitglied bei den [Webkrauts](http://webkrauts.de) und Teil des Entwicklerteams des Blogsystems [Serendipity](https://s9y.org).

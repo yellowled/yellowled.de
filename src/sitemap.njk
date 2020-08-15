@@ -4,18 +4,8 @@ layout: page.njk
 ---
 
 <dl>
-    <dt><a href="/about/">About</a></dt>
-    <dd>Mehr oder weniger Wissenswertes über mich</dd>
-    <dt><a href="/follow/">Follow</a></dt>
-    <dd>Ich in Social Media</dd>
-    <dt><a href="/uses/">Uses</a></dt>
-    <dd>Wie ich arbeite</dd>
-    <dt><a href="/fachartikel/">Fachartikel</a></dt>
-    <dd>Veröffentlichungen in Print, Web und Vorträgen</dd>
-    <dt><a href="/site/">Site</a></dt>
-    <dd>Über diese Website</dd>
-    <dt><a href="/search/">Suche</a></dt>
-    <dd>(Google-)Suche</dd>
-    <dt><a href="/archiv/">Archiv</a></dt>
-    <dd>Artikel meines alten Blogs (v2)</dd>
+{% for item in collections.sitemapped %}
+    <dt><a href="{{ item.url }}">{{ item.data.sitemapTitle or item.data.title }}</a></dt>
+    <dd>{{ item.data.description }}</dd>
+{% endfor %}
 </dl>

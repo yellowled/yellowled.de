@@ -1,6 +1,9 @@
 ---
 title: Social Media
+description: Ich in Social Media.
 layout: page.njk
+tags: sitemapped
+sitemapTitle: Follow
 ---
 
 -   [Twitter](https://twitter.com/yellowled)

@@ -1,6 +1,9 @@
 ---
-title: Über diese Website
+title: Kolophon
+description: Technische, gestalterische und inhaltliche Details zu dieser Webseite.
 layout: page.njk
+tags: sitemapped
+sitemapTitle: Site
 ---
 
 Nach Gehversuchen mit diversen anderen Blogsystemen hatte ich von 2006 bis 2020 zwei mit [Serendipity](https://s9y.org) betriebene Blogs. Das erste habe ich 2011 zunächst als statisches HTML archiviert und dann vom Netz genommen, das zweite 2020 ebenfalls als statisches HTML [archiviert](/archiv/).
