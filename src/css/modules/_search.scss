@@ -96,3 +96,9 @@ button:not(:disabled),
         top: 0.45em;
     }
 }
+
+#search__results {
+    &:not(:empty) {
+        margin-top: 2rem;
+    }
+}

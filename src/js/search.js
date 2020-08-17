@@ -21,15 +21,15 @@ export const initSearch = (siteUrl = 'yellowled.de') => {
      * @return {String} Markup created from data
      */
     const createResultsHTML = (results) => {
-        let html = `<p>Found ${results.length} matching articles</p>`;
+        let html = `<p>${results.length} Treffer für diese(n) Suchbegriff(e):</p>`;
 
-        html += '<dl>';
+        html += '<ul>';
         html += results
             .map(function (item) {
-                return `<dt><a href="${item.url}">${item.title}</a></dt><dd>${item.summary}</dd>`;
+                return `<li><a href="${item.url}">${item.title}</a></li>`;
             })
             .join('');
-        html += '</dl>';
+        html += '</ul>';
 
         return html;
     };
