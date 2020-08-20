@@ -8,18 +8,18 @@ sitemapTitle: Uses
 
 ## Hardware
 
--   Apple MacBook Pro 15", 2016 (beruflich)
-    -   Apple Cinema Display LED 27"
+-   [Apple MacBook Pro 15", 2016](https://support.apple.com/kb/SP749) (beruflich)
+    -   [Apple Cinema Display LED 27"](https://support.apple.com/kb/SP597)
     -   Apple Wireless Keyboard (4. Gen.)
     -   Apple Magic Trackpad
-    -   Rain Design mStand
-    -   LaCie Rugged USB-C 1TB (Time Machine)
-    -   YubiKey 5C Nano
--   Apple MacBook Air 13", 2014 (privat)
+    -   [Rain Design mStand](https://www.raindesigninc.com/mstand.html)
+    -   [LaCie Rugged Mini USB-C 1TB](https://www.lacie.com/de/de/products/rugged/) (Time Machine)
+    -   [YubiKey](https://www.yubico.com/der-yubikey/) 5C Nano
+-   [Apple MacBook Air 13", 2014](https://support.apple.com/kb/SP700) (privat)
     -   WesternDigital Elements Portable 1TB (Time Machine)
     -   YubiKey 5C
--   Apple iPad Air 2
--   Apple iPhone XR
+-   [Apple iPad Air 2](https://support.apple.com/kb/SP708)
+-   [Apple iPhone XR](https://support.apple.com/kb/SP781)
 
 ## Software
 
