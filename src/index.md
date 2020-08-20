@@ -1,5 +1,6 @@
 ---
 title: Hallo!
+description: Persönliche Website von Matthias Mees a.k.a. @yellowled
 layout: page.njk
 ---
 
