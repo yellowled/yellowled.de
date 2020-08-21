@@ -6,7 +6,7 @@ tags: sitemapped
 sitemapTitle: About
 ---
 
-Mein Name ist Matthias Mees. Ich lebe in Schleswig-Holstein und arbeite remote als Frontend-Entwickler bei einer Webagentur mit Sitz in Mannheim und Freiburg. Ich bin Mitglied bei den [Webkrauts](http://webkrauts.de) und Teil des Entwicklerteams des Blogsystems [Serendipity](https://s9y.org).
+Mein Name ist Matthias Mees. Ich lebe [in Schleswig-Holstein](https://de.wikipedia.org/wiki/Eutin) und arbeite remote als Frontend-Entwickler bei [einer Webagentur](https://www.gebruederheitz.de) mit Sitz in Mannheim und Freiburg. Ich bin Mitglied bei den [Webkrauts](http://webkrauts.de) und Teil des Entwicklerteams des Blogsystems [Serendipity](https://s9y.org).
 
 ## YellowLed?
 
