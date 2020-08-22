@@ -4,19 +4,11 @@ body > header {
     > a {
         font-size: 0.875em;
         font-weight: 300;
-        letter-spacing: 0.25em;
+        letter-spacing: 0.25rem;
         text-transform: uppercase;
 
         &,
         &:visited {
-            color: #aaa;
-            text-decoration: none;
-        }
-
-        &:hover,
-        &:focus {
-            background-color: inherit;
-            color: #888;
             text-decoration: none;
         }
     }
