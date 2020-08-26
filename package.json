@@ -16,7 +16,7 @@
     },
     "dependencies": {
         "core-js": "^3.6.5",
-        "luxon": "^1.24.1"
+        "luxon": "^1.25.0"
     },
     "devDependencies": {
         "@11ty/eleventy": "^0.11.0",
