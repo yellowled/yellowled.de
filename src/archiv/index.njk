@@ -21,7 +21,7 @@ pagination:
 
 <nav class="pagination" aria-label="Pagination">
     <ul>
-        {% if pagination.href.previous %}<li><a href="{{ pagination.href.previous }}">Neuere Einträge</a></li>{% endif %}
-        {% if pagination.href.next %}<li><a href="{{ pagination.href.next }}">Ältere Einträge</a></li>{% endif %}
+        <li>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Neuere Einträge</a>{% endif %}</li>
+        <li>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Ältere Einträge</a>{% endif %}</li>
     </ul>
 </nav>
