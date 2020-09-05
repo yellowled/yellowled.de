@@ -1,5 +1,12 @@
-import { jsReady } from './util/jsReady';
-import { initSearch } from './search';
+import whenDomReady from 'when-dom-ready';
 
-jsReady();
-initSearch();
+import { jsReady } from './util/jsReady';
+
+import { darkMode } from './modules/darkMode';
+import { initSearch } from './modules/search';
+
+whenDomReady(() => {
+    jsReady();
+    darkMode();
+    initSearch();
+});

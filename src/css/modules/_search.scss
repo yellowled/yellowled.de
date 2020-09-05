@@ -27,16 +27,6 @@ button::-moz-focus-inner,
     padding: 0;
 }
 
-button:focus {
-    outline: 1px dotted;
-    outline: 5px auto -webkit-focus-ring-color;
-}
-
-button:-moz-focusring,
-[type='submit']:-moz-focusring {
-    outline: 1px dotted ButtonText;
-}
-
 button:not(:disabled),
 [type='submit']:not(:disabled) {
     cursor: pointer;
@@ -44,10 +34,10 @@ button:not(:disabled),
 
 [type='search'] {
     background-clip: padding-box;
-    background-color: #fff;
+    background-color: var(--color-form-input);
     border-radius: 1px;
-    border: 1px solid #ced4da;
-    color: #495057;
+    border: 1px solid var(--color-form-border);
+    color: var(--color-form-text);
     display: block;
     font-size: 1em;
     font-weight: 400;
@@ -69,10 +59,10 @@ button:not(:disabled),
     }
 
     &:focus {
-        background-color: #fff;
-        border-color: #8bbafe;
-        box-shadow: 0 0 0 0.2rem rgba(#0d6efd, 0.25);
-        color: #495057;
+        background-color: var(--color-form-input);
+        border-color: var(--color-form-border-focus);
+        box-shadow: 0 0 0 0.2rem var(--color-form-shadow);
+        color: var(--color-form-text);
         outline: 0;
     }
 }
@@ -89,8 +79,9 @@ button:not(:disabled),
     }
 
     > button {
-        @include unstyled-button(#495057);
+        @include unstyled-button();
 
+        color: var(--color-form-text);
         position: absolute;
         right: 0.5rem;
         top: 0.45em;

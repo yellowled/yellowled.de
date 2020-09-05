@@ -1,6 +1,9 @@
 // HEADER
 // --------------------------------------------------------------------
 body > header {
+    display: flex;
+    justify-content: space-between;
+
     > a {
         font-size: 0.875em;
         font-weight: 300;
@@ -11,5 +14,26 @@ body > header {
         &:visited {
             text-decoration: none;
         }
+    }
+
+    > button {
+        @include unstyled-button();
+
+        color: var(--color-text);
+
+        &:hover,
+        &:focus {
+            color: var(--color-text);
+        }
+
+        .no-js & {
+            display: none;
+            visibility: hidden;
+        }
+    }
+
+    [class^='icon-'] {
+        height: 1.25rem;
+        width: 1.25rem;
     }
 }
