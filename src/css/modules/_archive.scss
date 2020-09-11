@@ -22,4 +22,16 @@
             flex: 0 1 auto;
         }
     }
+
+    &__prev {
+        &::before {
+            content: '← ';
+        }
+    }
+
+    &__next {
+        &::after {
+            content: ' →';
+        }
+    }
 }
