@@ -83,6 +83,15 @@ a {
         color: var(--color-page);
         text-decoration: none;
     }
+
+    &[href^="http://"]:not([href*="yellowled.de"]),
+    &[href^="https://"]:not([href*="yellowled.de"]),
+    &[href^="//"]:not([href*="yellowled.de"])
+    {
+        &::after {
+            content: '↗';
+        }
+    }
 }
 
 blockquote {
