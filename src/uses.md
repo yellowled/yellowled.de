@@ -30,4 +30,4 @@ sitemapTitle: Uses
 -   Falls mal keine ssh-Verbindung da ist, verwende ich [Transmit](https://panic.com/transmit/) als sFTP-Client.
 -   Passwörter verwaltet [1Password](https://1password.com), natürlich auch auf iOS.
 -   Anstelle des Standardterminals verwende ich [iTerm2](https://www.iterm2.com), zsh und [oh-my-zsh](https://ohmyz.sh/) als Basiskonfiguration (mit dem Theme suvash).
--   Unvezichtbarer Helfer für eine schnelle und effiziente Steuerung des Macs per Tastatur ist natürlich [Alfred](https://www.alfredapp.com).
+-   Unverzichtbarer Helfer für eine schnelle und effiziente Steuerung des Macs per Tastatur ist natürlich [Alfred](https://www.alfredapp.com).

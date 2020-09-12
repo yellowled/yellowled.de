@@ -26,7 +26,6 @@ sitemapTitle: Fachartikel
 -   Workingdraft Revision 165: [Über den Webkongress Erlangen und den Zustand mancher Website](http://workingdraft.de/165/)
 -   Workingdraft Revision 138: [Auf der roten CMS Couch](http://workingdraft.de/138/)
 -   Workingdraft Revision 135: [Progressive Enhancement, Sigh JavaScript und Bower](http://workingdraft.de/135/)
--   Nerdmate 8: [CMS – kurz & gut](http://nerdmate.de/podcast/folge-8-cms-kurzgut/)
 -   Technikwürze 184: [YAML total](http://technikwuerze.de/podcast/technikwuerze-184-yaml-total/)
 -   Workingdraft Revision 38: [Grid-Systeme und Best Practices](http://workingdraft.de/38/)
 
