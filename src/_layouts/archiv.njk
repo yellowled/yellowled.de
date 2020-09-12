@@ -1,32 +1,14 @@
 ---
 permalink: 'archiv/{{ id }}/{{ slug }}.html'
 ---
-<!DOCTYPE html>
-<html lang="{{ meta.lang }}" class="no-js">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ title }} | {{ meta.title }}</title>
-    {% include "meta.njk" %}
-    {% include "favicons.njk" %}
-    <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
-</head>
-<body>
-    {% include "header.njk" %}
+{% extends 'src/_layouts/base.njk' %}
 
-    <main>
-        <article>
-            {% include 'v2.njk' %}
+{% block content %}
+    <article>
+        {% include 'v2.njk' %}
 
-            <h1>{{ title }}</h1>
+        <h1>{{ title }}</h1>
 
-            {{ content | safe }}
-        </article>
-    </main>
-
-    {% include "footer.njk" %}
-
-    <script src="{{ '/js/main.js' | url }}" defer></script>
-</body>
-</html>
+        {{ content | safe }}
+    </article>
+{% endblock %}
