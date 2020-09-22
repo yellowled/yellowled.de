@@ -58,6 +58,11 @@ button:not(:disabled),
         border: 0;
     }
 
+    &::-webkit-search-cancel-button,
+    &::-webkit-search-decoration {
+        -webkit-appearance: none;
+    }
+
     &:focus {
         background-color: var(--color-form-input);
         border-color: var(--color-form-border-focus);
@@ -65,10 +70,6 @@ button:not(:disabled),
         color: var(--color-form-text);
         outline: 0;
     }
-}
-
-::-webkit-search-decoration {
-    -webkit-appearance: none;
 }
 
 [role='search'] {
