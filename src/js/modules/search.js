@@ -72,8 +72,10 @@ export const initSearch = (siteUrl = 'yellowled.de') => {
     // Handle submitting the search form
     async function handleSearchSubmit(event) {
         event.preventDefault();
-        const idx = await getSearchIndex();
-        searchTerm(searchInput.value, idx);
+        if (searchInput.value) {
+            const idx = await getSearchIndex();
+            searchTerm(searchInput.value, idx);
+        }
     }
 
     searchForm.addEventListener('submit', handleSearchSubmit, false);

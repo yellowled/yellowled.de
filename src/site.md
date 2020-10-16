@@ -12,6 +12,6 @@ Als Webentwickler habe ich Spaß daran, ständig an meiner persönlichen Website
 
 ## Kolophon
 
-Der Quelltext dieser Website liegt in einem [GitHub-Repository](https://github.com/yellowled/yellowled.de). Pusht man dort einen bestimmten Branch, erzeugt das [Netlify](https://www.netlify.com)-Hosting mittels [eleventy](https://www.11ty.dev) statisches HTML. Das Ganze basiert auf meinem [eleventy-Starter](https://github.com/yellowled/yl-11ty).
+Der Quelltext dieser Website liegt in einem [GitHub-Repository](https://github.com/yellowled/yellowled.de). Pusht man dort einen bestimmten Branch, erzeugt das [Netlify](https://www.netlify.com)-Hosting mittels [eleventy](https://www.11ty.dev) statisches HTML. Das Ganze basiert auf meinem [eleventy-Starter](https://github.com/yellowled/yl-11ty). Die Icons sind [Mono Icons](https://icons.mono.company).
 
 Diese Seite verwendet kein Frontend-Framework, momentan benötigt sie JavaScript nur für die [Suche](/search/) und den Dark-Mode. Layout und Design sind bewusst schlicht und schlank gehalten.
