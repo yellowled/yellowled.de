@@ -23,6 +23,10 @@ module.exports = function (config) {
     config.addWatchTarget('./src/css');
     config.addWatchTarget('./src/js');
 
+    config.setBrowserSyncConfig({
+        files: ['_site/css/main.css'],
+    });
+
     // Pass-through copy files
     config.addPassthroughCopy('src/favicons');
     config.addPassthroughCopy({ 'src/archiv/uploads': 'v2/uploads' });
