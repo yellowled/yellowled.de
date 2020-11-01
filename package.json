@@ -1,6 +1,6 @@
 {
     "name": "yellowled.de",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "My website",
     "scripts": {
         "build": "npm-run-all --sequential clean --parallel build:js build:scss --sequential build:eleventy",
