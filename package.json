@@ -22,7 +22,7 @@
         "test": "npm-run-all --sequential lint:js lint:scss"
     },
     "dependencies": {
-        "core-js": "^3.6.5",
+        "core-js": "^3.7.0",
         "luxon": "^1.25.0",
         "when-dom-ready": "^1.2.12"
     },
