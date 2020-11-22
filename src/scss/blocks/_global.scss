@@ -1,5 +1,6 @@
-// GLOBAL STYLES
-// --------------------------------------------------------------------
+@use "../mixins/responsive";
+@use "../mixins/typography";
+
 html {
     @media screen and (min-width: 48em) {
         font-size: 125%;
@@ -96,7 +97,7 @@ a {
 }
 
 blockquote {
-    @include smart-blockquotes;
+    @include typography.smart-blockquotes;
 
     border-left: 0.5rem solid var(--color-border);
     margin: 2rem;
@@ -104,7 +105,7 @@ blockquote {
 }
 
 .responsive-embed {
-    @include responsive-object;
+    @include responsive.responsive-object;
 }
 
 code[class*='language-'],

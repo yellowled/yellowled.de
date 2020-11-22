@@ -1,14 +1,14 @@
-@import 'variables';
+@use 'variables';
 
-@import 'mixins/index';
-@import 'elements/reset';
+@use 'mixins/index';
+@use 'elements/reset';
 // @import 'elements/forms';
 
-@import '../../node_modules/prismjs/themes/prism';
+@use '../../node_modules/prismjs/themes/prism';
 
-@import 'blocks/global';
-@import 'blocks/layout';
-@import 'blocks/header';
-@import 'blocks/footer';
-@import 'blocks/search';
-@import 'blocks/archive';
+@use 'blocks/global';
+@use 'blocks/layout';
+@use 'blocks/header';
+@use 'blocks/footer';
+@use 'blocks/search';
+@use 'blocks/archive';

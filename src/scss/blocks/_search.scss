@@ -1,5 +1,6 @@
-// SEARCH
-// --------------------------------------------------------------------
+@use "../mixins/buttons";
+@use "../mixins/helpers";
+
 button,
 input {
     font-family: inherit;
@@ -76,11 +77,11 @@ button:not(:disabled),
     position: relative;
 
     > label {
-        @include visuallyhidden;
+        @include helpers.visuallyhidden;
     }
 
     > button {
-        @include unstyled-button();
+        @include buttons.unstyled-button();
 
         color: var(--color-form-text);
         position: absolute;
