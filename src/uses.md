@@ -13,6 +13,8 @@ sitemapTitle: Uses
     -   Apple Wireless Keyboard (4. Gen.)
     -   Apple Magic Trackpad
     -   [Rain Design mStand](https://www.raindesigninc.com/mstand.html)
+    -   [Logitech G533 Headset](https://www.logitechg.com/de-de/products/gaming-audio/g533-wireless-gaming-headset.981-000634.html)
+    -   [uni 6IN101 USB-C-HUB](https://uniaccessories.io/products/uni-usb-c-6-in-1-hub-1)
     -   [LaCie Rugged Mini USB-C 1TB](https://www.lacie.com/de/de/products/rugged/) (Time Machine)
     -   [YubiKey](https://www.yubico.com/der-yubikey/) 5C Nano
 -   [Apple MacBook Air 13", 2014](https://support.apple.com/kb/SP700) (privat)
