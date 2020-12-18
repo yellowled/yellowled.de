@@ -61,6 +61,8 @@ export const darkMode = () => {
     };
 
     toggleBtn.addEventListener('click', (e) => {
+        document.body.style.transition =
+            'background 200ms ease-in-out, color 200ms ease';
         e.preventDefault();
         applySetting(toggleSetting());
     });
