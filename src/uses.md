@@ -16,10 +16,10 @@ sitemapTitle: Uses
     -   [Logitech G533 Headset](https://www.logitechg.com/de-de/products/gaming-audio/g533-wireless-gaming-headset.981-000634.html)
     -   [uni 6IN101 USB-C-HUB](https://uniaccessories.io/products/uni-usb-c-6-in-1-hub-1)
     -   [LaCie Rugged Mini USB-C 1TB](https://www.lacie.com/de/de/products/rugged/) (Time Machine)
-    -   [YubiKey](https://www.yubico.com/der-yubikey/) 5C Nano
+    -   [YubiKey 5C Nano](https://www.yubico.com/de/product/yubikey-5c-nano/)
 -   [Apple MacBook Air M1 13", 2020](https://support.apple.com/kb/SP825) (privat)
     -   [LaCie Rugged Mini USB-C 1TB](https://www.lacie.com/de/de/products/rugged/) (Time Machine)
-    -   YubiKey 5C
+    -   [YubiKey 5C](https://www.yubico.com/de/product/yubikey-5c/)
 -   [Apple iPad Air 2](https://support.apple.com/kb/SP708)
 -   [Apple iPhone XR](https://support.apple.com/kb/SP781)
 
