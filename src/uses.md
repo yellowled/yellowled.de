@@ -17,7 +17,7 @@ sitemapTitle: Uses
     -   [uni 6IN101 USB-C-HUB](https://uniaccessories.io/products/uni-usb-c-6-in-1-hub-1)
     -   [LaCie Rugged Mini USB-C 1TB](https://www.lacie.com/de/de/products/rugged/) (Time Machine)
     -   [YubiKey](https://www.yubico.com/der-yubikey/) 5C Nano
--   [Apple MacBook Air M1 https://support.apple.com/kb/SP825) (privat)
+-   [Apple MacBook Air M1 13", 2020](https://support.apple.com/kb/SP825) (privat)
     -   [LaCie Rugged Mini USB-C 1TB](https://www.lacie.com/de/de/products/rugged/) (Time Machine)
     -   YubiKey 5C
 -   [Apple iPad Air 2](https://support.apple.com/kb/SP708)
