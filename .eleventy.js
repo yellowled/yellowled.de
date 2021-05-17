@@ -26,6 +26,7 @@ module.exports = function (config) {
 
     // Pass-through copy files
     config.addPassthroughCopy('src/favicons');
+    config.addPassthroughCopy('src/img');
     config.addPassthroughCopy({ 'src/archiv/uploads': 'v2/uploads' });
 
     // Deep-merge data
