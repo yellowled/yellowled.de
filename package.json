@@ -3,7 +3,7 @@
     "version": "1.1.0",
     "description": "My website",
     "scripts": {
-        "build": "npm-run-all --parallel build:js build:scss --sequential build:eleventy",
+        "build": "npm-run-all --sequential clean --parallel build:js build:scss --sequential build:eleventy",
         "build:eleventy": "ELEVENTY_ENV=production eleventy",
         "build:js": "npm-run-all --sequential compile:js minify:js",
         "build:scss": "npm-run-all --sequential compile:scss minify:scss",
@@ -38,7 +38,7 @@
         "autoprefixer": "^10.2.6",
         "critical": "^4.0.0",
         "cssnano": "^5.0.6",
-        "del-cli": "^4.0.0",
+        "del-cli": "^3.0.1",
         "eslint": "^7.29.0",
         "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-prettier": "^3.4.0",
