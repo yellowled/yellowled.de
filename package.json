@@ -47,8 +47,8 @@
         "postcss": "^8.3.5",
         "postcss-cli": "^8.3.1",
         "postcss-flexbugs-fixes": "^5.0.2",
-        "prettier": "^2.3.1",
-        "rollup": "^2.51.2",
+        "prettier": "^2.3.2",
+        "rollup": "^2.52.3",
         "sass": "^1.35.1",
         "stylelint": "^13.13.1",
         "stylelint-config-prettier": "^8.0.2",
@@ -60,7 +60,7 @@
     "author": "Matthias Mees",
     "license": "MIT",
     "engines": {
-        "node": "^15"
+        "node": "^16"
     },
     "repository": {
         "type": "git",
