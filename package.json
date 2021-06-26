@@ -3,7 +3,7 @@
     "version": "1.1.0",
     "description": "My website",
     "scripts": {
-        "build": "npm-run-all --sequential clean --parallel build:js build:scss --sequential build:eleventy",
+        "build": "npm-run-all --parallel build:js build:scss --sequential build:eleventy",
         "build:eleventy": "ELEVENTY_ENV=production eleventy",
         "build:js": "npm-run-all --sequential compile:js minify:js",
         "build:scss": "npm-run-all --sequential compile:scss minify:scss",
