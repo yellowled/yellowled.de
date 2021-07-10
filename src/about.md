@@ -2,8 +2,10 @@
 title: Über mich
 description: Mehr oder weniger wissenswerte Dinge über Matthias Mees
 layout: page.njk
-tags: sitemapped
-sitemapTitle: About
+eleventyNavigation:
+    key: About
+    excerpt: Mehr oder weniger wissenswerte Dinge über Matthias Mees
+    order: 1
 ---
 
 <img class="avatar" src="/img/mm-2021-1440.jpg" sizes="100%, (min-width: 30em) 20%, (min-width: 48em) 25%" srcset="/img/mm-2021-240.jpg 240w, /img/mm-2021-480.jpg 480w, /img/mm-2021-960.jpg 960w, /img/mm-2021-1440.jpg 1440w" loading="lazy" alt="Selbstportrait Matthias Mees">

@@ -2,8 +2,10 @@
 title: Über diese Website
 description: Technische, gestalterische und inhaltliche Details zu dieser Webseite
 layout: page.njk
-tags: sitemapped
-sitemapTitle: Site
+eleventyNavigation:
+    key: Site
+    excerpt: Technische, gestalterische und inhaltliche Details zu dieser Webseite
+    order: 6
 ---
 
 Nach Gehversuchen mit diversen anderen Blogsystemen hatte ich von 2006 bis 2020 zwei mit [Serendipity](https://s9y.org) betriebene Blogs. Das erste habe ich [2011](https://web.archive.org/web/20111209164727/https://matthias.yellowled.de/) zunächst als statisches HTML archiviert und dann vom Netz genommen, das zweite 2020 ebenfalls als statisches HTML [archiviert](/archiv/).

@@ -2,8 +2,10 @@
 title: Social Media
 description: Meine Accounts in sozialen Medien
 layout: page.njk
-tags: sitemapped
-sitemapTitle: Follow
+eleventyNavigation:
+    key: Follow
+    excerpt: Meine Accounts in sozialen Medien
+    order: 4
 ---
 
 -   [Twitter](https://twitter.com/yellowled)
