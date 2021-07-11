@@ -5,7 +5,7 @@ layout: page.njk
 eleventyNavigation:
     key: Follow
     excerpt: Meine Accounts in sozialen Medien
-    order: 4
+    order: 2
 ---
 
 -   [Twitter](https://twitter.com/yellowled)

@@ -5,7 +5,7 @@ layout: page.njk
 eleventyNavigation:
     key: Fachartikel
     excerpt: Veröffentlichungen in Print und Web, Vorträge auf Konferenzen und Beiträge zu Podcasts
-    order: 3
+    order: 6
 ---
 
 ## Drucksachen

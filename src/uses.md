@@ -5,7 +5,7 @@ layout: page.njk
 eleventyNavigation:
     key: Uses
     excerpt: Liste der Hardware, mobilen Devices, Software und Apps, die ich verwende
-    order: 7
+    order: 3
 ---
 
 ## Hardware
