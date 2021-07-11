@@ -1,3 +1,4 @@
+const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
@@ -6,6 +7,7 @@ const transforms = require('./src/_11ty/transforms');
 
 module.exports = function (config) {
     // Plugins
+    config.addPlugin(eleventyNavigationPlugin);
     config.addPlugin(pluginRss);
     config.addPlugin(syntaxHighlight);
 
