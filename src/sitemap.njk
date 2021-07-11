@@ -3,10 +3,10 @@ title: Sitemap
 description: Eine Übersicht der wichtigsten Seiten als Navigationsersatz
 layout: page.njk
 ---
-
+{%- set navPages = collections.all | eleventyNavigation -%}
 <dl>
-{% for item in collections.sitemapped %}
-    <dt><a href="{{ item.url }}">{{ item.data.sitemapTitle or item.data.title }}</a></dt>
-    <dd>{{ item.data.description }}</dd>
-{% endfor %}
+{%- for page in navPages %}
+    <dt><a href="{{ page.url | url }}">{{ page.title }}</a></dt>
+    <dd>{{ page.excerpt }}</dd>
+{%- endfor %}
 </dl>
