@@ -22,7 +22,7 @@ eleventyNavigation:
 -   [Apple MacBook Air M1 13", 2020](https://support.apple.com/kb/SP825) (privat)
     -   [LaCie Rugged Mini USB-C 1TB](https://www.lacie.com/de/de/products/rugged/) (Time Machine)
     -   [YubiKey 5C](https://www.yubico.com/de/product/yubikey-5c/)
--   [Apple iPad Air 2](https://support.apple.com/kb/SP708)
+-   [Apple iPad (8th Gen.)](https://support.apple.com/kb/SP822)
 -   [Apple iPhone XR](https://support.apple.com/kb/SP781)
 
 ## Software
