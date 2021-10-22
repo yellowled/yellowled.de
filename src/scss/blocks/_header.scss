@@ -1,4 +1,4 @@
-@use "../mixins/buttons";
+@use '../mixins/buttons';
 
 body > header {
     display: flex;
@@ -17,7 +17,7 @@ body > header {
     }
 
     > button {
-        @include buttons.unstyled-button();
+        @include buttons.unstyled-button;
 
         color: var(--color-text);
 
