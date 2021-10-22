@@ -39,7 +39,7 @@ export const darkMode = () => {
 
     const toggleSetting = () => {
         let currentSetting = localStorage.getItem(STORAGE_KEY);
-
+        /* eslint-disable indent */
         switch (currentSetting) {
             case null:
                 currentSetting =
@@ -54,6 +54,7 @@ export const darkMode = () => {
                 currentSetting = 'light';
                 break;
         }
+        /* eslint-enable indent */
 
         localStorage.setItem(STORAGE_KEY, currentSetting);
 
