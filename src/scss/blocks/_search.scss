@@ -81,10 +81,8 @@ button:not(:disabled),
         right: 0.5rem;
         top: 0.45em;
     }
-}
 
-#search__results {
-    &:not(:empty) {
+    + div:not(:empty) {
         margin-top: 2rem;
     }
 }
