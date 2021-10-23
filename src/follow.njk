@@ -1,0 +1,15 @@
+---
+title: Social Media
+description: Meine Accounts in sozialen Medien
+layout: page.njk
+eleventyNavigation:
+    key: Follow
+    excerpt: Meine Accounts in sozialen Medien
+    order: 2
+---
+
+<ul>
+{% for network in social %}
+    <li><a href="{{ network.url }}">{{ network.name }}</a></li>
+{% endfor %}
+</ul>
