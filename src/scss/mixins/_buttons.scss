@@ -48,7 +48,7 @@ $button-padding: 0.1875rem 0.625rem !default;
         );
         border-color: color.adjust($bg-color, $lightness: -26.5%)
             color.adjust($bg-color, $lightness: -13.2%) $bg-color;
-        box-shadow: inset rgba(#000, 0.25) 0 1px 2px 0;
+        box-shadow: inset rgba(0 0 0 / 25%) 0 1px 2px 0;
     }
 
     &:focus {
