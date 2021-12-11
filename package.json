@@ -22,8 +22,8 @@
         "test": "npm-run-all --sequential lint:js lint:scss"
     },
     "dependencies": {
-        "core-js": "^3.19.2",
-        "luxon": "^2.1.1",
+        "core-js": "^3.19.3",
+        "luxon": "^2.2.0",
         "when-dom-ready": "^1.2.12"
     },
     "devDependencies": {
@@ -40,17 +40,17 @@
         "critical": "^4.0.1",
         "cssnano": "^5.0.12",
         "del-cli": "^4.0.1",
-        "eslint": "^8.3.0",
+        "eslint": "^8.4.1",
         "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-prettier": "^4.0.0",
         "html-minifier": "^4.0.0",
         "npm-run-all": "^4.1.5",
         "postcss": "^8.4.4",
-        "postcss-cli": "^9.0.2",
+        "postcss-cli": "^9.1.0",
         "postcss-flexbugs-fixes": "^5.0.2",
-        "prettier": "^2.5.0",
-        "rollup": "^2.60.2",
-        "sass": "^1.44.0",
+        "prettier": "^2.5.1",
+        "rollup": "^2.61.1",
+        "sass": "^1.45.0",
         "stylelint": "^14.1.0",
         "stylelint-config-prettier": "^9.0.3",
         "stylelint-config-standard-scss": "^3.0.0",
