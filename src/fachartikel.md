@@ -10,12 +10,12 @@ eleventyNavigation:
 
 ## Drucksachen
 
--   Browser für Developer in [Screenguide](https://www.screengui.de) 33/16
--   Tips & Tricks in [Screenguide](https://www.screengui.de) 30/16
--   Strukturiertes CSS mit Methode in: [Screenguide](https://www.screengui.de) 24/14
--   ProcessWire: Ein CMS voller Freiheiten in: [Screenguide](https://www.screengui.de) 22/14
--   .htaccess: Feuerwasser für den Apachen in: Webstandards-Magazin 12/11
--   Accessibility: „Moderne“ Webgestaltung hilft in: Logbuch Accessibility
+-   Browser für Developer in: <cite>Screenguide 33/16</cite>
+-   Tips & Tricks in: <cite>Screenguide 30/16</cite>
+-   Strukturiertes CSS mit Methode in: <cite>Screenguide 24/14</cite>
+-   ProcessWire: Ein CMS voller Freiheiten in: <cite>Screenguide 22/14</cite>
+-   .htaccess: Feuerwasser für den Apachen in: <cite>Webstandards-Magazin 12/11</cite>
+-   Accessibility: „Moderne“ Webgestaltung hilft in: <cite>Logbuch Accessibility</cite>
 
 ## Vorträge
 
