@@ -1,20 +1,19 @@
 ---
 title: Wird auch mal wieder Zeit
-description: Eine Sammlung von Tweets über Musikalben, die ich mag
+description: Gesammelte Twitter-Threads über Musikalben, die ich mag
 layout: page.njk
 pagination:
-    data: collections.wamwz
+    data: wamwz
     size: 20
-    alias: wamwz
     reverse: true
 ---
 
 <p>Im Oktober 2020 habe ich begonnen, bewusst und in Ruhe ganze Alben zu hören, die ich liebe, und von denen ich fand, es sei mal wieder an der Zeit, sie bewusst und in Ruhe zu hören – und darüber zu twittern. Leider habe ich vergessen, der Sache ein schmissiges <code>#hashtag</code> zu verpassen. Diese Seite sammelt diese Alben (in umgekehrter Reihenfolge) und verlinkt auf die zugehörigen Twitter-Threads.</p>
 
 <ul>
-    {%- for album in wamwz %}
-    <li><a href="{{ album.data.tweet }}">{{ album.data.artist }} – {{ album.data.title }}</a></li>
-    {%- endfor %}
+{% for album in pagination.items %}
+    <li><a href="{{ album.tweet }}">{{ album.artist }} – {{ album.title }}</a></li>
+{% endfor %}
 </ul>
 
 <nav class="pagination" aria-label="Pagination">
