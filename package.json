@@ -22,20 +22,20 @@
         "test": "npm-run-all --sequential lint:js lint:scss"
     },
     "dependencies": {
-        "core-js": "^3.21.1",
-        "luxon": "^2.3.1",
+        "core-js": "^3.22.0",
+        "luxon": "^2.3.2",
         "when-dom-ready": "^1.2.12"
     },
     "devDependencies": {
-        "@11ty/eleventy": "^1.0.0",
+        "@11ty/eleventy": "^1.0.1",
         "@11ty/eleventy-navigation": "^0.3.2",
         "@11ty/eleventy-plugin-rss": "^1.1.2",
         "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
         "@babel/core": "^7.17.9",
         "@babel/preset-env": "^7.16.11",
         "@rollup/plugin-babel": "^5.3.1",
-        "@rollup/plugin-commonjs": "^21.0.3",
-        "@rollup/plugin-node-resolve": "^13.2.0",
+        "@rollup/plugin-commonjs": "^21.1.0",
+        "@rollup/plugin-node-resolve": "^13.2.1",
         "autoprefixer": "^10.4.4",
         "critical": "^4.0.1",
         "cssnano": "^5.1.7",
@@ -49,9 +49,9 @@
         "postcss-cli": "^9.1.0",
         "postcss-flexbugs-fixes": "^5.0.2",
         "prettier": "^2.6.2",
-        "rollup": "^2.70.1",
-        "sass": "^1.50.0",
-        "stylelint": "^14.6.1",
+        "rollup": "^2.70.2",
+        "sass": "^1.50.1",
+        "stylelint": "^14.7.1",
         "stylelint-config-prettier": "^9.0.3",
         "stylelint-config-standard-scss": "^3.0.0",
         "terser": "^5.12.1"
