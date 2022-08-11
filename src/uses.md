@@ -20,7 +20,7 @@ eleventyNavigation:
     -   [LaCie Rugged Mini USB-C 1TB](https://www.lacie.com/de/de/products/rugged/) (Time Machine)
     -   [YubiKey 5C Nano](https://www.yubico.com/de/product/yubikey-5c-nano/)
 -   [Apple MacBook Air M1 13", 2020](https://support.apple.com/kb/SP825) (privat)
-    -   [LaCie Rugged Mini USB-C 1TB](https://www.lacie.com/de/de/products/rugged/) (Time Machine)
+    -   [LaCie Mobile Drive Moon Silver 1TB](https://www.lacie.com/de/de/products/mobile-drive/) (Time Machine)
     -   [YubiKey 5C](https://www.yubico.com/de/product/yubikey-5c/)
 -   [Apple iPad (8th Gen.)](https://support.apple.com/kb/SP822)
 -   [Apple iPhone XR](https://support.apple.com/kb/SP781)
