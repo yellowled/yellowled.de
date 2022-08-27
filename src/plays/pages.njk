@@ -9,42 +9,44 @@ eleventyComputed:
     title: "{{ instrument.brand }} {{ instrument.model }}"
 ---
 
-{% image instrument.image, instrument.model, "100%, (min-width: 48em) 50%", "instrument" %}
+<div class="plays">
+    {% image instrument.image, instrument.model, "100%, (min-width: 48em) 50%", "plays__image" %}
 
-<ul>
-{% if instrument.body %}
-    <li>Body: {{ instrument.body }}</li>
-{% endif %}
-{% if instrument.neck %}
-    <li>Hals: {{ instrument.neck }}</li>
-{% endif %}
-{% if instrument.profile %}
-    <li>Profil: {{ instrument.profile }}</li>
-{% endif %}
-{% if instrument.radius %}
-    <li>Radius: {{ instrument.radius }}</li>
-{% endif %}
-{% if instrument.fretboard %}
-    <li>Griffbrett: {{ instrument.fretboard }}</li>
-{% endif %}
-{% if instrument.frets %}
-    <li>Bünde: {{ instrument.frets }}</li>
-{% endif %}
-{% if instrument.scale %}
-    <li>Mensur: {{ instrument.scale }}</li>
-{% endif %}
-{% if instrument.nut %}
-    <li>Sattelbreite: {{ instrument.nut }}</li>
-{% endif %}
-{% if instrument.pickups %}
-    <li>Tonabnehmer: {{ instrument.pickups }}</li>
-{% endif %}
-{% if instrument.url %}
-    <li><a href="{{ instrument.url }}">Händlerlink</a></li>
-{% endif %}
-{% if instrument.date %}
-    <li>Gekauft: {{ instrument.date }}</li>
-{% endif %}
-</ul>
+    <ul>
+    {% if instrument.body %}
+        <li>Body: {{ instrument.body }}</li>
+    {% endif %}
+    {% if instrument.neck %}
+        <li>Hals: {{ instrument.neck }}</li>
+    {% endif %}
+    {% if instrument.profile %}
+        <li>Profil: {{ instrument.profile }}</li>
+    {% endif %}
+    {% if instrument.radius %}
+        <li>Radius: {{ instrument.radius }}</li>
+    {% endif %}
+    {% if instrument.fretboard %}
+        <li>Griffbrett: {{ instrument.fretboard }}</li>
+    {% endif %}
+    {% if instrument.frets %}
+        <li>Bünde: {{ instrument.frets }}</li>
+    {% endif %}
+    {% if instrument.scale %}
+        <li>Mensur: {{ instrument.scale }}</li>
+    {% endif %}
+    {% if instrument.nut %}
+        <li>Sattelbreite: {{ instrument.nut }}</li>
+    {% endif %}
+    {% if instrument.pickups %}
+        <li>Tonabnehmer: {{ instrument.pickups }}</li>
+    {% endif %}
+    {% if instrument.url %}
+        <li><a href="{{ instrument.url }}">Händlerlink</a></li>
+    {% endif %}
+    {% if instrument.date %}
+        <li>Gekauft: {{ instrument.date }}</li>
+    {% endif %}
+    </ul>
 
-<a href="/plays">Zurück zur Übersicht</a>
+    <a href="/plays">Zurück zur Übersicht</a>
+</div>
