@@ -10,8 +10,9 @@ eleventyComputed:
 ---
 
 <div class="plays">
+{% if instrument.image %}
     {% image instrument.image, instrument.model, "100%, (min-width: 48em) 50%", "plays__image" %}
-
+{% endif %}
     <ul>
     {% if instrument.body %}
         <li>Body: {{ instrument.body }}</li>
