@@ -4,6 +4,7 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
 const filters = require('./src/_11ty/filters');
 const transforms = require('./src/_11ty/transforms');
+const shortcodes = require('./src/_11ty/asyncShortcodes');
 
 module.exports = function (config) {
     // Plugins
@@ -19,6 +20,14 @@ module.exports = function (config) {
     // Transforms
     Object.keys(transforms).forEach((transformName) => {
         config.addTransform(transformName, transforms[transformName]);
+    });
+
+    // async (Nunjucks) Shortcodes
+    Object.keys(shortcodes).forEach((shortcodeName) => {
+        config.addNunjucksAsyncShortcode(
+            shortcodeName,
+            shortcodes[shortcodeName]
+        );
     });
 
     // Reload dev server if CSS/JS changes

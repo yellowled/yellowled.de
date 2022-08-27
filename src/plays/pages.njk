@@ -9,6 +9,8 @@ eleventyComputed:
     title: "{{ instrument.brand }} {{ instrument.model }}"
 ---
 
+{% image instrument.image, "alt", "100%, (min-width: 30em) 20%, (min-width: 48em) 25%" %}
+
 <ul>
 {% if instrument.body %}
     <li>Body: {{ instrument.body }}</li>
