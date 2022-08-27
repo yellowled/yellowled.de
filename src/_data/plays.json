@@ -2,7 +2,7 @@
     {
         "brand": "Ibanez",
         "model": "ATK-300",
-        "image": "",
+        "image": "img/atk-300.jpg",
         "body": "",
         "neck": "",
         "profile": "",
@@ -19,7 +19,7 @@
     {
         "brand": "Harley Benton",
         "model": "TE-52 NA",
-        "image": "",
+        "image": "img/bg-tele.jpg",
         "body": "amerikanische Esche",
         "neck": "karamelisierter kanadischer Ahorn mit Roseacer Skunk Stripe (geschraubt)",
         "profile": "C",
@@ -39,7 +39,7 @@
     {
         "brand": "Harley Benton",
         "model": "DC-Junior Faded Blue",
-        "image": "",
+        "image": "dc-junior.jpg",
         "body": "Mahagoni",
         "neck": "Mahagoni (eingeleimt)",
         "profile": "60's C",
