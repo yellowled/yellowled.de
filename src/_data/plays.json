@@ -1,0 +1,56 @@
+[
+    {
+        "brand": "Ibanez",
+        "model": "ATK-300",
+        "image": "",
+        "body": "",
+        "neck": "",
+        "profile": "",
+        "radius": "",
+        "fretboard": "",
+        "frets": "",
+        "scale": "",
+        "nut": "",
+        "pickups": [""],
+        "url": "",
+        "date": "1994-??-??",
+        "euro": ""
+    },
+    {
+        "brand": "Harley Benton",
+        "model": "TE-52 NA",
+        "image": "",
+        "body": "amerikanische Esche",
+        "neck": "karamelisierter kanadischer Ahorn mit Roseacer Skunk Stripe (geschraubt)",
+        "profile": "C",
+        "radius": "350 mm",
+        "fretboard": "karamelisierter Ahorn",
+        "frets": "21",
+        "scale": "648 mm",
+        "nut": "42 mm",
+        "pickups": [
+            "Roswell TEA Alnico-5 TE-Style Single Coil",
+            "Roswell TEA Alnico-5 TE-Style Single Coil"
+        ],
+        "url": "https://www.thomann.de/de/harley_benton_hbt1952.htm",
+        "date": "2021-04-29",
+        "euro": "149,00"
+    },
+    {
+        "brand": "Harley Benton",
+        "model": "DC-Junior Faded Blue",
+        "image": "",
+        "body": "Mahagoni",
+        "neck": "Mahagoni (eingeleimt)",
+        "profile": "60's C",
+        "radius": "305 mm",
+        "fretboard": "Amaranth",
+        "frets": "22",
+        "scale": "628 mm",
+        "nut": "43 mm",
+        "pickups": ["Roswell P90D Alnico-5 Dog Ear Single Coil"],
+        "url": "https://www.thomann.de/de/harley_benton_dc_junior_faded_blue.htm",
+        "date": "2021-12-16",
+        "euro": "199,00"
+    }
+]
