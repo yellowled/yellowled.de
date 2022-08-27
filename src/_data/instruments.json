@@ -11,7 +11,7 @@
         "frets": "20",
         "scale": "864 mm",
         "nut": "",
-        "pickups": ["ATK -Triple Coil"],
+        "pickups": "ATK -Triple Coil",
         "url": "",
         "date": "1995-??-??",
         "euro": "~510"
@@ -28,10 +28,7 @@
         "frets": "21",
         "scale": "648 mm",
         "nut": "42 mm",
-        "pickups": [
-            "Roswell TEA Alnico-5 TE-Style Single Coil",
-            "Roswell TEA Alnico-5 TE-Style Single Coil"
-        ],
+        "pickups": "2 Roswell TEA Alnico-5 TE-Style Single Coil",
         "url": "https://www.thomann.de/de/harley_benton_hbt1952.htm",
         "date": "2021-04-29",
         "euro": "149,00"
@@ -48,7 +45,7 @@
         "frets": "22",
         "scale": "628 mm",
         "nut": "43 mm",
-        "pickups": ["Roswell P90D Alnico-5 Dog Ear Single Coil"],
+        "pickups": "Roswell P90D Alnico-5 Dog Ear Single Coil",
         "url": "https://www.thomann.de/de/harley_benton_dc_junior_faded_blue.htm",
         "date": "2021-12-16",
         "euro": "199,00"
