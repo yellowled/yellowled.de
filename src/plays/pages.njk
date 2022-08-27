@@ -44,7 +44,7 @@ eleventyComputed:
         <li><a href="{{ instrument.url }}">Händlerlink</a></li>
     {% endif %}
     {% if instrument.date %}
-        <li>Gekauft: {{ instrument.date }}</li>
+        <li>Gekauft: {{ instrument.date | datePlays }}</li>
     {% endif %}
     </ul>
 
