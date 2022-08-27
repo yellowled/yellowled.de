@@ -1,9 +1,9 @@
 const Image = require('@11ty/eleventy-img');
 
 module.exports = {
-    image: async function (src, alt, sizes) {
+    image: async function (src, alt, sizes, cls = '') {
         let metadata = await Image(src, {
-            widths: [320, 750, 1500],
+            widths: [320, 720, 1440],
             formats: ['avif', 'jpeg'],
             outputDir: '_site/img',
         });
@@ -14,6 +14,10 @@ module.exports = {
             loading: 'lazy',
             decoding: 'async',
         };
+
+        if (cls !== '') {
+            imageAttributes.class = cls;
+        }
 
         return Image.generateHTML(metadata, imageAttributes, {
             whitespaceMode: 'inline',
