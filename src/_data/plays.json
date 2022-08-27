@@ -1,19 +1,19 @@
 [
     {
         "brand": "Ibanez",
-        "model": "ATK-300",
+        "model": "ATK-300 Honeyburst",
         "image": "img/atk-300.jpg",
-        "body": "",
-        "neck": "",
+        "body": "Esche",
+        "neck": "Ahorn (geschraubt)",
         "profile": "",
         "radius": "",
-        "fretboard": "",
-        "frets": "",
-        "scale": "",
+        "fretboard": "Ahorn",
+        "frets": "20",
+        "scale": "864 mm",
         "nut": "",
-        "pickups": [""],
+        "pickups": ["ATK -Triple Coil"],
         "url": "",
-        "date": "1994-??-??",
+        "date": "1995-??-??",
         "euro": ""
     },
     {
