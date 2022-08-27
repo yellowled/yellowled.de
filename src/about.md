@@ -8,7 +8,7 @@ eleventyNavigation:
     order: 1
 ---
 
-<img class="avatar" src="/img/mm-2021-1440.jpg" sizes="100%, (min-width: 30em) 20%, (min-width: 48em) 25%" srcset="/img/mm-2021-240.jpg 240w, /img/mm-2021-480.jpg 480w, /img/mm-2021-960.jpg 960w, /img/mm-2021-1440.jpg 1440w" loading="lazy" alt="Selbstportrait Matthias Mees">
+{% image "./src/img/mm-2021.jpg", "Selbstportrait Matthias Mees", "100%, (min-width: 30em) 20%, (min-width: 48em) 25%", "avatar" %}
 
 Mein Name ist Matthias Mees. Ich lebe [in Schleswig-Holstein](https://de.wikipedia.org/wiki/Eutin) und arbeite remote als Frontend-Entwickler bei [/gebruederheitz](https://www.gebruederheitz.de). Ich bin Mitglied bei den [Webkrauts](http://webkrauts.de) und Teil des Entwicklerteams des Blogsystems [Serendipity](https://s9y.org).
 
