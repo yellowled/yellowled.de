@@ -15,10 +15,11 @@ pagination:
     <li><a href="{{ album.tweet }}">{{ album.artist }} – {{ album.title }}</a></li>
 {% endfor %}
 </ul>
-
+{% if pagination.href.previous or pagination.href.next %}
 <nav class="pagination" aria-label="Pagination">
     <ul>
         <li>{% if pagination.href.previous %}<a class="pagination__prev" href="{{ pagination.href.previous }}">Neuere Einträge</a>{% endif %}</li>
         <li>{% if pagination.href.next %}<a class="pagination__next" href="{{ pagination.href.next }}">Ältere Einträge</a>{% endif %}</li>
     </ul>
 </nav>
+{% endif %}

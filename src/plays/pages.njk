@@ -1,0 +1,12 @@
+---
+pagination:
+    data: instruments
+    size: 1
+    alias: instrument
+permalink: "plays/{{ instrument.model | slug }}/"
+layout: page.njk
+eleventyComputed:
+    title: "{{ instrument.brand }} {{ instrument.model }}"
+---
+
+<a href="/plays">Zurück zur Übersicht</a>
