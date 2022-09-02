@@ -24,7 +24,7 @@
     "dependencies": {
         "@11ty/eleventy-img": "^2.0.1",
         "core-js": "^3.25.0",
-        "luxon": "^3.0.1",
+        "luxon": "^3.0.3",
         "when-dom-ready": "^1.2.12"
     },
     "devDependencies": {
@@ -50,8 +50,8 @@
         "postcss-cli": "^10.0.0",
         "postcss-flexbugs-fixes": "^5.0.2",
         "prettier": "^2.7.1",
-        "rollup": "^2.78.1",
-        "sass": "^1.54.5",
+        "rollup": "^2.79.0",
+        "sass": "^1.54.8",
         "stylelint": "^14.11.0",
         "stylelint-config-prettier": "^9.0.3",
         "stylelint-config-standard-scss": "^5.0.0",
