@@ -3,7 +3,7 @@
     "version": "2.0.0",
     "description": "My website",
     "scripts": {
-        "build": "npm-run-all --sequential clean --parallel build:js build:scss --sequential build:eleventy",
+        "build": "npm-run-all --sequential clean --parallel build:js build:scss --sequential minify:sw build:eleventy",
         "build:eleventy": "ELEVENTY_ENV=production eleventy",
         "build:js": "npm-run-all --sequential compile:js minify:js",
         "build:scss": "npm-run-all --sequential compile:scss minify:scss",
@@ -14,6 +14,7 @@
         "lint:scss": "stylelint src/scss/**/*.scss",
         "minify:js": "terser -c -m --source-map content=_site/js/main.js.map,includeSources,url=main.js.map -o _site/js/main.js -- _site/js/main.js",
         "minify:scss": "postcss --config .postcssrc.json _site/css/main.css -r",
+        "minify:sw": "terser -c -m -o _site/sw.js -- src/js/sw.js",
         "start": "npm run watch",
         "watch": "npm-run-all --sequential clean --parallel watch:*",
         "watch:eleventy": "ELEVENTY_ENV=development eleventy --incremental --quiet --serve",
