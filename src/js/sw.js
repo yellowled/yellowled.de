@@ -1,4 +1,4 @@
-let coreAssets = ['/css/main.css', '/js/main.js'];
+let coreAssets = ['/css/main.css', '/js/main.js', '/favicons/favicon.ico'];
 
 // On install, cache core assets
 self.addEventListener('install', function (event) {
