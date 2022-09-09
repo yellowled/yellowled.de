@@ -87,6 +87,12 @@ button:not(:disabled),
         position: absolute;
         right: 0.5rem;
         top: 0.45em;
+
+        &:active,
+        &:hover,
+        &:focus {
+            color: var(--color-form-text);
+        }
     }
 
     + div:not(:empty) {
