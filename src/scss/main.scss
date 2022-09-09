@@ -11,3 +11,15 @@
 @use 'blocks/search';
 @use 'blocks/archive';
 @use 'blocks/plays';
+@use 'blocks/cv';
+
+@media print {
+    body {
+        padding: 0;
+
+        > header,
+        > footer {
+            display: none;
+        }
+    }
+}

@@ -1,5 +1,5 @@
-@use "../mixins/responsive";
-@use "../mixins/typography";
+@use '../mixins/responsive';
+@use '../mixins/typography';
 
 html {
     @media screen and (min-width: 48em) {

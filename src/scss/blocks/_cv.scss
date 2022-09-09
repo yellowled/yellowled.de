@@ -1,0 +1,91 @@
+.cv {
+    h2 {
+        border-bottom: 1px solid #ccc;
+        margin-top: 2rem;
+        margin-bottom: 0.95rem;
+    }
+
+    &__contact {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        svg {
+            fill: var(--color-primary);
+            margin-right: 0.125rem;
+        }
+
+        @media screen and (min-width: 48em) {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(2, 1fr);
+
+            li {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__timeline {
+        list-style: none;
+        padding-left: 0;
+
+        ul {
+            list-style: disc;
+        }
+
+        > li {
+            margin-bottom: 2rem;
+        }
+
+        h3 {
+            margin-top: 0.25rem;
+            margin-bottom: 0.25rem;
+
+            + p {
+                margin-top: 0;
+            }
+        }
+    }
+
+    &__timespan {
+        color: #888;
+        display: block;
+        font-variant: small-caps;
+
+        @media screen and (min-width: 48em) {
+            font-size: 0.8rem;
+        }
+    }
+
+    &__position {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    dl {
+        @media screen and (min-width: 48em) {
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    dt {
+        font-size: 1.25em;
+        font-weight: 700;
+        margin-top: 0.5rem;
+
+        @media screen and (min-width: 48em) {
+            font-size: 1.375em;
+            margin-top: 0;
+        }
+    }
+}
+
+.intro {
+    font-size: 1.4rem;
+}
