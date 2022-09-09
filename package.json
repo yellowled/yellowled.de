@@ -39,7 +39,7 @@
         "@rollup/plugin-commonjs": "^22.0.2",
         "@rollup/plugin-node-resolve": "^14.0.1",
         "autoprefixer": "^10.4.8",
-        "critical": "^5.0.1",
+        "critical": "^4.0.1",
         "cssnano": "^5.1.13",
         "del-cli": "^5.0.0",
         "eslint": "^8.23.0",
