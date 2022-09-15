@@ -12,7 +12,7 @@ Ich habe Erfahrung mit und mag React, bin aber von Svelte mehr überzeugt. VueJS
 
 Performance und Barrierefreiheit finde ich wichtig, bin aber kein ausgewiesener Experte – arbeite aber sehr gut mit solchen zusammen. Ich habe ein gewisses Faible für Frontend-Build-Tools, möchte aber nicht DevOps machen. (Backend auch nicht.)
 
-Ich arbeite gern in agilen und crossfunktionalen Teams. Aus Feedback an mich wei0 ich, dass mein Kommunikationsstil pragmatisch, klar und zuverlässig ist, was auch Kunden zu schätzen wissen. And I can do that in English as well.
+Ich arbeite gern in agilen und crossfunktionalen Teams. Aus Feedback an mich weiß ich, dass mein Kommunikationsstil pragmatisch, klar und zuverlässig ist, was auch Kunden zu schätzen wissen. And I can do that in English as well.
 
 Transparente Unternehmensführung ist toll, eine vernünftige Fehlerkultur noch besser und stetiges Lernen in diesem Fachbereich ein Muss. Ich fühle mich auf Apple-Geräten zu Hause und würde es auch beruflich gerne bleiben.
 
