@@ -4,15 +4,17 @@ description: Nach über fünf Jahren bei meinem Arbeitgeber suche ich ein neues 
 layout: page.njk
 ---
 
-<p class="intro">Ich heiße Matthias Mees und bin Frontend-Entwickler mit 15 Jahren Berufserfahrung. Nach über fünf Jahren bei meinem aktuellen Arbeitgeber suche ich ein neues Umfeld mit mehr Bedarf im Frontend, als dort derzeit gegeben ist.</p>
+<p class="intro">Ich heiße Matthias Mees und bin Frontend-Entwickler mit 15 Jahren Berufserfahrung. Nach über fünf Jahren bei meinem aktuellen Arbeitgeber suche ich ein neues Umfeld mit größeren Herausforderungen.</p>
 
 Mein Handwerk sind semantisches HTML, effizientes CSS und modulares JavaScript. Ich habe schon mit vielen Open-Source-CMS (auch Headless) und ihren Template-Engines gerungen; zudem habe ich ein großes Herz für moderne Static Site Generatoren.
 
-Ich habe Erfahrung mit und mag React, bin aber von Svelte mehr überzeugt. VueJS kenne ich und habe nichts dagegen, hatte aber noch nicht praktisch damit zu tun; mit TypeScript ist es sehr ähnlich. (Stetig weiter Neues zu lernen ist für mich der Reiz an Frontend.)
+Ich habe Erfahrung mit und mag React, bin aber von Svelte mehr überzeugt. VueJS kenne ich und habe nichts dagegen, hatte aber noch nicht praktisch damit zu tun; mit TypeScript ist es sehr ähnlich. Stetig weiter Neues zu lernen ist für mich der Reiz an Frontend.
 
-Performance und Barrierefreiheit finde ich wichtig, bin aber kein ausgewiesener Experte (was ich sage, weil ich ausgewiesene Experten in beidem kenne). Ich hab ein gewisses Faible für Frontend-Build-Tools, möchte aber nicht DevOps machen. (Backend auch nicht.)
+Performance und Barrierefreiheit finde ich wichtig, bin aber kein ausgewiesener Experte – arbeite aber sehr gut mit solchen zusammen. Ich habe ein gewisses Faible für Frontend-Build-Tools, möchte aber nicht DevOps machen. (Backend auch nicht.)
 
-Ich arbeite gern in agilen und crossfunktionalen Teams. Transparente Unternehmensführung ist toll, eine vernünftige Fehlerkultur noch besser und stetiges Lernen in diesem Fachbereich ein Muss. Ich fühle mich auf Apple-Geräten zu Hause und würde es auch beruflich gerne bleiben.
+Ich arbeite gern in agilen und crossfunktionalen Teams. Aus Feedback an mich wei0 ich, dass mein Kommunikationsstil pragmatisch, klar und zuverlässig ist, was auch Kunden zu schätzen wissen. And I can do that in English as well.
+
+Transparente Unternehmensführung ist toll, eine vernünftige Fehlerkultur noch besser und stetiges Lernen in diesem Fachbereich ein Muss. Ich fühle mich auf Apple-Geräten zu Hause und würde es auch beruflich gerne bleiben.
 
 ## Remote oder vor Ort?
 
