@@ -85,6 +85,17 @@
     }
 }
 
+.done {
+    background-color: var(--color-primary);
+    color: var(--color-page);
+    font-size: 1.4rem;
+    padding: 1rem;
+
+    strong {
+        text-transform: uppercase;
+    }
+}
+
 .intro {
     font-size: 1.4rem;
 }

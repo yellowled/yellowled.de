@@ -4,6 +4,8 @@ description: Nach über fünf Jahren bei meinem Arbeitgeber suche ich ein neues 
 layout: page.njk
 ---
 
+<p class="done"><strong>Achtung:</strong> Die Suche nach einem neuen Job hat am 20. Oktober 2022 ein sehr gutes Ende gefunden. Vielen Dank allen, die geteilt, angeboten und mich kennen gelernt haben!</p>
+
 <p class="intro">Ich heiße Matthias Mees und bin Frontend-Entwickler mit 15 Jahren Berufserfahrung. Nach über fünf Jahren bei meinem aktuellen Arbeitgeber suche ich ein neues Umfeld mit größeren Herausforderungen.</p>
 
 Mein Handwerk sind semantisches HTML, effizientes CSS und modulares JavaScript. Ich habe schon mit vielen Open-Source-CMS (auch Headless) und ihren Template-Engines gerungen; zudem habe ich ein großes Herz für moderne Static Site Generatoren.
@@ -32,9 +34,6 @@ Natürlich habe ich Vorstellungen, was Gehalt und Urlaub angeht. Lasst uns bitte
 
 Super, dann freue ich mich auf Einzelheiten und eine Gelegenheit, Euch per Videocall kennen zu lernen und zu gucken, ob und wie wir zusammen passen!
 
--   E-Mail: [mees@mailbox.org](mailto:mees@mailbox.org)
--   Telefon: [0176 617 355 67](tel:+4917661735567)
+-   E-Mail: (~~entfernt~~)
+-   Telefon: (~~entfernt~~)
 -   zum verlinken oder weitergeben gibt es auch einen [tabellarischen Lebenslauf](/cv/).
--   [Claudius und Daniel Heitz](https://www.gebruederheitz.de) geben gerne eine Referenz
-
-(Erste Kontaktaufnahme wäre mir per E-Mail lieber.)
