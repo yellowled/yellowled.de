@@ -22,7 +22,7 @@
         "test": "npm-run-all --sequential lint:js lint:scss"
     },
     "dependencies": {
-        "core-js": "^3.25.5",
+        "core-js": "^3.26.0",
         "luxon": "^3.0.4",
         "when-dom-ready": "^1.2.12"
     },
@@ -34,13 +34,13 @@
         "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
         "@babel/core": "^7.19.6",
         "@babel/preset-env": "^7.19.4",
-        "@rollup/plugin-babel": "^6.0.0",
-        "@rollup/plugin-commonjs": "^23.0.1",
-        "@rollup/plugin-node-resolve": "^15.0.0",
+        "@rollup/plugin-babel": "^6.0.2",
+        "@rollup/plugin-commonjs": "^23.0.2",
+        "@rollup/plugin-node-resolve": "^15.0.1",
         "autoprefixer": "^10.4.12",
         "cssnano": "^5.1.13",
         "del-cli": "^5.0.0",
-        "eslint": "^8.25.0",
+        "eslint": "^8.26.0",
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-prettier": "^4.2.1",
         "html-minifier": "^4.0.0",
