@@ -10,7 +10,7 @@ eleventyNavigation:
 
 ## Hardware
 
--   [Apple MacBook Pro 15", 2016](https://support.apple.com/kb/SP749) (beruflich)
+-   [Apple MacBook Pro 13" M2, 2022](https://support.apple.com/kb/SP870) (beruflich)
     -   [Apple Cinema Display LED 27"](https://support.apple.com/kb/SP597)
     -   Apple Wireless Keyboard (4. Gen.)
     -   Apple Magic Trackpad
@@ -18,10 +18,8 @@ eleventyNavigation:
     -   [Logitech G533 Headset](https://www.logitechg.com/de-de/products/gaming-audio/g533-wireless-gaming-headset.981-000634.html)
     -   [uni 6IN101 USB-C-HUB](https://uniaccessories.io/products/uni-usb-c-6-in-1-hub-1)
     -   [LaCie Rugged Mini USB-C 1TB](https://www.lacie.com/de/de/products/rugged/) (Time Machine)
-    -   [YubiKey 5C Nano](https://www.yubico.com/de/product/yubikey-5c-nano/)
 -   [Apple MacBook Air M1 13", 2020](https://support.apple.com/kb/SP825) (privat)
     -   [LaCie Mobile Drive Moon Silver 1TB](https://www.lacie.com/de/de/products/mobile-drive/) (Time Machine)
-    -   [YubiKey 5C](https://www.yubico.com/de/product/yubikey-5c/)
 -   [Apple iPad (8th Gen.)](https://support.apple.com/kb/SP822)
 -   [Apple iPhone XR](https://support.apple.com/kb/SP781)
 

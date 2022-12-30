@@ -13,7 +13,7 @@ Rehhorst 39<br>
 ### Kontaktmöglichkeiten
 
 -   **E-Mail-Adresse:** [mm@yellowled.de](mailto:mm@yellowled.de)
--   **Telefon:** 017661735567
+-   **Telefon:** +4917661735567
 
 ### Journalistisch-redaktionelle Angebote
 
