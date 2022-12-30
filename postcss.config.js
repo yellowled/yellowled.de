@@ -8,7 +8,6 @@ module.exports = {
         autoprefixer: {
             grid: true,
         },
-        'postcss-flexbugs-fixes': {},
         cssnano: {
             preset: 'default',
         },
