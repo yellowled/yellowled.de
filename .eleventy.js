@@ -6,42 +6,42 @@ const filters = require('./src/_11ty/filters');
 const transforms = require('./src/_11ty/transforms');
 const shortcodes = require('./src/_11ty/asyncShortcodes');
 
-module.exports = function (config) {
+module.exports = function (eleventyConfig) {
     // Plugins
-    config.addPlugin(eleventyNavigationPlugin);
-    config.addPlugin(pluginRss);
-    config.addPlugin(syntaxHighlight);
+    eleventyConfig.addPlugin(eleventyNavigationPlugin);
+    eleventyConfig.addPlugin(pluginRss);
+    eleventyConfig.addPlugin(syntaxHighlight);
 
     // Filters
     Object.keys(filters).forEach((filterName) => {
-        config.addFilter(filterName, filters[filterName]);
+        eleventyConfig.addFilter(filterName, filters[filterName]);
     });
 
     // Transforms
     Object.keys(transforms).forEach((transformName) => {
-        config.addTransform(transformName, transforms[transformName]);
+        eleventyConfig.addTransform(transformName, transforms[transformName]);
     });
 
     // async (Nunjucks) Shortcodes
     Object.keys(shortcodes).forEach((shortcodeName) => {
-        config.addNunjucksAsyncShortcode(
+        eleventyConfig.addNunjucksAsyncShortcode(
             shortcodeName,
             shortcodes[shortcodeName]
         );
     });
 
     // Reload dev server if CSS/JS changes
-    config.setBrowserSyncConfig({
+    eleventyConfig.setBrowserSyncConfig({
         files: ['_site/css/main.css', '_site/js/main.js'],
     });
 
     // Pass-through copy files
-    config.addPassthroughCopy('src/favicons');
-    config.addPassthroughCopy('src/img');
-    config.addPassthroughCopy({ 'src/archiv/uploads': 'v2/uploads' });
+    eleventyConfig.addPassthroughCopy('src/favicons');
+    eleventyConfig.addPassthroughCopy('src/img');
+    eleventyConfig.addPassthroughCopy({ 'src/archiv/uploads': 'v2/uploads' });
 
     // Deep-merge data
-    config.setDataDeepMerge(true);
+    eleventyConfig.setDataDeepMerge(true);
 
     return {
         dir: {
