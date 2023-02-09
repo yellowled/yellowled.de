@@ -31,8 +31,8 @@ module.exports = function (eleventyConfig) {
     });
 
     // Reload dev server if CSS/JS changes
-    eleventyConfig.setBrowserSyncConfig({
-        files: ['_site/css/main.css', '_site/js/main.js'],
+    eleventyConfig.setServerOptions({
+        watch: ['_site/css/main.css', '_site/js/main.js'],
     });
 
     // Pass-through copy files
