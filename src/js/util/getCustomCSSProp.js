@@ -10,7 +10,7 @@ export const getCSSCustomProp = (propKey) => {
     );
 
     if (response.length) {
-        response = response.replace(/"/g, '').trim();
+        response = response.replace(/"/g, "").trim();
     }
 
     return response;

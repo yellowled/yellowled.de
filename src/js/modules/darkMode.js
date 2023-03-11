@@ -4,21 +4,21 @@
  * https://hankchizljaw.com/wrote/create-a-user-controlled-dark-or-light-mode/
  */
 
-import { sunIcon, moonIcon } from '../util/icons';
-import { getCSSCustomProp } from '../util/getCustomCSSProp';
+import { sunIcon, moonIcon } from "../util/icons";
+import { getCSSCustomProp } from "../util/getCustomCSSProp";
 
 export const darkMode = () => {
-    const STORAGE_KEY = 'user-color-scheme';
-    const COLOR_MODE_KEY = '--color-mode';
+    const STORAGE_KEY = "user-color-scheme";
+    const COLOR_MODE_KEY = "--color-mode";
 
-    const toggleBtn = document.getElementById('dark-mode');
+    const toggleBtn = document.getElementById("dark-mode");
 
     const applySetting = (passedSetting) => {
         let currentSetting = passedSetting || localStorage.getItem(STORAGE_KEY);
 
         if (currentSetting) {
             document.documentElement.setAttribute(
-                'data-user-color-scheme',
+                "data-user-color-scheme",
                 currentSetting
             );
             setButtonLabelAndStatus(currentSetting);
@@ -28,11 +28,11 @@ export const darkMode = () => {
     };
 
     const setButtonLabelAndStatus = (currentSetting) => {
-        toggleBtn.innerHTML = currentSetting === 'dark' ? sunIcon : moonIcon;
+        toggleBtn.innerHTML = currentSetting === "dark" ? sunIcon : moonIcon;
         toggleBtn.setAttribute(
-            'aria-label',
+            "aria-label",
             `Zu ${
-                currentSetting === 'dark' ? 'hellem' : 'dunklem'
+                currentSetting === "dark" ? "hellem" : "dunklem"
             } Farbschema wechseln`
         );
     };
@@ -43,15 +43,15 @@ export const darkMode = () => {
         switch (currentSetting) {
             case null:
                 currentSetting =
-                    getCSSCustomProp(COLOR_MODE_KEY) === 'dark'
-                        ? 'light'
-                        : 'dark';
+                    getCSSCustomProp(COLOR_MODE_KEY) === "dark"
+                        ? "light"
+                        : "dark";
                 break;
-            case 'light':
-                currentSetting = 'dark';
+            case "light":
+                currentSetting = "dark";
                 break;
-            case 'dark':
-                currentSetting = 'light';
+            case "dark":
+                currentSetting = "light";
                 break;
         }
         /* eslint-enable indent */
@@ -61,9 +61,9 @@ export const darkMode = () => {
         return currentSetting;
     };
 
-    toggleBtn.addEventListener('click', (e) => {
+    toggleBtn.addEventListener("click", (e) => {
         document.body.style.transition =
-            'background 100ms ease-in-out, color 100ms ease-in-out';
+            "background 100ms ease-in-out, color 100ms ease-in-out";
         e.preventDefault();
         applySetting(toggleSetting());
     });

@@ -1,17 +1,17 @@
 module.exports = {
-    extends: ['stylelint-config-standard-scss'],
+    extends: ["stylelint-config-standard-scss"],
     rules: {
-        'no-descending-specificity': null,
-        'alpha-value-notation': [
-            'percentage',
+        "no-descending-specificity": null,
+        "alpha-value-notation": [
+            "percentage",
             {
-                exceptProperties: ['opacity'],
+                exceptProperties: ["opacity"],
             },
         ],
-        'property-no-vendor-prefix': [
+        "property-no-vendor-prefix": [
             true,
             {
-                ignoreProperties: ['appearance', 'text-size-adjust'],
+                ignoreProperties: ["appearance", "text-size-adjust"],
             },
         ],
     },

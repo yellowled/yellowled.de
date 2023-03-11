@@ -1,17 +1,17 @@
-@use 'variables';
+@use "variables";
 
-@use 'elements/reset';
+@use "elements/reset";
 
-@use '../../node_modules/prismjs/themes/prism';
+@use "../../node_modules/prismjs/themes/prism";
 
-@use 'blocks/global';
-@use 'blocks/layout';
-@use 'blocks/header';
-@use 'blocks/footer';
-@use 'blocks/search';
-@use 'blocks/archive';
-@use 'blocks/plays';
-@use 'blocks/cv';
+@use "blocks/global";
+@use "blocks/layout";
+@use "blocks/header";
+@use "blocks/footer";
+@use "blocks/search";
+@use "blocks/archive";
+@use "blocks/plays";
+@use "blocks/cv";
 
 @media print {
     body {

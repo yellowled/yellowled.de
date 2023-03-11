@@ -10,7 +10,7 @@
         "clean": "del-cli _site",
         "compile:js": "rollup -c",
         "compile:scss": "sass --source-map-urls=absolute src/scss/main.scss _site/css/main.css",
-        "lint:js": "eslint src/js/**/*",
+        "lint:js": "eslint src/js/* src/js/**/*",
         "lint:scss": "stylelint src/scss/**/*.scss",
         "minify:js": "terser -c -m --source-map content=_site/js/main.js.map,includeSources,url=main.js.map -o _site/js/main.js -- _site/js/main.js",
         "minify:scss": "postcss --config .postcssrc.json _site/css/main.css -r",

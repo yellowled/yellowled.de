@@ -1,5 +1,5 @@
-@use '../mixins/responsive';
-@use '../mixins/typography';
+@use "../mixins/responsive";
+@use "../mixins/typography";
 
 html {
     @media screen and (min-width: 48em) {
@@ -91,7 +91,7 @@ a {
     &[href^="//"]:not([href*="yellowled.de"])
     {
         &::after {
-            content: '↗';
+            content: "↗";
         }
     }
 }
@@ -108,8 +108,8 @@ blockquote {
     @include responsive.responsive-object;
 }
 
-code[class*='language-'],
-pre[class*='language-'] {
+code[class*="language-"],
+pre[class*="language-"] {
     font-size: 0.875em;
 }
 

@@ -1,5 +1,5 @@
 :root {
-    --color-mode: 'light';
+    --color-mode: "light";
     --color-page: #fdfdfd;
     --color-text: #222;
     --color-primary: #2763a5;
@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --color-mode: 'dark';
+        --color-mode: "dark";
     }
 
     :root:not([data-user-color-scheme]) {
@@ -31,7 +31,7 @@
     }
 }
 
-[data-user-color-scheme='dark'] {
+[data-user-color-scheme="dark"] {
     --color-page: #222;
     --color-text: #fdfdfd;
     --color-primary: #ffc000;

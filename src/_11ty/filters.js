@@ -1,7 +1,7 @@
-const { DateTime } = require('luxon');
+const { DateTime } = require("luxon");
 
 module.exports = {
-    dateFormat: function (date, format = 'dd.LL.yyyy') {
+    dateFormat: function (date, format = "dd.LL.yyyy") {
         return DateTime.fromJSDate(date).toFormat(String(format));
     },
 
@@ -11,15 +11,15 @@ module.exports = {
 
     datePlays: function (
         date,
-        formatIn = 'yyyy-LL-dd',
-        formatOut = 'dd.LL.yyyy'
+        formatIn = "yyyy-LL-dd",
+        formatOut = "dd.LL.yyyy"
     ) {
         const formatted = DateTime.fromFormat(
             String(date),
             String(formatIn)
         ).toFormat(String(formatOut));
 
-        if (formatted === 'Invalid DateTime') {
+        if (formatted === "Invalid DateTime") {
             return date;
         }
         return formatted;

@@ -23,13 +23,13 @@
 
     &__prev {
         &::before {
-            content: '← ';
+            content: "← ";
         }
     }
 
     &__next {
         &::after {
-            content: ' →';
+            content: " →";
         }
     }
 }

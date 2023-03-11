@@ -4,15 +4,15 @@
  * @param {String} siteUrl Preset url for the static search form's `site:` value
  */
 
-export const initSearch = (siteUrl = 'yellowled.de') => {
-    const searchForm = document.getElementById('search');
-    const searchInput = document.getElementById('search__term');
-    const searchResults = document.getElementById('search__results');
+export const initSearch = (siteUrl = "yellowled.de") => {
+    const searchForm = document.getElementById("search");
+    const searchInput = document.getElementById("search__term");
+    const searchResults = document.getElementById("search__results");
 
     if (!searchForm) return;
 
     // Clear the static form field's preset value
-    searchInput.value = searchInput.value.replace(`site:${siteUrl} `, '');
+    searchInput.value = searchInput.value.replace(`site:${siteUrl} `, "");
 
     /**
      * Create the markup for search results
@@ -23,13 +23,13 @@ export const initSearch = (siteUrl = 'yellowled.de') => {
     const createResultsHTML = (results) => {
         let html = `<p>${results.length} Treffer für diese(n) Suchbegriff(e):</p>`;
 
-        html += '<ul>';
+        html += "<ul>";
         html += results
             .map(function (item) {
                 return `<li><a href="${item.url}">${item.title}</a></li>`;
             })
-            .join('');
-        html += '</ul>';
+            .join("");
+        html += "</ul>";
 
         return html;
     };
@@ -41,7 +41,7 @@ export const initSearch = (siteUrl = 'yellowled.de') => {
      * @param {Array} searchIndex Searchable data for every page
      */
     const searchTerm = function (query, searchIndex) {
-        const reg = new RegExp(query, 'gi');
+        const reg = new RegExp(query, "gi");
         const priority1 = [];
         const priority2 = [];
 
@@ -54,14 +54,14 @@ export const initSearch = (siteUrl = 'yellowled.de') => {
 
         searchResults.innerHTML =
             results.length < 1
-                ? '<p>Für diese(n) Suchbegriff(e) gibt es keine Treffer.</p>'
+                ? "<p>Für diese(n) Suchbegriff(e) gibt es keine Treffer.</p>"
                 : createResultsHTML(results);
     };
 
     // Fetch search index data
     async function getSearchIndex() {
         try {
-            const response = await fetch('../searchIndex.json');
+            const response = await fetch("../searchIndex.json");
             const data = await response.json();
             return data;
         } catch (error) {
@@ -78,5 +78,5 @@ export const initSearch = (siteUrl = 'yellowled.de') => {
         }
     }
 
-    searchForm.addEventListener('submit', handleSearchSubmit, false);
+    searchForm.addEventListener("submit", handleSearchSubmit, false);
 };

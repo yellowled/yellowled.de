@@ -1,12 +1,12 @@
-import babel from '@rollup/plugin-babel';
-import commonjs from '@rollup/plugin-commonjs';
-import resolve from '@rollup/plugin-node-resolve';
+import babel from "@rollup/plugin-babel";
+import commonjs from "@rollup/plugin-commonjs";
+import resolve from "@rollup/plugin-node-resolve";
 
 export default {
-    input: 'src/js/main.js',
+    input: "src/js/main.js",
     output: {
-        file: '_site/js/main.js',
-        format: 'iife',
+        file: "_site/js/main.js",
+        format: "iife",
         sourcemap: true,
     },
     plugins: [
@@ -17,15 +17,15 @@ export default {
             exclude: [/\/core-js\//],
             presets: [
                 [
-                    '@babel/preset-env',
+                    "@babel/preset-env",
                     {
-                        useBuiltIns: 'usage',
+                        useBuiltIns: "usage",
                         corejs: 3,
                     },
                 ],
             ],
-            babelHelpers: 'bundled',
+            babelHelpers: "bundled",
         }),
     ],
-    context: 'window',
+    context: "window",
 };

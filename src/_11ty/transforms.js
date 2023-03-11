@@ -1,9 +1,9 @@
-const htmlmin = require('html-minifier');
+const htmlmin = require("html-minifier");
 
 const shouldTransformHTML = (outputPath) =>
     outputPath &&
-    outputPath.endsWith('.html') &&
-    process.env.ELEVENTY_ENV === 'production';
+    outputPath.endsWith(".html") &&
+    process.env.ELEVENTY_ENV === "production";
 
 process.setMaxListeners(Infinity);
 
