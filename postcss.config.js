@@ -5,9 +5,7 @@ module.exports = {
         sourcesContent: true,
     },
     plugins: {
-        autoprefixer: {
-            grid: true,
-        },
+        autoprefixer: {},
         cssnano: {
             preset: 'default',
         },

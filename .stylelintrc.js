@@ -1,7 +1,6 @@
 module.exports = {
-    extends: ['stylelint-config-standard-scss', 'stylelint-config-prettier'],
+    extends: ['stylelint-config-standard-scss'],
     rules: {
-        indentation: 4,
         'no-descending-specificity': null,
         'alpha-value-notation': [
             'percentage',
