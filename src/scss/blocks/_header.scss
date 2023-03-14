@@ -25,10 +25,5 @@ body > header {
         &:focus {
             color: var(--color-text);
         }
-
-        .no-js & {
-            display: none;
-            visibility: hidden;
-        }
     }
 }
