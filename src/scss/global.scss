@@ -415,14 +415,3 @@ body {
 .intro {
     font-size: 1.4rem;
 }
-
-@media print {
-    body {
-        padding: 0;
-
-        > header,
-        > footer {
-            display: none;
-        }
-    }
-}
