@@ -1,5 +1,7 @@
+.astro/
+dist/
+node_modules/
 .DS_Store
 .env
-.vscode
-_site
-node_modules
+.env.production
+npm-debug.log*

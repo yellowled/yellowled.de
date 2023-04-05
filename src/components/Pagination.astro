@@ -1,0 +1,56 @@
+---
+export interface Props {
+    prev: string;
+    next: string;
+}
+
+const { prev, next } = Astro.props;
+---
+
+<nav>
+    <ul>
+        {
+            prev && (
+                <li class="prev">
+                    <a href={prev}>Neuere Einträge</a>
+                </li>
+            )
+        }
+        {
+            next && (
+                <li class="next">
+                    <a href={next}>Ältere Einträge</a>
+                </li>
+            )
+        }
+    </ul>
+</nav>
+
+<style lang="scss">
+    nav {
+        ul {
+            display: flex;
+            justify-content: space-between;
+
+            > li {
+                flex: 0 1 auto;
+            }
+        }
+    }
+
+    .prev {
+        margin-right: auto;
+
+        &::before {
+            content: "← ";
+        }
+    }
+
+    .next {
+        margin-left: auto;
+
+        &::after {
+            content: " →";
+        }
+    }
+</style>

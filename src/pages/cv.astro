@@ -1,0 +1,335 @@
+---
+import { Icon } from "astro-icon";
+import CV from "../layouts/CV.astro";
+---
+
+<CV title="CV Matthias Mees" description="Online-Lebenslauf von Matthias Mees">
+    <h1>Matthias Mees</h1>
+
+    <h2>Persönliche Daten</h2>
+
+    <ul class="contact">
+        <li>
+            <Icon
+                name="bi:house"
+                width="16"
+                height="16"
+                fill="currentColor"
+                aria-label="Adresse"
+            />
+            Rehhorst 39, 23701 Eutin
+        </li>
+        <li>
+            <Icon
+                name="bi:calendar3"
+                width="16"
+                height="16"
+                fill="currentColor"
+                aria-label="Geboren am"
+            /> 04.05.1974
+        </li>
+        <li>
+            <Icon
+                name="bi:envelope"
+                width="16"
+                height="16"
+                fill="currentColor"
+                aria-label="E-Mail"
+            />
+            <del>entfernt</del>
+        </li>
+        <li>
+            <Icon
+                name="bi:phone"
+                width="16"
+                height="16"
+                fill="currentColor"
+                aria-label="Telefon"
+            />
+            <del>entfernt</del>
+        </li>
+        <li>
+            <Icon
+                name="bi:link-45deg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                aria-label="Webseite"
+            />
+            <a href="https://yellowled.de">yellowled.de</a>
+        </li>
+        <li>
+            <Icon
+                name="bi:github"
+                width="16"
+                height="16"
+                fill="currentColor"
+                aria-label="GitHub"
+            />
+            <a href="https://github.com/yellowled/">yellowled</a>
+        </li>
+    </ul>
+
+    <h2>Über mich</h2>
+
+    <p>
+        Ich bin <strong>Frontend-Entwickler</strong> mit 15 Jahren Berufserfahrung.
+        Meine Basis sind semantisches HTML, effizientes CSS und modulares JavaScript.
+        Ich habe Erfahrungen mit diversen Open-Source-<abbr
+            title="Content Management Systemen">CMS</abbr
+        > und verschiedenen JavaScript-Frameworks. Mobiles Arbeiten in einem agilen,
+        crossfunktionalen Team ist meine Idealvorstellung.
+    </p>
+
+    <h2>Kenntnisse</h2>
+
+    <div class="skills">
+        <div>
+            <h3>HTML</h3>
+
+            <ul>
+                <li>sowie PHP-Templates wie Smarty und Twig</li>
+                <li>JS-Templates mit JSX, Handlebars, Liquid, Nunjucks etc.</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>CSS</h3>
+
+            <ul>
+                <li>einschließlich SCSS, PostCSS und Stylelint</li>
+                <li>oder Rapid Prototyping mit Bootstrap</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>JavaScript</h3>
+
+            <ul>
+                <li>inklusive Babel und eslint</li>
+                <li>praktische Erfahrung mit React und Svelte</li>
+                <li>Grundwissen in VueJS und TypeScript</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>CMS</h3>
+
+            <ul>
+                <li>
+                    Erfahrung mit Open-Source-Systemen wie Wordpress, TYPO3,
+                    ProcessWire u.v.m.
+                </li>
+                <li>sowie Headless-CMS (Strapi, Directus)</li>
+                <li>
+                    Static Site Generatoren (Eleventy, <a
+                        href="https://astro.build">Astro</a
+                    >)
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Des Weiteren …</h3>
+
+            <ul>
+                <li>Agiles Arbeiten mit Scrum und Kanban</li>
+                <li>Versionskontrolle mit git</li>
+                <li>Frontend-Tooling mit npm, prettier, Gulp, Rollup etc.</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Sprachen</h3>
+
+            <ul>
+                <li>Deutsch (Muttersprache)</li>
+                <li>Englisch (fließend)</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>Berufserfahrung</h2>
+
+    <ol class="timeline" reversed>
+        <li>
+            <article>
+                <span class="timespan">01/2023 - heute</span>
+
+                <h3>Frontend-Entwickler</h3>
+
+                <span class="position"
+                    ><a href="https://chemocompile.de"
+                        >MPS – Medizinische Planungssysteme GmbH</a
+                    > (100% remote)</span
+                >
+
+                <ul>
+                    <li>
+                        Migration einer komplexen Single Page Application von
+                        AngularJS nach React
+                    </li>
+                    <li>
+                        Automatisierte Tests mit Jest und React Testing Library
+                    </li>
+                </ul>
+            </article>
+        </li>
+        <li>
+            <article>
+                <span class="timespan">07/2017 - 12/2022</span>
+
+                <h3>Frontend-Entwickler</h3>
+
+                <span class="position"
+                    ><a href="https://gebruederheitz.de">/gebruederheitz</a> (100%
+                    remote)</span
+                >
+
+                <ul>
+                    <li>
+                        Frontend in Projekten mit Wordpress und TYPO3
+                        (Corporate/Marketing Sites)
+                    </li>
+                    <li>
+                        Entwicklung von Web-Applikationen in Vanilla JS, React
+                        und Svelte
+                    </li>
+                    <li>
+                        Pattern Libraries mit einem inhouse mit <a
+                            href="https://www.11ty.dev">Eleventy</a
+                        > entwickelten Generator
+                    </li>
+                </ul>
+            </article>
+        </li>
+        <li>
+            <article>
+                <span class="timespan">11/2007 - 06/2017</span>
+
+                <h3>Webdesigner</h3>
+
+                <span class="position">selbständiger Einzelunternehmer</span>
+
+                <ul>
+                    <li>
+                        Umsetzung von Webseiten für Vereine und <abbr
+                            title="Kleine und mittlere Unternehmen">KMU</abbr
+                        > mit <a href="https://processwire.com">ProcessWire</a> oder
+                        <a href="https://docs.s9y.org">Serendipity</a>
+                    </li>
+                    <li>
+                        Umsetzung und Wartung von Webseiten für
+                        Einzelunternehmer in statischem HTML
+                    </li>
+                    <li>Frontend für externe Teams als Remote-Freelancer</li>
+                </ul>
+            </article>
+        </li>
+    </ol>
+
+    <h2>Ausbildung</h2>
+
+    <ol class="timeline" reversed>
+        <li>
+            <article>
+                <span class="timespan">1993 - 2000</span>
+
+                <h3>
+                    Politische Wissenschaft (<abbr title="Magister Artium"
+                        >M.A.</abbr
+                    >)
+                </h3>
+
+                <span>Christian-Albrechts-Universität, Kiel</span>
+            </article>
+        </li>
+    </ol>
+</CV>
+
+<style lang="scss">
+    h2 {
+        border-bottom: 1px solid #ccc;
+        margin-top: 2rem;
+        margin-bottom: 0.95rem;
+    }
+
+    .contact {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        svg {
+            fill: var(--color-primary);
+            margin-right: 0.125rem;
+        }
+
+        @media screen and (min-width: 48em) {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(2, 1fr);
+
+            li {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .skills {
+        ul {
+            margin-top: 0.5rem;
+            padding-left: 1rem;
+        }
+
+        @media screen and (min-width: 48em) {
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: repeat(2, 1fr);
+
+            h3 {
+                margin: 0;
+            }
+        }
+    }
+
+    .timeline {
+        list-style: none;
+        padding-left: 0;
+
+        ul {
+            list-style: disc;
+            padding-left: 1rem;
+        }
+
+        > li {
+            margin-bottom: 2rem;
+        }
+
+        h3 {
+            margin-top: 0.25rem;
+            margin-bottom: 0.25rem;
+
+            + p {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .timespan {
+        color: #888;
+        display: block;
+        font-variant: small-caps;
+
+        @media screen and (min-width: 48em) {
+            font-size: 0.8rem;
+        }
+    }
+
+    .position {
+        display: block;
+        margin-bottom: 1rem;
+    }
+</style>

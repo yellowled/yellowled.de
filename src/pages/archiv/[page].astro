@@ -1,0 +1,41 @@
+---
+import { getCollection } from "astro:content";
+
+import Page from "../../layouts/Page.astro";
+import Pagination from "../../components/Pagination.astro";
+
+const title = "Archiv (Blog v2)";
+const description = "Alle Artikel aus meinem alten Blog";
+
+export async function getStaticPaths({ paginate }) {
+    const posts = (await getCollection("v2"))
+        .sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf())
+        .reverse();
+
+    return paginate(posts, { pageSize: 20 });
+}
+
+const { page } = Astro.props;
+---
+
+<Page title={title} description={description}>
+    <p>
+        Dieses Archiv enthält die Textinhalte aller Artikel der (eingestellten)
+        Version 2 meines Blogs in umgekehrter Reihenfolge (Januar 2020 bis
+        Februar 2011). Kommentare, Trackbacks und rein dekorative Grafiken
+        wurden aus Platzgründen entfernt. – <a href="/">Zurück zur Startseite</a
+        >
+    </p>
+
+    <ul>
+        {
+            page.data.map((post) => (
+                <li>
+                    <a href={`/archiv/${post.slug}/`}>{post.data.title}</a>
+                </li>
+            ))
+        }
+    </ul>
+
+    <Pagination next={page.url.next} prev={page.url.prev} />
+</Page>

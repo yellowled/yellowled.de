@@ -1,0 +1,90 @@
+---
+import { CollectionEntry, getCollection } from "astro:content";
+import { Picture } from "@astrojs/image/components";
+
+import Page from "../../layouts/Page.astro";
+
+export async function getStaticPaths() {
+    const instruments = await getCollection("instruments");
+
+    return instruments.map((instrument) => ({
+        params: { slug: instrument.slug },
+        props: instrument,
+    }));
+}
+type Props = CollectionEntry<"instruments">;
+
+const instrument = Astro.props;
+
+const {
+    image,
+    body,
+    neck,
+    profile,
+    radius,
+    fretboard,
+    frets,
+    scale,
+    nut,
+    pickups,
+    url,
+    date,
+} = instrument.data;
+---
+
+<Page title={`${instrument.data.brand} ${instrument.data.model}`}>
+    <div class="plays">
+        <Picture
+            src={image}
+            alt=""
+            sizes="100%, (min-width: 48em) 50%"
+            widths={[320, 720, 1440]}
+            aspectRatio="3:4"
+            formats={["avif"]}
+        />
+
+        <ul>
+            {body && <li>Body: {body}</li>}
+            {neck && <li>Hals: {neck}</li>}
+            {profile && <li>Profil: {profile}</li>}
+            {radius && <li>Radius: {radius}</li>}
+            {fretboard && <li>Griffbrett: {fretboard}</li>}
+            {frets && <li>Bünde: {frets}</li>}
+            {scale && <li>Mensur: {scale}</li>}
+            {nut && <li>Sattelbreite: {nut}</li>}
+            {pickups && <li>Tonabnehmer: {pickups}</li>}
+            {
+                url && (
+                    <li>
+                        <a href={url}>Händlerlink</a>
+                    </li>
+                )
+            }
+            {date && <li>Gekauft: {date}</li>}
+        </ul>
+
+        <a href="/plays/">Zurück zur Übersicht</a>
+    </div>
+</Page>
+
+<style lang="scss">
+    @use "../../scss/mixins/helpers";
+
+    .plays {
+        @include helpers.clearfix;
+
+        img {
+            @media screen and (min-width: 48em) {
+                float: left;
+                margin: 0 2rem 0 0;
+                width: 50%;
+            }
+        }
+
+        ul {
+            @media screen and (min-width: 48em) {
+                margin-top: 0;
+            }
+        }
+    }
+</style>

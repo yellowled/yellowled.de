@@ -1,0 +1,30 @@
+---
+import ThemeButton from "./ThemeButton.svelte";
+---
+
+<header>
+    <a href="/">yellowled.de</a>
+
+    <ThemeButton client:visible />
+</header>
+
+<style lang="scss">
+    @use "../scss/mixins/buttons";
+
+    header {
+        display: flex;
+        justify-content: space-between;
+
+        > a {
+            font-size: 0.875em;
+            font-weight: 300;
+            letter-spacing: 0.25rem;
+            text-transform: uppercase;
+
+            &,
+            &:visited {
+                text-decoration: none;
+            }
+        }
+    }
+</style>

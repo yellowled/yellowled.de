@@ -1,0 +1,36 @@
+---
+export interface Props {
+    date: Date;
+}
+
+import { format, formatISO } from "date-fns";
+
+const { date } = Astro.props;
+---
+
+<footer>
+    <p>
+        Dieser Artikel ist archiviert. Er wurde am <time
+            datetime={formatISO(new Date(date))}
+            >{format(new Date(date), "dd.LL.yyyy")}</time
+        > in <i>YellowLeds Weblog v2</i> veröffentlicht. Der Inhalt ist inzwischen
+        wahrscheinlich veraltet. Kommentare und Trackbacks wurden entfernt. – <a
+            href="/archiv/1">Zur Archivübersicht</a
+        >
+    </p>
+</footer>
+
+<style lang="scss">
+    footer {
+        background-color: var(--color-archive);
+        font-size: 0.875em;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+
+        > p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+</style>

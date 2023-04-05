@@ -1,0 +1,20 @@
+---
+import Page from "../layouts/Page.astro";
+
+import social from "../data/social.json";
+
+const title = "Social Media";
+const description = "Meine Accounts in sozialen Medien";
+---
+
+<Page title={title} description={description}>
+    <ul>
+        {
+            social.map((item) => (
+                <li>
+                    <a href={item.url}>{item.name}</a>
+                </li>
+            ))
+        }
+    </ul>
+</Page>
