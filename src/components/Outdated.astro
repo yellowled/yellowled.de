@@ -3,20 +3,18 @@ export interface Props {
     date: Date;
 }
 
-import { format, formatISO } from "date-fns";
+import Datetime from "./Datetime.astro";
 
 const { date } = Astro.props;
 ---
 
 <footer>
     <p>
-        Dieser Artikel ist archiviert. Er wurde am <time
-            datetime={formatISO(new Date(date))}
-            >{format(new Date(date), "dd.LL.yyyy")}</time
-        > in <i>YellowLeds Weblog v2</i> veröffentlicht. Der Inhalt ist inzwischen
-        wahrscheinlich veraltet. Kommentare und Trackbacks wurden entfernt. – <a
-            href="/archiv/1">Zur Archivübersicht</a
-        >
+        Dieser Artikel ist archiviert. Er wurde am
+        <Datetime date={date} />
+        in <i>YellowLeds Weblog v2</i> veröffentlicht. Der Inhalt ist inzwischen
+        wahrscheinlich veraltet. Kommentare und Trackbacks wurden entfernt. –
+        <a href="/archiv/1">Zur Archivübersicht</a>
     </p>
 </footer>
 

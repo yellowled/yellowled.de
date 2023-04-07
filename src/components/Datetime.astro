@@ -1,0 +1,14 @@
+---
+export interface Props {
+    date: Date;
+}
+
+import { format, formatISO } from "date-fns";
+
+const { date } = Astro.props;
+
+const isoDate = formatISO(new Date(date));
+const readableDate = format(new Date(date), "dd.LL.yyyy");
+---
+
+<time datetime={isoDate}>{readableDate}</time>
