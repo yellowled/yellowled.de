@@ -1,0 +1,30 @@
+.avatar {
+    border-radius: 4px;
+    margin: 1rem 0;
+
+    @media screen and (min-width: 30em) {
+        border-radius: 50%;
+        float: right;
+        margin: 0 0 1rem 1rem;
+        width: 20%;
+    }
+
+    @media screen and (min-width: 48em) {
+        width: 25%;
+    }
+}
+
+.done {
+    background-color: var(--color-primary);
+    color: var(--color-page);
+    font-size: 1.4rem;
+    padding: 1rem;
+
+    strong {
+        text-transform: uppercase;
+    }
+}
+
+.intro {
+    font-size: 1.4rem;
+}

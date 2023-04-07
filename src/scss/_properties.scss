@@ -1,0 +1,69 @@
+:root {
+    --color-mode: "light";
+    --color-page: #fdfdfd;
+    --color-text: #222;
+    --color-primary: #2763a5;
+    --color-border: #ddd;
+    --color-archive: #ddd;
+    --color-form-input: #fff;
+    --color-form-text: #495057;
+    --color-form-border: #ced4da;
+    --color-form-border-focus: #8bbafe;
+    --color-form-shadow: rgba(13, 110, 253, 0.25);
+
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: var(--color-text);
+    --pagefind-ui-text: var(--color-text);
+    --pagefind-ui-background: var(--color-page);
+    --pagefind-ui-border: var(--color-border);
+    --pagefind-ui-tag: var(--color-border);
+    --pagefind-ui-border-width: 2px;
+    --pagefind-ui-border-radius: 0;
+    --pagefind-ui-image-border-radius: 0;
+    --pagefind-ui-image-box-ratio: 3 / 2;
+    --pagefind-ui-font: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-mode: "dark";
+    }
+
+    :root:not(.dark) {
+        --color-page: #222;
+        --color-text: #fdfdfd;
+        --color-primary: #ffc000;
+        --color-border: #ddd;
+        --color-archive: #444;
+        --color-form-input: #444;
+        --color-form-text: #fdfdfd;
+        --color-form-border: #ced4da;
+        --color-form-border-focus: #fef2cc;
+        --color-form-shadow: rgba(13, 110, 253, 0.25);
+
+        --pagefind-ui-primary: var(--color-text);
+        --pagefind-ui-text: var(--color-text);
+        --pagefind-ui-background: var(--color-page);
+        --pagefind-ui-border: var(--color-border);
+        --pagefind-ui-tag: var(--color-border);
+    }
+}
+
+.dark {
+    --color-page: #222;
+    --color-text: #fdfdfd;
+    --color-primary: #ffc000;
+    --color-border: #ddd;
+    --color-archive: #444;
+    --color-form-input: #444;
+    --color-form-text: #fdfdfd;
+    --color-form-border: #ced4da;
+    --color-form-border-focus: #fef2cc;
+    --color-form-shadow: rgba(13, 110, 253, 0.25);
+
+    --pagefind-ui-primary: var(--color-text);
+    --pagefind-ui-text: var(--color-text);
+    --pagefind-ui-background: var(--color-page);
+    --pagefind-ui-border: var(--color-border);
+    --pagefind-ui-tag: var(--color-border);
+}
