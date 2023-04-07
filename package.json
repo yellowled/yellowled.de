@@ -18,7 +18,7 @@
         "astro-pagefind": "^1.0.1",
         "autoprefixer": "^10.4.14",
         "date-fns": "^2.29.3",
-        "sass": "^1.60.0",
+        "sass": "^1.61.0",
         "sharp": "^0.31.3",
         "svelte": "^3.58.0"
     },

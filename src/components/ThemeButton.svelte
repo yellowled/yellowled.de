@@ -6,9 +6,5 @@
 </script>
 
 <ThemeSwitch let:theme>
-    {#if theme === "dark"}
-        <Sun />
-    {:else}
-        <Moon />
-    {/if}
+    {#if theme === "dark"}<Sun />{:else}<Moon />{/if}
 </ThemeSwitch>
