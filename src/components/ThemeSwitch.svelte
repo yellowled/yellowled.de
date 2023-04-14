@@ -49,10 +49,12 @@
         @include buttons.unstyled-button;
 
         color: var(--color-text);
+        cursor: pointer;
 
         &:hover,
         &:focus {
             color: var(--color-text);
+            cursor: pointer;
         }
     }
 </style>
