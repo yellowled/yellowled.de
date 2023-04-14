@@ -2,6 +2,7 @@ module.exports = {
     extends: ["stylelint-config-standard-scss"],
     rules: {
         "no-descending-specificity": null,
+        "media-feature-range-notation": "prefix",
         "alpha-value-notation": [
             "percentage",
             {
