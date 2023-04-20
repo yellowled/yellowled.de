@@ -1,6 +1,8 @@
 ---
 import { Icon } from "astro-icon";
 import CV from "../layouts/CV.astro";
+
+const looking = false;
 ---
 
 <CV title="CV Matthias Mees" description="Online-Lebenslauf von Matthias Mees">
@@ -36,7 +38,13 @@ import CV from "../layouts/CV.astro";
                 fill="currentColor"
                 aria-label="E-Mail"
             />
-            <del>entfernt</del>
+            {
+                looking ? (
+                    <a href="mailto:mees@mailbox.org">mees@maibox.org</a>
+                ) : (
+                    <del>entfernt</del>
+                )
+            }
         </li>
         <li>
             <Icon
@@ -46,7 +54,7 @@ import CV from "../layouts/CV.astro";
                 fill="currentColor"
                 aria-label="Telefon"
             />
-            <del>entfernt</del>
+            {looking ? <>0176 61735567</> : <del>entfernt</del>}
         </li>
         <li>
             <Icon
