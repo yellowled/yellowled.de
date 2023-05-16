@@ -30,7 +30,7 @@
         "autoprefixer": "^10.4.14",
         "date-fns": "^2.30.0",
         "sass": "^1.62.1",
-        "sharp": "^0.31.3",
+        "sharp": "^0.32.1",
         "svelte": "^3.59.1"
     },
     "devDependencies": {
