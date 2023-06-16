@@ -29,7 +29,7 @@
         "astro-pagefind": "^1.2.0",
         "autoprefixer": "^10.4.14",
         "date-fns": "^2.30.0",
-        "sass": "^1.63.3",
+        "sass": "^1.63.4",
         "sharp": "^0.32.1",
         "svelte": "^3.59.1"
     },
