@@ -10,17 +10,6 @@
     --color-form-border: #ced4da;
     --color-form-border-focus: #8bbafe;
     --color-form-shadow: rgba(13 110 253 / 25%);
-    --pagefind-ui-scale: 1;
-    --pagefind-ui-primary: var(--color-text);
-    --pagefind-ui-text: var(--color-text);
-    --pagefind-ui-background: var(--color-page);
-    --pagefind-ui-border: var(--color-border);
-    --pagefind-ui-tag: var(--color-border);
-    --pagefind-ui-border-width: 2px;
-    --pagefind-ui-border-radius: 0;
-    --pagefind-ui-image-border-radius: 0;
-    --pagefind-ui-image-box-ratio: 3 / 2;
-    --pagefind-ui-font: inherit;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,11 +28,6 @@
         --color-form-border: #ced4da;
         --color-form-border-focus: #fef2cc;
         --color-form-shadow: rgba(13 110 253 / 25%);
-        --pagefind-ui-primary: var(--color-text);
-        --pagefind-ui-text: var(--color-text);
-        --pagefind-ui-background: var(--color-page);
-        --pagefind-ui-border: var(--color-border);
-        --pagefind-ui-tag: var(--color-border);
     }
 }
 
@@ -58,9 +42,4 @@
     --color-form-border: #ced4da;
     --color-form-border-focus: #fef2cc;
     --color-form-shadow: rgba(13 110 253 / 25%);
-    --pagefind-ui-primary: var(--color-text);
-    --pagefind-ui-text: var(--color-text);
-    --pagefind-ui-background: var(--color-page);
-    --pagefind-ui-border: var(--color-border);
-    --pagefind-ui-tag: var(--color-border);
 }

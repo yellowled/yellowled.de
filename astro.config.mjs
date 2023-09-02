@@ -2,7 +2,6 @@ import { defineConfig } from "astro/config";
 import svelte from "@astrojs/svelte";
 import image from "@astrojs/image";
 import sitemap from "@astrojs/sitemap";
-import pagefind from "astro-pagefind";
 
 export default defineConfig({
     site: "https://www.yellowled.de",
@@ -18,6 +17,5 @@ export default defineConfig({
         }),
         sitemap(),
         svelte(),
-        pagefind(),
     ],
 });
