@@ -2,6 +2,10 @@ const form = document.querySelector("#search");
 const term = document.querySelector("#term");
 const results = document.querySelector("#results");
 const heading = document.querySelector("#status");
+const url =
+    import.meta.env.MODE === "development"
+        ? "http://localhost:3000"
+        : "https://www.yellowled.de";
 
 form.addEventListener("submit", submitHandler);
 
@@ -11,7 +15,7 @@ function submitHandler(event) {
 }
 
 async function search(query) {
-    const response = await fetch("https://www.yellowled.de/api/search.json");
+    const response = await fetch(`${url}/api/search.json`);
     const searchIndex = await response.json();
     const regMap = query
         .toLowerCase()
