@@ -11,7 +11,7 @@ function submitHandler(event) {
 }
 
 async function search(query) {
-    const response = await fetch("https://yellowled.de/api/search.json");
+    const response = await fetch("https://www.yellowled.de/api/search.json");
     const searchIndex = await response.json();
     const regMap = query
         .toLowerCase()
