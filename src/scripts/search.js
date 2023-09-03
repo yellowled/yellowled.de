@@ -4,7 +4,7 @@ const results = document.querySelector("#results");
 const heading = document.querySelector("#status");
 const url =
     import.meta.env.MODE === "development"
-        ? "http://localhost:3000"
+        ? "http://localhost:4321"
         : "https://www.yellowled.de";
 
 form.addEventListener("submit", submitHandler);

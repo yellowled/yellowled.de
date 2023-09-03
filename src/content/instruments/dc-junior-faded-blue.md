@@ -2,7 +2,7 @@
 number: 3
 brand: "Harley Benton"
 model: "DC-Junior Faded Blue"
-image: "/img/dc-junior.jpg"
+image: "./dc-junior.jpg"
 body: "Mahagoni"
 neck: "Mahagoni (eingeleimt)"
 profile: "60's C"

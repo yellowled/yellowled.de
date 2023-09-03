@@ -2,7 +2,7 @@
 number: 2
 brand: "Harley Benton"
 model: "TE-52 NA"
-image: "/img/bg-tele.jpg"
+image: "./bg-tele.jpg"
 body: "amerikanische Esche"
 neck: "karamelisierter kanadischer Ahorn mit Roseacer Skunk Stripe (geschraubt)"
 profile: "C"

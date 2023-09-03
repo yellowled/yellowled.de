@@ -2,7 +2,7 @@
 number: 1
 brand: "Ibanez"
 model: "ATK-300 Honeyburst"
-image: "/img/atk-300.jpg"
+image: "./atk-300.jpg"
 body: "Esche"
 neck: "Ahorn (geschraubt)"
 profile: ""

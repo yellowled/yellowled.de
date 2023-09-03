@@ -1,6 +1,6 @@
 ---
 import { CollectionEntry, getCollection } from "astro:content";
-import { Picture } from "@astrojs/image/components";
+import { Image } from "astro:assets";
 
 import Page from "../../layouts/Page.astro";
 
@@ -34,13 +34,9 @@ const {
 
 <Page title={`${instrument.data.brand} ${instrument.data.model}`}>
     <div class="plays">
-        <Picture
+        <Image
             src={image}
             alt=""
-            sizes="100%, (min-width: 48em) 50%"
-            widths={[320, 720, 1440]}
-            aspectRatio="3:4"
-            formats={["avif"]}
         />
 
         <ul>

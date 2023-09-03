@@ -9,23 +9,26 @@ const v2 = defineCollection({
 });
 
 const instruments = defineCollection({
-    schema: z.object({
-        number: z.number(),
-        brand: z.string(),
-        model: z.string(),
-        image: z.string(),
-        body: z.string(),
-        neck: z.string(),
-        profile: z.string(),
-        radius: z.string(),
-        fretboard: z.string(),
-        frets: z.string(),
-        scale: z.string(),
-        nut: z.string(),
-        pickups: z.string(),
-        url: z.string(),
-        date: z.string(),
-    }),
+    schema: ({ image }) =>
+        z.object({
+            number: z.number(),
+            brand: z.string(),
+            model: z.string(),
+            image: image().refine((img) => img.width >= 1440, {
+                message: "Instrument image must be at least 1440 pixels wide!",
+            }),
+            body: z.string(),
+            neck: z.string(),
+            profile: z.string(),
+            radius: z.string(),
+            fretboard: z.string(),
+            frets: z.string(),
+            scale: z.string(),
+            nut: z.string(),
+            pickups: z.string(),
+            url: z.string(),
+            date: z.string(),
+        }),
 });
 
 const wamwz = defineCollection({
