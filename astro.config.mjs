@@ -1,5 +1,4 @@
 import { defineConfig } from "astro/config";
-import svelte from "@astrojs/svelte";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
@@ -10,5 +9,5 @@ export default defineConfig({
             wrap: true,
         },
     },
-    integrations: [sitemap(), svelte()],
+    integrations: [sitemap()],
 });

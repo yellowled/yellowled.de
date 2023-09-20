@@ -1,0 +1,39 @@
+<div>
+    <input type="checkbox" id="toggle-darkmode" />
+    <label for="toggle-darkmode"><span>Dark Mode aktiviert</span></label>
+</div>
+
+<script is:inline>
+    const darkModeOverride = window.localStorage.getItem('color-mode');
+    const hasDarkModeOverride = typeof darkModeOverride === 'string';
+
+    if (
+        (darkModeOverride == 'dark') ||
+        (!hasDarkModeOverride && window.matchMedia('(prefers-color-scheme: dark)').matches)
+    ) {
+        document.querySelector('#toggle-darkmode').checked = true;
+    }
+</script>
+
+<script src="../scripts/darkmode.js"></script>
+
+<style lang="scss">
+    @use "../scss/mixins/_helpers.scss";
+
+    #toggle-darkmode {
+	    display: none;
+    }
+
+    #toggle-darkmode + label > span {
+	    @include helpers.visuallyhidden;
+    }
+
+    #toggle-darkmode + label::after {
+	    content: "🌙";
+	    cursor: pointer;
+    }
+
+    #toggle-darkmode:checked + label::after {
+	    content: "🔆";
+    }
+</style>

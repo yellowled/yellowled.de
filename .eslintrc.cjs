@@ -4,12 +4,7 @@ module.exports = {
         node: true,
         es6: true,
     },
-    extends: [
-        "eslint:recommended",
-        "plugin:astro/recommended",
-        "plugin:svelte/recommended",
-        "prettier",
-    ],
+    extends: ["eslint:recommended", "plugin:astro/recommended", "prettier"],
     rules: {
         indent: ["error", 4],
         "linebreak-style": ["error", "unix"],
