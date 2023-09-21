@@ -9,12 +9,12 @@
 </div>
 
 <script is:inline>
-    const darkModeOverride = window.localStorage.getItem("theme");
-    const hasDarkModeOverride = typeof darkModeOverride === "string";
+    const override = window.localStorage.getItem("theme");
+    const hasOverride = typeof override === "string";
 
     if (
-        (darkModeOverride == "dark") ||
-        (!hasDarkModeOverride && window.matchMedia("(prefers-color-scheme: dark)").matches)
+        (override == "dark") ||
+        (!hasOverride && window.matchMedia("(prefers-color-scheme: dark)").matches)
     ) {
         document.querySelector("#theme").checked = true;
     }
@@ -39,11 +39,7 @@
 </style>
 
 <style is:global lang="scss">
-    #sun {
-        display: none;
-    }
-
-    [data-theme="light"] {
+    #theme + label {
         #sun {
             display: none;
         }
@@ -53,7 +49,7 @@
         }
     }
 
-    [data-theme="dark"] {
+    #theme:checked + label {
         #sun {
             display: inline-block;
         }
