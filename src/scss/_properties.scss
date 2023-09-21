@@ -1,5 +1,5 @@
 :root,
-:root[data-force-color-mode="light"] {
+:root[data-theme="light"] {
     --color-mode: "light";
     --color-page: #fdfdfd;
     --color-text: #222;
@@ -28,7 +28,7 @@
     }
 }
 
-:root[data-force-color-mode="dark"] {
+:root[data-theme="dark"] {
     --color-page: #222;
     --color-text: #fdfdfd;
     --color-primary: #ffc000;

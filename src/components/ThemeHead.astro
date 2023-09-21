@@ -1,6 +1,6 @@
 <script is:inline>
-    const stored = window.localStorage.getItem('color-mode');
+    const stored = window.localStorage.getItem('theme');
     if (typeof stored === 'string') {
-        document.documentElement.setAttribute('data-force-color-mode', stored);
+        document.documentElement.setAttribute('data-theme', stored);
     }
 </script>

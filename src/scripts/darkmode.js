@@ -1,18 +1,18 @@
 const setColorMode = (mode) => {
-    document.documentElement.setAttribute("data-force-color-mode", mode);
-    window.localStorage.setItem("color-mode", mode);
-    document.querySelector("#toggle-darkmode").checked = mode === "dark";
+    document.documentElement.setAttribute("data-theme", mode);
+    window.localStorage.setItem("theme", mode);
+    document.querySelector("#theme").checked = mode === "dark";
 };
 
-document.querySelector("#toggle-darkmode").addEventListener("click", (e) => {
+document.querySelector("#theme").addEventListener("click", (e) => {
     setColorMode(e.target.checked ? "dark" : "light");
 });
 
 const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
 
 mediaQuery.addEventListener("change", () => {
-    if (document.documentElement.getAttribute("data-force-color-mode")) {
+    if (document.documentElement.getAttribute("data-theme")) {
         return;
     }
-    document.querySelector("#toggle-darkmode").checked = mediaQuery.matches;
+    document.querySelector("#theme").checked = mediaQuery.matches;
 });
