@@ -112,7 +112,8 @@ a {
 
     &[href^="http://"]:not([href*="yellowled.de"]),
     &[href^="https://"]:not([href*="yellowled.de"]),
-    &[href^="//"]:not([href*="yellowled.de"])
+    &[href^="//"]:not([href*="yellowled.de"]),
+    &[href^="https://bsky.app/profile/yellowled.de"]
     {
         &::after {
             content: "↗";
