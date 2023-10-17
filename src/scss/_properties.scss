@@ -1,5 +1,5 @@
 :root,
-:root[data-theme="light"] {
+.light {
     --color-mode: "light";
     --color-page: #fdfdfd;
     --color-text: #222;
@@ -28,7 +28,7 @@
     }
 }
 
-[data-theme="dark"] {
+.dark {
     --color-page: #222;
     --color-text: #fdfdfd;
     --color-primary: #ffc000;

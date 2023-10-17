@@ -1,10 +1,10 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
 import { VERIFICATION } from "../data/meta";
 
-import "../scss/global.scss";
-
 import Favicons from "../components/Favicons.astro";
-import ThemeHead from "../components/ThemeHead.astro";
+
+import "../scss/global.scss";
 
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
 const { title, description } = Astro.props.frontmatter || Astro.props;
@@ -16,11 +16,11 @@ const { title, description } = Astro.props.frontmatter || Astro.props;
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{title} | yellowled.de</title>
+        <ViewTransitions />
         {description && <meta name="description" content={description} />}
         {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
         <meta name="generator" content={Astro.generator} />
         <meta name="google-site-verification" content={VERIFICATION} />
-        <ThemeHead />
         <Favicons />
     </head>
     <body>
