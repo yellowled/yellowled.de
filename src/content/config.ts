@@ -31,13 +31,4 @@ const instruments = defineCollection({
         }),
 });
 
-const wamwz = defineCollection({
-    schema: z.object({
-        artist: z.string(),
-        title: z.string(),
-        tweet: z.string(),
-        date: z.date(),
-    }),
-});
-
-export const collections = { v2, instruments, wamwz };
+export const collections = { v2, instruments };

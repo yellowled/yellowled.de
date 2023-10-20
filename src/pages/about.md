@@ -14,4 +14,4 @@ Früher™ war ich recht häufig im IRC unterwegs, nahezu ausschließlich im IRC
 
 ## Kontakt
 
-Am besten erreicht man mich per [Email](mailto:mm@yellowled.de) oder [Twitter](https://twitter.com/yellowled).
+Am besten erreicht man mich per [Email](mailto:mm@yellowled.de).
