@@ -1,6 +1,6 @@
 ---
 import { differenceInYears } from "date-fns";
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 import CV from "../layouts/CV.astro";
 
 const experience = differenceInYears(new Date(), new Date("2007-11-15"));
@@ -16,8 +16,8 @@ const looking = false;
         <li>
             <Icon
                 name="bi:house"
-                width="16"
-                height="16"
+                width={16}
+                height={16}
                 fill="currentColor"
                 aria-label="Adresse"
             />
@@ -26,8 +26,8 @@ const looking = false;
         <li>
             <Icon
                 name="bi:calendar3"
-                width="16"
-                height="16"
+                width={16}
+                height={16}
                 fill="currentColor"
                 aria-label="Geboren am"
             /> 04.05.1974
@@ -35,8 +35,8 @@ const looking = false;
         <li>
             <Icon
                 name="bi:envelope"
-                width="16"
-                height="16"
+                width={16}
+                height={16}
                 fill="currentColor"
                 aria-label="E-Mail"
             />
@@ -51,8 +51,8 @@ const looking = false;
         <li>
             <Icon
                 name="bi:phone"
-                width="16"
-                height="16"
+                width={16}
+                height={16}
                 fill="currentColor"
                 aria-label="Telefon"
             />
@@ -61,8 +61,8 @@ const looking = false;
         <li>
             <Icon
                 name="bi:link-45deg"
-                width="16"
-                height="16"
+                width={16}
+                height={16}
                 fill="currentColor"
                 aria-label="Webseite"
             />
@@ -71,8 +71,8 @@ const looking = false;
         <li>
             <Icon
                 name="bi:github"
-                width="16"
-                height="16"
+                width={16}
+                height={16}
                 fill="currentColor"
                 aria-label="GitHub"
             />
