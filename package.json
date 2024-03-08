@@ -22,9 +22,9 @@
     },
     "dependencies": {
         "@astrojs/sitemap": "^3.1.1",
-        "astro": "^4.4.6",
+        "astro": "^4.4.15",
         "astro-icon": "^1.1.0",
-        "autoprefixer": "^10.4.17",
+        "autoprefixer": "^10.4.18",
         "date-fns": "^3.3.1",
         "glob": "^10.3.10",
         "gray-matter": "^4.0.3",
@@ -32,7 +32,7 @@
     },
     "devDependencies": {
         "@iconify-json/bi": "^1.1.23",
-        "@typescript-eslint/parser": "^7.1.0",
+        "@typescript-eslint/parser": "^7.1.1",
         "eslint": "^8.57.0",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-astro": "^0.31.4",
