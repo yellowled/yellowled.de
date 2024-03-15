@@ -22,10 +22,10 @@
     },
     "dependencies": {
         "@astrojs/sitemap": "^3.1.1",
-        "astro": "^4.5.3",
+        "astro": "^4.5.5",
         "astro-icon": "^1.1.0",
         "autoprefixer": "^10.4.18",
-        "date-fns": "^3.4.0",
+        "date-fns": "^3.5.0",
         "glob": "^10.3.10",
         "gray-matter": "^4.0.3",
         "sass": "^1.72.0"
