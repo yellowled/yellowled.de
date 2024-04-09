@@ -1,9 +1,9 @@
 ---
-import Page from "../layouts/Page.astro";
+import Default from "../layouts/Default.astro";
 ---
 
-<Page title="Suche">
-    <form action="https://duckduckgo.com/" method="get" id="search">
+<Default title="Suche">
+    <form action="https://duckduckgo.com/" method="get" id="search" autocomplete="off">
         <label for="term">Suchbegriff(e)</label>
         <input type="search" name="q" id="term" />
         <input type="hidden" name="sites" value="yellowled.de" />
@@ -13,7 +13,7 @@ import Page from "../layouts/Page.astro";
     <p id="status" role="status"></p>
 
     <ul id="results"></ul>
-</Page>
+</Default>
 
 <script src="../scripts/search.js"></script>
 
@@ -46,7 +46,6 @@ import Page from "../layouts/Page.astro";
         padding: 0.375rem 0.75rem 0.375rem 2.25rem;
         transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
         width: 100%;
-        -webkit-appearance: textfield;
 
         @media (prefers-reduced-motion: reduce) {
             transition: none;
@@ -64,9 +63,5 @@ import Page from "../layouts/Page.astro";
             color: var(--color-form-text);
             outline: 0;
         }
-    }
-
-    ::-webkit-search-decoration {
-        -webkit-appearance: none;
     }
 </style>

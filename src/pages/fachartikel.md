@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/Page.astro"
+layout: "../layouts/Default.astro"
 title: Veröffentlichungen
 description: Veröffentlichungen in Print und Web, Vorträge auf Konferenzen und Beiträge zu Podcasts
 ---

@@ -1,24 +1,22 @@
 ---
-import pages from "../data/sitemap.json";
+import pages from "../data/sitemap";
 
-import Page from "../layouts/Page.astro";
+import Default from "../layouts/Default.astro";
 
 const title = "Sitemap";
 const description =
     "Eine Übersicht der wichtigsten Seiten als Navigationsersatz";
 ---
 
-<Page title={title} description={description}>
+<Default title={title} description={description}>
     <dl>
         {
             pages.map((page) => (
                 <>
-                    <dt>
-                        <a href={page.url}>{page.name}</a>
-                    </dt>
+                    <dt><a href={page.url}>{page.name}</a></dt>
                     <dd>{page.excerpt}</dd>
                 </>
             ))
         }
     </dl>
-</Page>
+</Default>

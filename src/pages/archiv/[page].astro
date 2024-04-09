@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 
-import Page from "../../layouts/Page.astro";
+import Default from "../../layouts/Default.astro";
 import Pagination from "../../components/Pagination.astro";
 
 const title = "Archiv (Blog v2)";
@@ -18,7 +18,7 @@ export async function getStaticPaths({ paginate }) {
 const { page } = Astro.props;
 ---
 
-<Page title={title} description={description}>
+<Default title={title} description={description}>
     <p>
         Dieses Archiv enthält die Textinhalte aller Artikel der (eingestellten)
         Version 2 meines Blogs in umgekehrter Reihenfolge (Januar 2020 bis
@@ -38,4 +38,4 @@ const { page } = Astro.props;
     </ul>
 
     <Pagination next={page.url.next} prev={page.url.prev} />
-</Page>
+</Default>

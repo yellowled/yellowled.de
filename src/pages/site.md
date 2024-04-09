@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/Page.astro"
+layout: "../layouts/Default.astro"
 title: Über diese Website
 description: Technische, gestalterische und inhaltliche Details zu dieser Webseite
 ---

@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/Page.astro"
+layout: "../layouts/Default.astro"
 title: "Hallo!"
 description: "Persönliche Website von Matthias Mees a.k.a. @yellowled"
 ---

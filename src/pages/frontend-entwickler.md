@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/Page.astro"
+layout: "../layouts/Default.astro"
 title: Frontend-Entwickler sucht …
 description: Nach über fünf Jahren bei meinem Arbeitgeber suche ich ein neues Umfeld mit mehr Bedarf an Frontend-Entwicklung.
 ---

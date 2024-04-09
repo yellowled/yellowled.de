@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/Page.astro"
+layout: "../layouts/Default.astro"
 title: Über mich
 description: Mehr oder weniger wissenswerte Dinge über Matthias Mees
 ---

@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 
-import Page from "../../layouts/Page.astro";
+import Default from "../../layouts/Default.astro";
 
 const title = "Was ich spiele";
 const description = "Meine (noch überschaubare) Instrumentensammlung";
@@ -11,7 +11,7 @@ const instruments = (await getCollection("instruments")).sort(
 );
 ---
 
-<Page title={title} description={description}>
+<Default title={title} description={description}>
     <p>
         2021 habe ich mir nach rund 30 Jahren Pause wieder eine elektrische
         Gitarre zugelegt (und dann gleich noch eine), in Bands habe ich immer
@@ -30,4 +30,4 @@ const instruments = (await getCollection("instruments")).sort(
             ))
         }
     </ul>
-</Page>
+</Default>

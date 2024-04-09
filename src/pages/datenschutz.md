@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/Page.astro"
+layout: "../layouts/Default.astro"
 title: Datenschutzerklärung
 description: Wissenswertes zu Art, Zweck und Umfang der Verarbeitung personenbezogener Daten, Cookies sowie Auskunfts- und Widerspruchsrecht
 ---

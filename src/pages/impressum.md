@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/Page.astro"
+layout: "../layouts/Default.astro"
 title: Impressum
 description: Anbieterdaten inklusive Kontaktmöglichkeiten, Hinweise zu Haftung und Urheberrecht
 ---

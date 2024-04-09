@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/Page.astro"
+layout: "../layouts/Default.astro"
 title: Wie ich arbeite
 description: Liste der Hardware, mobilen Devices, Software und Apps, die ich verwende
 ---
