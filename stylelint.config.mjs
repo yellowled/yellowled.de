@@ -1,4 +1,3 @@
 export default {
-    extends: ["stylelint-config-standard-scss"],
-    customSyntax: "postcss-html",
+    extends: ["stylelint-config-standard-scss", "stylelint-config-html/astro"],
 };

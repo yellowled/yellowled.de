@@ -9,7 +9,7 @@
         "build": "astro build",
         "preview": "astro preview",
         "eslint": "eslint 'src/**/*.{astro,js}'",
-        "stylelint": "stylelint 'src/**/*.{astro,scss}'"
+        "stylelint": "stylelint \"src/**/*.{astro,scss}\""
     },
     "author": "Matthias Mees",
     "license": "MIT",
@@ -39,6 +39,7 @@
         "eslint-plugin-astro": "^0.34.0",
         "postcss-html": "^1.6.0",
         "stylelint": "^16.3.1",
+        "stylelint-config-html": "^1.1.0",
         "stylelint-config-standard-scss": "^13.1.0"
     }
 }

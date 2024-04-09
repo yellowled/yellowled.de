@@ -30,8 +30,7 @@
 @mixin responsive-table($breakpoint: 576px) {
     min-height: 0.01%;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow: auto hidden;
 
     th,
     td {
