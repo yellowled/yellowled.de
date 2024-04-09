@@ -1,15 +1,19 @@
 .avatar {
     border-radius: 4px;
     margin: 1rem 0;
+}
 
-    @media (width >= 30em) {
+@media (width >= 30em) {
+    .avatar {
         border-radius: 50%;
         float: right;
         margin: 0 0 1rem 1rem;
         width: 20%;
     }
+}
 
-    @media (width >= 48em) {
+@media (width >= 48em) {
+    .avatar {
         width: 25%;
     }
 }
@@ -19,10 +23,10 @@
     color: var(--color-page);
     font-size: 1.4rem;
     padding: 1rem;
+}
 
-    strong {
-        text-transform: uppercase;
-    }
+.done strong {
+    text-transform: uppercase;
 }
 
 .intro {

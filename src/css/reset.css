@@ -43,7 +43,7 @@ hr {
 }
 
 pre {
-    font-family: monospace, monospace; // stylelint-disable-line font-family-no-duplicate-names
+    font-family: monospace, monospace; /* stylelint-disable-line font-family-no-duplicate-names */
     font-size: 0.875rem;
     padding: 0.625rem;
 }
@@ -95,7 +95,7 @@ strong {
     font-weight: bolder;
 }
 
-// html5doctor.com/blockquote-q-cite/
+/* html5doctor.com/blockquote-q-cite/ */
 q {
     quotes: "“" "”" "‘" "’";
 }
@@ -107,12 +107,14 @@ q {
 code,
 kbd,
 samp {
-    font-family: monospace, monospace; // stylelint-disable-line font-family-no-duplicate-names
+    font-family: monospace, monospace; /* stylelint-disable-line font-family-no-duplicate-names */
     font-size: 0.875em;
+}
 
-    pre & {
-        font-size: 1em;
-    }
+pre code,
+pre kbd,
+pre samp {
+    font-size: 1em;
 }
 
 small {

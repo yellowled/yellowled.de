@@ -1,3 +1,3 @@
 export default {
-    extends: ["stylelint-config-standard-scss", "stylelint-config-html/astro"],
+    extends: ["stylelint-config-standard", "stylelint-config-html/astro"],
 };

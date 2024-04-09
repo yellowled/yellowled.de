@@ -1,0 +1,203 @@
+@media (width >= 48em) {
+    :root {
+        font-size: 125%;
+    }
+}
+
+@media (width >= 100em) {
+    :root {
+        font-size: 150%;
+    }
+}
+
+body {
+    background-color: var(--color-page);
+    color: var(--color-text);
+    padding: 2rem 1rem;
+}
+
+@media (width >= 48em) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 45em;
+        padding: 4rem 1rem 2rem;
+    }
+}
+
+[class^="bi bi-"] {
+    fill: currentcolor;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    hyphens: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+@media (width >= 48em) {
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media (width >= 100em) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+@media (width >= 48em) {
+    h2 {
+        font-size: 1.75em;
+    }
+}
+
+@media (width >= 100em) {
+    h2 {
+        font-size: 2em;
+    }
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+@media (width >= 48em) {
+    h3 {
+        font-size: 1.375em;
+    }
+}
+
+@media (width >= 100em) {
+    h3 {
+        font-size: 1.5em;
+    }
+}
+
+h4 {
+    font-size: 1.125em;
+}
+
+h5,
+h6 {
+    font-size: 1em;
+}
+
+p {
+    hyphens: auto;
+}
+
+p code,
+p samp,
+p kbd {
+    hyphens: none;
+}
+
+a,
+a:visited {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+    background-color: var(--color-primary);
+    color: var(--color-page);
+    text-decoration: none;
+}
+
+a[href^="http://"]:not([href*="yellowled.de"])::after,
+a[href^="https://"]:not([href*="yellowled.de"])::after,
+a[href^="//"]:not([href*="yellowled.de"])::after,
+a[href^="https://bsky.app/profile/yellowled.de"]::after
+{
+    content: "↗";
+}
+
+blockquote {
+    border-left: 0.5rem solid var(--color-border);
+    margin: 2rem;
+    padding-left: 1rem;
+}
+
+blockquote p {
+    quotes: "“" "”";
+}
+
+blockquote p::before {
+    content: "";
+    content: no-open-quote;
+}
+
+blockquote p::after {
+    content: "";
+    content: no-close-quote;
+}
+
+blockquote p:first-of-type::before {
+    content: "“";
+    content: open-quote;
+}
+
+blockquote p:last-of-type::after {
+    content: "”";
+    content: close-quote;
+}
+
+:lang(de) blockquote p,
+blockquote:lang(de) p {
+    quotes: "„" "“";
+}
+
+:lang(de) blockquote p::before,
+blockquote:lang(de) p::before {
+    content: "";
+    content: no-open-quote;
+}
+
+:lang(de) blockquote p::after,
+blockquote:lang(de) p::after {
+    content: "";
+    content: no-close-quote;
+}
+
+:lang(de) blockquote p:first-of-type::before,
+blockquote:lang(de) p:first-of-type::before {
+    content: "„";
+    content: open-quote;
+}
+
+:lang(de) blockquote p:last-of-type::after,
+blockquote:lang(de) p:last-of-type::after {
+    content: "“";
+    content: close-quote;
+}
+
+blockquote > footer {
+    display: block;
+}
+
+blockquote > footer::before {
+    content: "– ";
+}
+
+.youtube-embed {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}

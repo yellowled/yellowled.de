@@ -63,24 +63,26 @@ const {
     </div>
 </Default>
 
-<style lang="scss">
-    @use "../../scss/mixins/helpers";
+<style>
+    @media (width >= 48em) {
+        .plays::before,
+        .plays::after {
+            content: " ";
+            display: table;
+        }
 
-    .plays {
-        @include helpers.clearfix;
+        .plays::after {
+            clear: both;
+        }
 
         img {
-            @media (width >= 48em) {
-                float: left;
-                margin: 0 2rem 0 0;
-                width: 50%;
-            }
+            float: left;
+            margin: 0 2rem 0 0;
+            width: 50%;
         }
 
         ul {
-            @media (width >= 48em) {
-                margin-top: 0;
-            }
+            margin-top: 0;
         }
     }
 </style>

@@ -256,7 +256,7 @@ const looking = false;
     </ol>
 </CV>
 
-<style lang="scss">
+<style>
     h2 {
         border-bottom: 1px solid #ccc;
         margin-top: 2rem;
@@ -266,73 +266,77 @@ const looking = false;
     .contact {
         list-style: none;
         padding-left: 0;
+    }
 
-        li {
-            margin-bottom: 0.5rem;
-        }
+    .contact li {
+        margin-bottom: 0.5rem;
+    }
 
-        svg {
-            fill: var(--color-primary);
-            margin-right: 0.125rem;
-        }
-
-        @media (width >= 48em) {
+    @media (width >= 48em) {
+        .contact {
             display: grid;
             gap: 1rem;
             grid-template-columns: repeat(2, 1fr);
-
-            li {
-                margin-bottom: 0;
-            }
         }
+
+        .contact li {
+            margin-bottom: 0;
+        }
+        }
+
+    svg {
+        fill: var(--color-primary);
+        margin-right: 0.125rem;
     }
 
-    .skills {
-        ul {
-            margin-top: 0.5rem;
-            padding-left: 1rem;
-        }
+    .skills ul {
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+    }
 
-        @media (width >= 48em) {
+    @media (width >= 48em) {
+        .skills {
             display: grid;
             gap: 2rem;
             grid-template-columns: repeat(2, 1fr);
+        }
 
-            h3 {
-                margin: 0;
-            }
+        .skills h3 {
+            margin: 0;
         }
     }
 
     .timeline {
         list-style: none;
         padding-left: 0;
+    }
 
-        ul {
-            list-style: disc;
-            padding-left: 1rem;
-        }
+    .timeline ul {
+        list-style: disc;
+        padding-left: 1rem;
+    }
 
-        > li {
-            margin-bottom: 2rem;
-        }
+    .timeline > li {
+        margin-bottom: 2rem;
+    }
 
-        h3 {
-            margin-top: 0.25rem;
-            margin-bottom: 0.25rem;
+    .timeline h3 {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
 
-            + p {
-                margin-top: 0;
-            }
-        }
+    .timeline h3 + p {
+        margin-top: 0;
     }
 
     .timespan {
         color: #888;
         display: block;
         font-variant: small-caps;
+    }
 
-        @media (width >= 48em) {
+    @media (width >= 48em) {
+        .timespan {
             font-size: 0.8rem;
         }
     }

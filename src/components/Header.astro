@@ -8,21 +8,21 @@ import DarkMode from "./DarkMode.astro";
     <DarkMode />
 </header>
 
-<style lang="scss">
+<style>
     header {
         display: flex;
         justify-content: space-between;
+    }
 
-        > a {
-            font-size: 0.875em;
-            font-weight: 300;
-            letter-spacing: 0.25rem;
-            text-transform: uppercase;
+    a {
+        font-size: 0.875em;
+        font-weight: 300;
+        letter-spacing: 0.25rem;
+        text-transform: uppercase;
+    }
 
-            &,
-            &:visited {
-                text-decoration: none;
-            }
-        }
+    a,
+    a:visited {
+        text-decoration: none;
     }
 </style>

@@ -21,31 +21,29 @@ const { prev, next } = Astro.props;
     </ul>
 </nav>
 
-<style lang="scss">
-    nav {
-        ul {
-            display: flex;
-            justify-content: space-between;
+<style>
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
 
-            > li {
-                flex: 0 1 auto;
-            }
-        }
+    li {
+        flex: 0 1 auto;
     }
 
     .prev {
         margin-right: auto;
+    }
 
-        &::before {
-            content: "← ";
-        }
+    .prev::before {
+        content: "← ";
     }
 
     .next {
         margin-left: auto;
+    }
 
-        &::after {
-            content: " →";
-        }
+    .next::after {
+        content: " →";
     }
 </style>

@@ -47,19 +47,34 @@
     });
 </script>
 
-<style lang="scss">
-    @use "../scss/mixins/buttons";
-
+<style>
     button {
-        @include buttons.unstyled-button;
-
+        background-color: transparent;
+        background-clip: padding-box;
+        border: 0;
+        border-radius: 0;
         cursor: pointer;
+        color: var(--color-primary);
+        display: inline-block;
+        line-height: normal;
+        outline: 0;
+        padding: 0;
+        text-align: left;
+        text-decoration: none;
+        text-shadow: none;
+        width: auto;
+    }
 
-        &,
-        &:hover,
-        &:focus {
-            color: var(--color-primary);
-        }
+    button,
+    button:hover,
+    button:focus {
+        background-color: transparent;
+        color: var(--color-primary);
+    }
+
+    button:focus {
+        box-shadow: none;
+        z-index: auto;
     }
 
     svg {
@@ -68,24 +83,20 @@
     }
 </style>
 
-<style is:global lang="scss">
-    :root {
-        #sun {
-            display: none;
-        }
-
-        #moon {
-            display: inline-block;
-        }
+<style is:global>
+    :root #sun {
+        display: none;
     }
 
-    .dark {
-        #sun {
-            display: inline-block;
-        }
+    :root #moon {
+        display: inline-block;
+    }
 
-        #moon {
-            display: none;
-        }
+    .dark #sun {
+        display: inline-block;
+    }
+
+    .dark #moon {
+        display: none;
     }
 </style>
