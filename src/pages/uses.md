@@ -16,7 +16,7 @@ description: Liste der Hardware, mobilen Devices, Software und Apps, die ich ver
 -   [Apple MacBook Air M1 13", 2020](https://support.apple.com/kb/SP825) (privat)
     -   [LaCie Mobile Drive Moon Silver 1TB](https://www.lacie.com/de/de/products/mobile-drive/) (Time Machine)
 -   [Apple iPad (8th Gen.)](https://support.apple.com/kb/SP822)
--   [Apple iPhone XR](https://support.apple.com/kb/SP781)
+-   [Apple iPhone 15](https://support.apple.com/de-de/111831)
 
 ## Software
 
