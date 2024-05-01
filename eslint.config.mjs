@@ -7,7 +7,7 @@ import astroParser from "astro-eslint-parser";
 export default [
     js.configs.recommended,
     eslintConfigPrettier,
-    ...eslintPluginAstro.configs["flat/recommended"],
+    ...eslintPluginAstro.configs.recommended,
     {
         files: ["**/*.js", "**/*.mjs"],
         ignores: ["dist/*", "node_modules/*", "public/*", ".vscode/*"],
