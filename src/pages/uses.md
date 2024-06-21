@@ -11,7 +11,7 @@ description: Liste der Hardware, mobilen Devices, Software und Apps, die ich ver
     -   Apple Wireless Keyboard (4. Gen.)
     -   Apple Magic Trackpad
     -   [Rain Design mStand](https://www.raindesigninc.com/mstand.html)
-    -   [uni 6IN101 USB-C-HUB](https://uniaccessories.io/products/uni-usb-c-6-in-1-hub-1)
+    -   [uni 6IN101 USB-C-HUB](https://web.archive.org/web/20230324092934/https://uniaccessories.com/products/uni-usb-c-6-in-1-hub-1)
     -   [LaCie Rugged Mini USB-C 1TB](https://www.lacie.com/de/de/products/rugged/) (Time Machine)
 -   [Apple MacBook Air M1 13", 2020](https://support.apple.com/kb/SP825) (privat)
     -   [LaCie Mobile Drive Moon Silver 1TB](https://www.lacie.com/de/de/products/mobile-drive/) (Time Machine)
