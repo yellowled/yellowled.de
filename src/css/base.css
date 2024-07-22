@@ -25,6 +25,13 @@ body {
     }
 }
 
+@media print {
+    body {
+        max-width: none;
+        padding: 0;
+    }
+}
+
 [class^="bi bi-"] {
     fill: currentcolor;
     height: 1.25rem;

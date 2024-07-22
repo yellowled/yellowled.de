@@ -6,7 +6,7 @@ description: Nach über fünf Jahren bei meinem Arbeitgeber suche ich ein neues 
 
 <p class="done"><strong>Achtung:</strong> Die Suche nach einem neuen Job hat am 20. Oktober 2022 ein sehr gutes Ende gefunden. Vielen Dank allen, die geteilt, angeboten und mich kennen gelernt haben!</p>
 
-<p class="intro">Ich heiße Matthias Mees und bin Frontend-Entwickler mit 15 Jahren Berufserfahrung. Nach über fünf Jahren bei meinem aktuellen Arbeitgeber suche ich ein neues Umfeld mit größeren Herausforderungen.</p>
+<p class="intro">Ich heiße Matthias Mees und bin Frontend-Entwickler mit 16 Jahren Berufserfahrung. Nach über fünf Jahren bei meinem aktuellen Arbeitgeber suche ich ein neues Umfeld mit größeren Herausforderungen.</p>
 
 Mein Handwerk sind semantisches HTML, effizientes CSS und modulares JavaScript. Ich habe schon mit vielen Open-Source-CMS (auch Headless) und ihren Template-Engines gerungen; zudem habe ich ein großes Herz für moderne Static Site Generatoren.
 
@@ -20,7 +20,7 @@ Transparente Unternehmensführung ist toll, eine vernünftige Fehlerkultur noch 
 
 ## Remote oder vor Ort?
 
-Mein Lebensmittelpunkt wird auch mittelfristig in Schleswig-Holstein bleiben. Ich habe die letzten fünf Jahre zu 100% remote bzw. mobil gearbeitet und weiß, dass und wie das gut funktioniert. Ich weiß aber auch, dass die Kommunikation mit Menschen, die man schon mal gesehen hat, einfacher und besser wird.
+Mein Lebensmittelpunkt wird auch mittelfristig in Schleswig-Holstein bleiben. Ich habe die letzten sieben Jahre zu 100% remote bzw. mobil gearbeitet und weiß, dass und wie das gut funktioniert. Ich weiß aber auch, dass die Kommunikation mit Menschen, die man schon mal gesehen hat, einfacher und besser wird.
 
 Insofern sehe ich nicht mehr die Notwendigkeit, jeden Werktag in ein Büro zu pendeln, habe aber je nach Entfernung auch nichts gegen gelegentliche oder regelmäßige Termine vor Ort.
 

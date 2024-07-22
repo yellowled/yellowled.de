@@ -14,6 +14,13 @@ import DarkMode from "./DarkMode.astro";
         justify-content: space-between;
     }
 
+    @media print {
+        header {
+            display: none;
+            visibility: hidden;
+        }
+    }
+
     a {
         font-size: 0.875em;
         font-weight: 300;
