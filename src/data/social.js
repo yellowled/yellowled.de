@@ -13,7 +13,7 @@ export default [
     },
     {
         name: "LinkedIn",
-        url: "www.linkedin.com/in/matthias-mees-5a1937321",
+        url: "https://www.linkedin.com/in/matthias-mees-5a1937321",
     },
     {
         name: "GitHub",
