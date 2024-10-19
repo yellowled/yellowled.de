@@ -1,0 +1,55 @@
+---
+import { looking, experience } from "../data/meta";
+import Default from "../layouts/Default.astro";
+
+const title = looking ? "Frontend-Entwickler sucht …" : "Frontent-Entwickler";
+const description = looking
+    ? "Ich suche ein neues Umfeld, in dem ich mich (und Frontends) weiter entwickeln kann."
+    : null;
+---
+
+<Default title={title} description={description}>
+    {!looking && (
+        <p class="done"><strong>Achtung:</strong> Die Suche nach einem neuen Job hat am 20. Oktober 2022 ein sehr gutes Ende gefunden. Vielen Dank allen, die geteilt, angeboten und mich kennen gelernt haben!</p>
+    )}
+
+    <p class="intro">Ich heiße Matthias Mees und bin Frontend-Entwickler mit {experience} Jahren Berufserfahrung. Ich suche ein neues Umfeld, in dem ich mich (und Frontends) weiter entwickeln kann.</p>
+
+    <p>Mein Handwerk sind semantisches HTML, effizientes CSS und modulares JavaScript. Ich habe schon mit vielen Open-Source-CMS (auch Headless) und ihren Template-Engines gerungen; zudem habe ich ein großes Herz für moderne Static Site Generatoren.</p>
+
+    <p>Ich habe Erfahrung mit und mag React, bin aber von Svelte mehr überzeugt. VueJS kenne ich und habe nichts dagegen, hatte aber noch nicht praktisch damit zu tun; mit TypeScript ist es sehr ähnlich. Stetig weiter Neues zu lernen ist für mich der Reiz an Frontend.</p>
+
+    <p>Performance und Barrierefreiheit finde ich wichtig, bin jedoch kein ausgewiesener Experte – arbeite aber sehr gut mit solchen zusammen. Ich habe ein gewisses Faible für Frontend-Build-Tools, möchte aber nicht DevOps machen. (Backend auch nicht.)</p>
+
+    <p>Ich arbeite gern in agilen und crossfunktionalen Teams. Aus Feedback an mich weiß ich, dass mein Kommunikationsstil pragmatisch, klar und zuverlässig ist, was auch Kunden zu schätzen wissen. And I can do that in English as well.</p>
+
+    <p>Transparente Unternehmensführung ist toll, eine vernünftige Fehlerkultur noch besser und stetiges Lernen in diesem Fachbereich ein Muss. Ich fühle mich auf Apple-Geräten zu Hause und würde es auch beruflich gerne bleiben.</p>
+
+    <h2>Remote oder vor Ort?</h2>
+
+    <p>Mein Lebensmittelpunkt wird auch mittelfristig in Schleswig-Holstein bleiben. Ich habe die letzten sieben Jahre zu 100% remote bzw. mobil gearbeitet und weiß, dass und wie das gut funktioniert. Ich weiß aber auch, dass die Kommunikation mit Menschen, die man schon mal gesehen hat, einfacher und besser wird.</p>
+
+    <p>Insofern sehe ich nicht mehr die Notwendigkeit, jeden Werktag in ein Büro zu pendeln, habe aber je nach Entfernung auch nichts gegen gelegentliche oder regelmäßige Termine vor Ort.</p>
+
+    <h2>Gehalt? Arbeitszeit? Würdest Du auch freelancen?</h2>
+
+    <p>Ich war selbständig und habe erkannt, dass das nicht mein Ding ist. Bitte keine Freelance-Angebote, auch nicht für 6 Monate oder länger – ich möchte angestellt arbeiten. Es müssen nicht unbedingt 40 Stunden pro Woche sein (und schon gar nicht mehr).</p>
+
+    <p>Natürlich habe ich Vorstellungen, was Gehalt und Urlaub angeht. Lasst uns bitte zu gegebener Zeit offen und ehrlich darüber sprechen – wenn es ansonsten passt, finden wir bestimmt auch finanziell zusammen.</p>
+
+    <h2>Wir haben da vielleicht was für Dich!</h2>
+
+    <p>Super, dann freue ich mich auf Einzelheiten und eine Gelegenheit, Euch per Videocall kennen zu lernen und zu gucken, ob und wie wir zusammen passen!</p>
+
+    <ul>
+        <li>E-Mail: {
+                looking ? (
+                    <a href="mailto:mees@mailbox.org">mees@mailbox.org</a>
+                ) : (
+                    <del>entfernt</del>
+                )
+            }</li>
+        <li>Telefon: {looking ? <>0176 61735567</> : <del>entfernt</del>}</li>
+        <li>zum verlinken oder weitergeben gibt es auch einen <a href="/cv/">tabellarischen Lebenslauf</a>.</li>
+    </ul>
+</Default>
