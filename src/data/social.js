@@ -12,6 +12,10 @@ export default [
         url: "https://www.facebook.com/matthias.mees",
     },
     {
+        name: "LinkedIn",
+        url: "www.linkedin.com/in/matthias-mees-5a1937321",
+    },
+    {
         name: "GitHub",
         url: "https://github.com/yellowled",
     },
