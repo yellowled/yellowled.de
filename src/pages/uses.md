@@ -8,11 +8,11 @@ description: Liste der Hardware, mobilen Devices, Software und Apps, die ich ver
 
 -   [Apple MacBook Pro 13" M2, 2022](https://support.apple.com/kb/SP870) (beruflich)
     -   [Apple Cinema Display LED 27"](https://support.apple.com/kb/SP597)
-    -   Apple Wireless Keyboard (4. Gen.)
-    -   Apple Magic Trackpad
+    -   [Apple Wireless Keyboard](https://support.apple.com/de-de/112443)
+    -   [Apple Magic Trackpad](https://support.apple.com/de-de/111884)
     -   [Rain Design mStand](https://www.raindesigninc.com/mstand.html)
     -   [uni 6IN101 USB-C-HUB](https://web.archive.org/web/20230324092934/https://uniaccessories.com/products/uni-usb-c-6-in-1-hub-1)
-    -   [LaCie Rugged Mini USB-C 1TB](https://www.lacie.com/de/de/products/rugged/) (Time Machine)
+    -   [Toshiba Canvio Partner 1TB Portable 2,5"](https://www.amazon.de/dp/B0BGXWT3GL) (Time Machine)
 -   [Apple MacBook Air M1 13", 2020](https://support.apple.com/kb/SP825) (privat)
     -   [LaCie Mobile Drive Moon Silver 1TB](https://www.lacie.com/de/de/products/mobile-drive/) (Time Machine)
 -   [Apple iPad (8th Gen.)](https://support.apple.com/kb/SP822)
