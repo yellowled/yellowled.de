@@ -13,7 +13,7 @@ export async function GET() {
         data.push({
             title: item.data.title,
             description: item.data.description,
-            url: `/archiv/${item.slug}/`,
+            url: `/archiv/${item.id}/`,
         });
     });
 

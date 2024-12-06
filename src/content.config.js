@@ -1,6 +1,11 @@
 import { z, defineCollection } from "astro:content";
+import { glob } from "astro/loaders";
 
 const v2 = defineCollection({
+    loader: glob({
+        base: "./src/data/v2/",
+        pattern: "**/[^_]*.md",
+    }),
     schema: z.object({
         title: z.string(),
         description: z.string().optional(),
@@ -9,14 +14,16 @@ const v2 = defineCollection({
 });
 
 const instruments = defineCollection({
+    loader: glob({
+        base: "./src/data/instruments/",
+        pattern: "**/[^_]*.md",
+    }),
     schema: ({ image }) =>
         z.object({
             number: z.number(),
             brand: z.string(),
             model: z.string(),
-            image: image().refine((img) => img.width >= 1440, {
-                message: "Instrument image must be at least 1440 pixels wide!",
-            }),
+            image: image(),
             body: z.string(),
             neck: z.string(),
             profile: z.string(),

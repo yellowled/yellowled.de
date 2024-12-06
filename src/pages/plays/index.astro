@@ -23,7 +23,7 @@ const instruments = (await getCollection("instruments")).sort(
         {
             instruments.map((instrument) => (
                 <li>
-                    <a href={`/plays/${instrument.slug}/`}>
+                    <a href={`/plays/${instrument.id}/`}>
                         {instrument.data.brand}{' '}{instrument.data.model}
                     </a>
                 </li>

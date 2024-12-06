@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 
 import V2 from "../../layouts/V2.astro";
 import Outdated from "../../components/Outdated.astro";
@@ -8,13 +8,13 @@ export async function getStaticPaths() {
     const posts = await getCollection("v2");
 
     return posts.map((post) => ({
-        params: { slug: post.slug },
+        params: { id: post.id },
         props: post,
     }));
 }
 
 const post = Astro.props;
-const { Content } = await post.render();
+const { Content } = await render(post);
 ---
 
 <V2 {...post.data}>

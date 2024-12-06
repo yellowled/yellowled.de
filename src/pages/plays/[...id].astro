@@ -8,7 +8,7 @@ export async function getStaticPaths() {
     const instruments = await getCollection("instruments");
 
     return instruments.map((instrument) => ({
-        params: { slug: instrument.slug },
+        params: { id: instrument.id },
         props: instrument,
     }));
 }
