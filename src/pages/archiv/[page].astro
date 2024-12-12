@@ -1,4 +1,6 @@
 ---
+import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
+
 import { getCollection } from "astro:content";
 
 import Default from "../../layouts/Default.astro";
@@ -7,13 +9,15 @@ import Pagination from "../../components/Pagination.astro";
 const title = "Archiv (Blog v2)";
 const description = "Alle Artikel aus meinem alten Blog";
 
-export async function getStaticPaths({ paginate }) {
+export const getStaticPaths = (async ({ paginate }) => {
     const posts = (await getCollection("v2"))
         .sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf())
         .reverse();
 
     return paginate(posts, { pageSize: 20 });
-}
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
 const { page } = Astro.props;
 ---
@@ -29,7 +33,7 @@ const { page } = Astro.props;
 
     <ul>
         {
-            page.data.map((post) => (
+            page.data.map((post: { id: any; data: { title: unknown; }; }) => (
                 <li>
                     <a href={`/archiv/${post.id}/`}>{post.data.title}</a>
                 </li>

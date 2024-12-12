@@ -1,3 +1,9 @@
+export interface PageData {
+    title: string;
+    description?: string;
+    url: string;
+}
+
 import { getCollection } from "astro:content";
 import { glob } from "glob";
 import matter from "gray-matter";
@@ -5,7 +11,7 @@ import matter from "gray-matter";
 export const prerender = true;
 
 export async function GET() {
-    let data = [];
+    let data: PageData[] = [];
 
     const archiv = await getCollection("v2");
 
