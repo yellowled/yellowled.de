@@ -33,7 +33,7 @@ const { page } = Astro.props;
 
     <ul>
         {
-            page.data.map((post: { id: any; data: { title: unknown; }; }) => (
+            page.data.map((post: { id: string; data: { title: string; }; }) => (
                 <li>
                     <a href={`/archiv/${post.id}/`}>{post.data.title}</a>
                 </li>

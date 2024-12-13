@@ -29,11 +29,11 @@ async function search(query: string) {
         .split(" ")
         .filter((word) => word.length)
         .map((word) => new RegExp(word, "i"));
-    let matches = searchIndex
+    const matches = searchIndex
         .reduce(function (matches: Match[], page: PageData) {
             let score = 0;
 
-            for (let reg of regMap) {
+            for (const reg of regMap) {
                 if (reg.test(page.title)) {
                     score += 100;
                 }

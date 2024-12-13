@@ -11,7 +11,7 @@ import matter from "gray-matter";
 export const prerender = true;
 
 export async function GET() {
-    let data: PageData[] = [];
+    const data: PageData[] = [];
 
     const archiv = await getCollection("v2");
 
