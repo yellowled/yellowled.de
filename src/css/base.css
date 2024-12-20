@@ -13,6 +13,16 @@
 body {
     background-color: var(--color-page);
     color: var(--color-text);
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Roboto,
+        Oxygen-Sans,
+        Ubuntu,
+        Cantarell,
+        Helvetica Neue,
+        sans-serif;
     padding: 2rem 1rem;
 }
 
@@ -143,59 +153,6 @@ blockquote {
     padding-left: 1rem;
 }
 
-blockquote p {
-    quotes: "“" "”";
-}
-
-blockquote p::before {
-    content: "";
-    content: no-open-quote;
-}
-
-blockquote p::after {
-    content: "";
-    content: no-close-quote;
-}
-
-blockquote p:first-of-type::before {
-    content: "“";
-    content: open-quote;
-}
-
-blockquote p:last-of-type::after {
-    content: "”";
-    content: close-quote;
-}
-
-:lang(de) blockquote p,
-blockquote:lang(de) p {
-    quotes: "„" "“";
-}
-
-:lang(de) blockquote p::before,
-blockquote:lang(de) p::before {
-    content: "";
-    content: no-open-quote;
-}
-
-:lang(de) blockquote p::after,
-blockquote:lang(de) p::after {
-    content: "";
-    content: no-close-quote;
-}
-
-:lang(de) blockquote p:first-of-type::before,
-blockquote:lang(de) p:first-of-type::before {
-    content: "„";
-    content: open-quote;
-}
-
-:lang(de) blockquote p:last-of-type::after,
-blockquote:lang(de) p:last-of-type::after {
-    content: "“";
-    content: close-quote;
-}
-
 blockquote > footer {
     display: block;
 }
@@ -207,4 +164,8 @@ blockquote > footer::before {
 .youtube-embed {
     aspect-ratio: 16 / 9;
     width: 100%;
+}
+
+.astro-code {
+    padding: 0.5rem;
 }
