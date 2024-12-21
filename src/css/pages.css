@@ -18,6 +18,10 @@
     }
 }
 
+.sitemap dt {
+    font-weight: 400;
+}
+
 .done {
     background-color: var(--color-primary);
     color: var(--color-page);
