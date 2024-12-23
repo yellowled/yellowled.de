@@ -3,7 +3,7 @@ const { prev, next } = Astro.props;
 ---
 
 <nav>
-    <ul>
+    <ul role="list">
         {
             prev && (
                 <li class="prev">
@@ -25,6 +25,8 @@ const { prev, next } = Astro.props;
     ul {
         display: flex;
         justify-content: space-between;
+        list-style: none;
+        padding-left: 0;
     }
 
     li {

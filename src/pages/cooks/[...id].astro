@@ -1,0 +1,49 @@
+---
+import { getCollection, render } from "astro:content";
+
+import Default from "../../layouts/Default.astro";
+
+export async function getStaticPaths() {
+    const recipes = await getCollection("recipes");
+
+    return recipes.map((recipe) => ({
+        params: { id: recipe.id },
+        props: recipe,
+    }));
+}
+
+const recipe = Astro.props;
+const { Content } = await render(recipe);
+
+const {
+    title,
+    source,
+    servings,
+    ingredients,
+} = recipe.data;
+---
+
+<Default title={title}>
+    <ul>
+    {source && (
+        <li><a href={source}>Quelle</a></li>
+    )}
+    {servings && (
+        <li>{`Für ${servings} Portionen`}</li>
+    )}
+        <li><a href="/cooks/">Zurück zur Übersicht</a></li>
+    </ul>
+    <section>
+        <h2>Zutaten</h2>
+
+        <ul>
+            {ingredients.map((ingredient) => (
+                <li>{ingredient}</li>
+            ))}
+        </ul>
+    </section>
+    <section>
+        <h2>Zubereitung</h2>
+        <Content />
+    </section>
+</Default>

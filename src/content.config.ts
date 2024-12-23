@@ -13,6 +13,20 @@ const v2 = defineCollection({
     }),
 });
 
+const recipes = defineCollection({
+    loader: glob({
+        base: "./src/data/recipes/",
+        pattern: "**/[^_]*.md",
+    }),
+    schema: z.object({
+        title: z.string(),
+        search: z.string().optional(),
+        source: z.string().url().optional(),
+        servings: z.number().int().optional(),
+        ingredients: z.string().array(),
+    }),
+});
+
 const instruments = defineCollection({
     loader: glob({
         base: "./src/data/instruments/",
@@ -38,4 +52,4 @@ const instruments = defineCollection({
         }),
 });
 
-export const collections = { v2, instruments };
+export const collections = { v2, instruments, recipes };

@@ -1,0 +1,36 @@
+---
+import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
+
+import { getCollection } from "astro:content";
+
+import Default from "../../layouts/Default.astro";
+import Pagination from "../../components/Pagination.astro";
+
+const title = "Rezepte";
+const description = "Verschiedene Kochrezepte aus unterschiedlichen Quellen";
+
+export const getStaticPaths = (async ({ paginate }) => {
+    const posts = (await getCollection("recipes"))
+        .sort();
+
+    return paginate(posts, { pageSize: 20 });
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { page } = Astro.props;
+---
+
+<Default title={title} description={description}>
+    <ul>
+        {
+            page.data.map((post: { id: string; data: { title: string; }; }) => (
+                <li>
+                    <a href={`/cooks/${post.id}/`}>{post.data.title}</a>
+                </li>
+            ))
+        }
+    </ul>
+
+    <Pagination next={page.url.next} prev={page.url.prev} />
+</Default>
