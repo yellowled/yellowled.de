@@ -24,7 +24,7 @@
         "@astrojs/check": "^0.9.4",
         "@astrojs/sitemap": "^3.2.1",
         "astro": "^5.1.1",
-        "astro-icon": "^1.1.4",
+        "astro-icon": "^1.1.5",
         "autoprefixer": "^10.4.20",
         "date-fns": "^4.1.0",
         "glob": "^11.0.0",
@@ -43,6 +43,6 @@
         "stylelint-config-html": "^1.1.0",
         "stylelint-config-standard": "^36.0.1",
         "typescript": "^5.7.2",
-        "typescript-eslint": "^8.18.1"
+        "typescript-eslint": "^8.19.0"
     }
 }
