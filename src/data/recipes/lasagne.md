@@ -1,5 +1,6 @@
 ---
 title: Lasagne
+image: "./lasagne.jpg"
 servings: 4
 ingredients:
     - Butter

@@ -1,6 +1,7 @@
 ---
 title: Ofen-Ratatouille mit Feta
 source: https://kitchenstories.io/de/rezepte/ratatouille-mit-feta-aus-dem-ofen
+image: "./ofen-ratatouille-mit-feta.jpg"
 servings: 4
 ingredients:
     - 1 Zucchini

@@ -18,13 +18,15 @@ const recipes = defineCollection({
         base: "./src/data/recipes/",
         pattern: "**/[^_]*.md",
     }),
-    schema: z.object({
-        title: z.string(),
-        search: z.string().optional(),
-        source: z.string().url().optional(),
-        servings: z.number().int().optional(),
-        ingredients: z.string().array(),
-    }),
+    schema: ({ image }) =>
+        z.object({
+            title: z.string(),
+            search: z.string().optional(),
+            image: image().optional(),
+            source: z.string().url().optional(),
+            servings: z.number().int().optional(),
+            ingredients: z.string().array(),
+        }),
 });
 
 const instruments = defineCollection({
