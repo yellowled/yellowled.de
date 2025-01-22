@@ -23,7 +23,7 @@
     "dependencies": {
         "@astrojs/check": "^0.9.4",
         "@astrojs/sitemap": "^3.2.1",
-        "astro": "^5.1.7",
+        "astro": "^5.1.8",
         "astro-icon": "^1.1.5",
         "autoprefixer": "^10.4.20",
         "date-fns": "^4.1.0",
@@ -43,6 +43,6 @@
         "stylelint-config-html": "^1.1.0",
         "stylelint-config-standard": "^37.0.0",
         "typescript": "^5.7.3",
-        "typescript-eslint": "^8.20.0"
+        "typescript-eslint": "^8.21.0"
     }
 }
