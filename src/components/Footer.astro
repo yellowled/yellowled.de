@@ -9,7 +9,7 @@
 <style>
     footer {
         border-top: 1px solid var(--color-border);
-        margin-top: 2rem;
+        margin-block-start: 2rem;
     }
 
     @media print {
@@ -21,7 +21,7 @@
 
     ul {
         list-style: none;
-        padding-left: 0;
+        padding-inline-start: 0;
     }
 
     li {
@@ -31,7 +31,6 @@
     li:not(:last-child)::after {
         content: "/";
         display: inline;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
+        margin-inline: 0.5rem;
     }
 </style>

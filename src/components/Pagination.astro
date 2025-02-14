@@ -26,7 +26,7 @@ const { prev, next } = Astro.props;
         display: flex;
         justify-content: space-between;
         list-style: none;
-        padding-left: 0;
+        padding-inline-start: 0;
     }
 
     li {
@@ -34,7 +34,7 @@ const { prev, next } = Astro.props;
     }
 
     .prev {
-        margin-right: auto;
+        margin-inline-end: auto;
     }
 
     .prev::before {
@@ -42,7 +42,7 @@ const { prev, next } = Astro.props;
     }
 
     .next {
-        margin-left: auto;
+        margin-inline-start: auto;
     }
 
     .next::after {

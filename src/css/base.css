@@ -20,8 +20,7 @@ body {
 
 @media (width >= 48em) {
     body {
-        margin-left: auto;
-        margin-right: auto;
+        margin-inline: auto;
         max-width: 45em;
         padding: 4rem 1rem 2rem;
     }
@@ -47,8 +46,7 @@ h4,
 h5,
 h6 {
     hyphens: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-block: 1rem;
 }
 
 h1 {
@@ -142,7 +140,7 @@ a[href^="https://bsky.app/profile/yellowled.de"]::after
 blockquote {
     border-left: 0.5rem solid var(--color-border);
     margin: 2rem;
-    padding-left: 1rem;
+    padding-inline-start: 1rem;
 }
 
 blockquote > footer {
