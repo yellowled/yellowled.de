@@ -9,7 +9,7 @@ const description =
 ---
 
 <Default title={title} description={description}>
-    <dl class="sitemap">
+    <dl>
         {
             pages.map((page) => (
                 <>
@@ -20,3 +20,9 @@ const description =
         }
     </dl>
 </Default>
+
+<style>
+    dt {
+        font-weight: 400;
+    }
+</style>

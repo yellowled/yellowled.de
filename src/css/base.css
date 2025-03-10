@@ -127,3 +127,10 @@ blockquote > footer::before {
 .astro-code {
     padding: 0.5rem;
 }
+
+.avatar {
+    border-radius: 50%;
+    float: right;
+    margin: 0 0 1rem 1rem;
+    width: clamp(25%, calc(48rem - 100%), 100%);
+}
