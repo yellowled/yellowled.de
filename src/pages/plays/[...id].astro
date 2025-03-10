@@ -64,25 +64,23 @@ const {
 </Default>
 
 <style>
-    @media (width >= 48em) {
-        .plays::before,
-        .plays::after {
-            content: " ";
-            display: table;
-        }
+    .plays::before,
+    .plays::after {
+        content: " ";
+        display: table;
+    }
 
-        .plays::after {
-            clear: both;
-        }
+    .plays::after {
+        clear: both;
+    }
 
-        img {
-            float: left;
-            margin: 0 2rem 0 0;
-            width: 50%;
-        }
+    img {
+        float: left;
+        margin: 0 2rem 1rem 0;
+        width: clamp(50%, calc(48rem - 100%), 100%);
+    }
 
-        ul {
-            margin-block-start: 0;
-        }
+    ul {
+        margin-block-start: 0;
     }
 </style>
