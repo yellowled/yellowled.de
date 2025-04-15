@@ -9,7 +9,7 @@
     --color-form-text: #495057;
     --color-form-border: #ced4da;
     --color-form-border-focus: #8bbafe;
-    --color-form-shadow: rgba(13 110 253 / 25%);
+    --color-form-shadow: rgb(13 110 253 / 25%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,7 +23,7 @@
         --color-form-text: #fdfdfd;
         --color-form-border: #ced4da;
         --color-form-border-focus: #fef2cc;
-        --color-form-shadow: rgba(13 110 253 / 25%);
+        --color-form-shadow: rgb(13 110 253 / 25%);
     }
 }
 
@@ -37,5 +37,5 @@
     --color-form-text: #fdfdfd;
     --color-form-border: #ced4da;
     --color-form-border-focus: #fef2cc;
-    --color-form-shadow: rgba(13 110 253 / 25%);
+    --color-form-shadow: rgb(13 110 253 / 25%);
 }
