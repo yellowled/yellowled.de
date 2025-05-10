@@ -14,7 +14,7 @@
     "author": "Matthias Mees",
     "license": "MIT",
     "engines": {
-        "node": "^23"
+        "node": "^24"
     },
     "repository": {
         "type": "git",
