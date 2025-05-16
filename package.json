@@ -22,8 +22,8 @@
     },
     "dependencies": {
         "@astrojs/check": "^0.9.4",
-        "@astrojs/sitemap": "^3.3.1",
-        "astro": "^5.7.12",
+        "@astrojs/sitemap": "^3.4.0",
+        "astro": "^5.7.13",
         "astro-icon": "^1.1.5",
         "autoprefixer": "^10.4.21",
         "date-fns": "^4.1.0",
@@ -33,7 +33,7 @@
     },
     "devDependencies": {
         "@eslint/js": "^9.16.0",
-        "@iconify-json/bi": "^1.2.3",
+        "@iconify-json/bi": "^1.2.4",
         "@types/eslint-config-prettier": "^6.11.3",
         "eslint": "^9.26.0",
         "eslint-config-prettier": "^10.1.5",
@@ -43,6 +43,6 @@
         "stylelint-config-html": "^1.1.0",
         "stylelint-config-standard": "^38.0.0",
         "typescript": "^5.8.3",
-        "typescript-eslint": "^8.32.0"
+        "typescript-eslint": "^8.32.1"
     }
 }
