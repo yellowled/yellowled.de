@@ -23,15 +23,6 @@ export async function GET() {
         });
     });
 
-    const recipes = await getCollection("recipes");
-    recipes.map((recipe) => {
-        data.push({
-            title: recipe.data.title,
-            description: recipe.data.search,
-            url: `/cooks/${recipe.id}`,
-        });
-    });
-
     const pages = await glob("*.md", { cwd: "src/pages" });
 
     const errorPageIndex = pages.indexOf("404.md");

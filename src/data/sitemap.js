@@ -33,11 +33,6 @@ export default [
             "Veröffentlichungen in Print und Web, Vorträge auf Konferenzen und Beiträge zu Podcasts",
     },
     {
-        name: "Rezepte",
-        url: "/cooks/1",
-        excerpt: "Verschiedene gesammelte Kochrezepte",
-    },
-    {
         name: "Plays",
         url: "/plays/",
         excerpt: "Meine (noch überschaubare) Instrumentensammlung",
