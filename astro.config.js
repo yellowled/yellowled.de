@@ -10,5 +10,8 @@ export default defineConfig({
             wrap: true,
         },
     },
+    image: {
+        responsiveStyles: true,
+    },
     integrations: [sitemap(), icon()],
 });

@@ -35,8 +35,10 @@ const {
     <div class="plays">
         <Image
             src={image}
-            widths={[480, 720, 960, image.width]}
-            alt=""
+            width={image.width}
+            height={image.height}
+            layout="constrained"
+            alt={`${instrument.data.brand} ${instrument.data.model}`}
         />
 
         <ul>
