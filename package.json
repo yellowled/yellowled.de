@@ -21,9 +21,9 @@
         "url": "git@github.com:yellowled/yellowled.de.git"
     },
     "dependencies": {
-        "@astrojs/check": "^0.9.4",
+        "@astrojs/check": "^0.9.5",
         "@astrojs/sitemap": "^3.6.0",
-        "astro": "^5.14.8",
+        "astro": "^5.15.1",
         "astro-icon": "^1.1.5",
         "autoprefixer": "^10.4.21",
         "date-fns": "^4.1.0",
