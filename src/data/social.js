@@ -23,8 +23,4 @@ export default [
         name: "CodePen",
         url: "https://codepen.io/yellowled",
     },
-    {
-        name: "Pinboard",
-        url: "https://pinboard.in/u:yellowled/",
-    },
 ];
