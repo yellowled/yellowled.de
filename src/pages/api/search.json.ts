@@ -15,7 +15,7 @@ export async function GET() {
 
     const archiv = await getCollection("v2");
 
-    archiv.map((item) => {
+    archiv.forEach((item) => {
         data.push({
             title: item.data.title,
             description: item.data.description,
@@ -26,9 +26,12 @@ export async function GET() {
     const pages = await glob("*.md", { cwd: "src/pages" });
 
     const errorPageIndex = pages.indexOf("404.md");
-    pages.splice(errorPageIndex, 1);
+    if (errorPageIndex !== -1) {
+        pages.splice(errorPageIndex, 1);
+    }
 
-    pages.map((file) => {
+    // Add each Markdown page's frontmatter as a search entry
+    pages.forEach((file) => {
         const page = matter.read(`src/pages/${file}`);
         const slug = file.slice(0, -3);
         const url = slug === "index" ? "/" : `/${slug}`;
