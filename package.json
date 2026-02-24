@@ -35,7 +35,7 @@
         "@eslint/js": "^10.0.1",
         "@iconify-json/bi": "^1.2.7",
         "@types/eslint-config-prettier": "^6.11.3",
-        "eslint": "^10.0.1",
+        "eslint": "^10.0.2",
         "eslint-config-prettier": "^10.1.8",
         "eslint-plugin-astro": "^1.6.0",
         "postcss-html": "^1.8.1",
@@ -43,6 +43,6 @@
         "stylelint-config-html": "^1.1.0",
         "stylelint-config-standard": "^40.0.0",
         "typescript": "^5.9.3",
-        "typescript-eslint": "^8.56.0"
+        "typescript-eslint": "^8.56.1"
     }
 }
