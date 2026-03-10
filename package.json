@@ -21,9 +21,9 @@
         "url": "git@github.com:yellowled/yellowled.de.git"
     },
     "dependencies": {
-        "@astrojs/check": "^0.9.6",
-        "@astrojs/sitemap": "^3.7.0",
-        "astro": "^5.18.0",
+        "@astrojs/check": "^0.9.7",
+        "@astrojs/sitemap": "^3.7.1",
+        "astro": "^6.0.1",
         "astro-icon": "^1.1.5",
         "autoprefixer": "^10.4.27",
         "date-fns": "^4.1.0",
@@ -35,7 +35,7 @@
         "@eslint/js": "^10.0.1",
         "@iconify-json/bi": "^1.2.7",
         "@types/eslint-config-prettier": "^6.11.3",
-        "eslint": "^10.0.2",
+        "eslint": "^10.0.3",
         "eslint-config-prettier": "^10.1.8",
         "eslint-plugin-astro": "^1.6.0",
         "postcss-html": "^1.8.1",
@@ -43,6 +43,6 @@
         "stylelint-config-html": "^1.1.0",
         "stylelint-config-standard": "^40.0.0",
         "typescript": "^5.9.3",
-        "typescript-eslint": "^8.56.1"
+        "typescript-eslint": "^8.57.0"
     }
 }
