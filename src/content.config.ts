@@ -2,18 +2,6 @@ import { z } from "astro/zod";
 import { defineCollection } from "astro:content";
 import { glob } from "astro/loaders";
 
-const v2 = defineCollection({
-    loader: glob({
-        base: "./src/data/v2/",
-        pattern: "**/[^_]*.md",
-    }),
-    schema: z.object({
-        title: z.string(),
-        description: z.string().optional(),
-        date: z.date(),
-    }),
-});
-
 const instruments = defineCollection({
     loader: glob({
         base: "./src/data/instruments/",
@@ -39,4 +27,4 @@ const instruments = defineCollection({
         }),
 });
 
-export const collections = { v2, instruments };
+export const collections = { instruments };

@@ -13,12 +13,4 @@
 /fachartikel.html   /fachartikel/
 /ueber-mich.html    /about/
 
-/archiv/            /archiv/1
-/archiv/1           /archiv/2
-/archiv/2           /archiv/3
-/archiv/3           /archiv/4
-/archiv/4           /archiv/5
-/archiv/5           /archiv/6
-/archiv/6           /archiv/7
-
 /*                  /404/   404

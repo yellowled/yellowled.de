@@ -16,11 +16,6 @@ export default [
             "Liste der Hardware, mobilen Devices, Software und Apps, die ich verwende",
     },
     {
-        name: "Archiv",
-        url: "/archiv/1",
-        excerpt: "Alle Artikel aus meinem alten Blog",
-    },
-    {
         name: "Site",
         url: "/site/",
         excerpt:
