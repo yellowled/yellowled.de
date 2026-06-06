@@ -22,11 +22,11 @@
     },
     "dependencies": {
         "@astrojs/check": "^0.9.9",
-        "@astrojs/sitemap": "^3.7.2",
-        "astro": "^6.3.7",
+        "@astrojs/sitemap": "^3.7.3",
+        "astro": "^6.4.4",
         "astro-icon": "^1.1.5",
         "autoprefixer": "^10.5.0",
-        "date-fns": "^4.2.1",
+        "date-fns": "^4.4.0",
         "glob": "^13.0.6",
         "globals": "^17.6.0",
         "gray-matter": "^4.0.3"
@@ -35,7 +35,7 @@
         "@eslint/js": "^10.0.1",
         "@iconify-json/bi": "^1.2.7",
         "@types/eslint-config-prettier": "^6.11.3",
-        "eslint": "^10.4.0",
+        "eslint": "^10.4.1",
         "eslint-config-prettier": "^10.1.8",
         "eslint-plugin-astro": "^1.7.0",
         "postcss-html": "^1.8.1",
@@ -43,6 +43,6 @@
         "stylelint-config-html": "^1.1.0",
         "stylelint-config-standard": "^40.0.0",
         "typescript": "^6.0.3",
-        "typescript-eslint": "^8.59.4"
+        "typescript-eslint": "^8.60.1"
     }
 }
