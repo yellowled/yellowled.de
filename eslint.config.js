@@ -4,7 +4,7 @@ import ts from "typescript-eslint";
 import eslintConfigPrettier from "eslint-config-prettier";
 import eslintPluginAstro from "eslint-plugin-astro";
 import globals from "globals";
-import astroParser from "astro-eslint-parser";
+import * as astroParser from "astro-eslint-parser";
 
 export default defineConfig(
     js.configs.recommended,
@@ -30,5 +30,5 @@ export default defineConfig(
     {
         files: ["*.astro"],
         parser: astroParser,
-    }
+    },
 );
