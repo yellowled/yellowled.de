@@ -23,11 +23,11 @@
     "dependencies": {
         "@astrojs/check": "^0.9.12",
         "@astrojs/sitemap": "^3.7.4",
-        "astro": "^7.4.7",
+        "astro": "^7.4.11",
         "astro-icon": "^1.2.0",
         "autoprefixer": "^10.6.2",
         "date-fns": "^4.4.0",
-        "glob": "^14.0.4",
+        "glob": "^14.0.6",
         "globals": "^17.14.0",
         "gray-matter": "^4.0.3"
     },
@@ -43,7 +43,7 @@
         "stylelint-config-html": "^2.0.0",
         "stylelint-config-standard": "^41.0.0",
         "typescript": "^6.0.3",
-        "typescript-eslint": "^8.72.1"
+        "typescript-eslint": "^8.72.2"
     },
     "allowScripts": {
         "fsevents@2.3.3": true,
