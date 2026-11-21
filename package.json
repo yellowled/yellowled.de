@@ -20,6 +20,11 @@
         "type": "git",
         "url": "git@github.com:yellowled/yellowled.de.git"
     },
+    "browserslist": [
+        "last 2 years",
+        "not dead",
+        "not op_mini all"
+    ],
     "dependencies": {
         "@astrojs/check": "^0.9.12",
         "@astrojs/sitemap": "^3.7.6",
